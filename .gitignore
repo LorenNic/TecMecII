@@ -1,0 +1,14 @@
+
+*.aux
+
+*.log
+
+*.gz
+
+*.out
+
+*.xml
+
+*.hst
+
+TecMec.bcf

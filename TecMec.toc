@@ -1,0 +1,15 @@
+\selectlanguage *{italian}
+\contentsline {chapter}{Abstract}{i}{chapter*.3}%
+\contentsline {chapter}{Prefazione}{ii}{chapter*.4}%
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.5}%
+\contentsline {chapter}{Indice}{iv}{section*.6}%
+\contentsline {chapter}{Elenco delle figure}{v}{section*.8}%
+\contentsline {chapter}{\chapternumberline {1}Introduzione}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Proprietà meccaniche sulla deformabilità}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Tensione a freddo nelle lavorazioni a freddo}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Snervamento discontinuo}{2}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Tessitura e anisotropia}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Proprietà modificate}{3}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Esagonale compatto}{4}{subsubsection.1.2.1.1}%
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{6}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Acronimi}{7}{appendix.B}%

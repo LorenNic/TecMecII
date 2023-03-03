@@ -1,0 +1,18 @@
+\begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\\hline 
+1.0
+ & 29.01.2021
+ & \listset {XX YY}
+ & document created\\\hline 
+1.1
+ & 28.02.2023
+ & \listset {LN}
+ & Prima compilazione con modifiche\\\hline 
+1.2
+ & 01.03.2023
+ & \listset {LN}
+ & Applicazione modello alla necessità\\\hline 
+\end {longtable}
