@@ -1,0 +1,136 @@
+\chapter{Introduzione}\label{chp:1}
+\section{Proprietà meccaniche sulla deformabilità}
+Per un materiale metallico, le lavorazioni che si basano sulla deformazione del materiale sono:
+\begin{itemize}
+\item Forgiatura;
+\item Laminazione;
+\item Estrusione;
+\item Trafilatura;
+\end{itemize}
+Di queste, le prime 3 provocano compressione nel materiale che, dunque, permettono al materiale metallico di mantenere le caratteristiche meccanico-fisiche. Essendo comunque compresso, il materiale risulta più duttile.
+Per quanto riguarda invece la trafilatura, in questo caso si ha una trazione del materiale. Il che si traduce in una perdita di duttilità dovuta alla deformazione, prima elastica e poi plastica, del materiale. Ciò altera le proprietà meccanico-fisiche.
+Tutto ciò è vero in particolare per lavorazioni massive: operazioni che vanno a modificare tutte e tre le dimensioni del materiale.
+\newline
+Se invece si prendono in considerazione le lamiere: prodotti di materiale metallico note per aver unba delle tre dimensioni particolarmente ridotta, lo spessore nello specifico, la situazione cambia. Infatti non si può più considerare una qualsiasi deformazione in tutte e tre le dimensioni spaziali.
+Inoltre, comprimendo una lamiera si rischia di piegarla. Dunque le lavorazioni su lamiera sono in genere, ma non sempre, per trazione.
+Inoltre si vuolericordare come la laminazione non sia una lavorazione su lamiera in quanto si ipotizza che la lamiera sia già laminata, dunque pronta a successivi trattamenti.
+La maggior parte delle lavorazioni su lamiera vengono eseguite a freddo: ciò, come si vedrà in seguito, garantirà il mantenimento di determinate caratteristiche meccanico-fisiche.
+
+\subsection{Tensione a freddo nelle lavorazioni a freddo}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Grafico ingegneristico della prova di trazione}\label{fig:TrazioneContinua}]{\includegraphics[width = 0.4\textwidth]{ProvaTrazione}} \quad
+\subfloat[][\emph{Grafico prova di trazione con snervamento discontinuo}\label{fig:trazioneDiscontinua}]{\includegraphics[width = 0.4\textwidth]{TrazioneDiscontinua}}
+\caption{Prove di trazione}\label{fig:Trazione}
+\end{figure}
+Se si osserva il grafico della prova di trazione \ref{fig:TrazioneContinua}
+si osservano 2 particolari zone: comportamento elastico del materiale e comportamento plastico.
+Ricordando l'equazione constitutiva del materiale ovvero
+\begin{equation}
+\sigma = K \epsilon ^n
+\label{eq:Cost}
+\end{equation}
+Dove i termini di \ref{eq:Cost} sono:\\
+\begin{tabular}{cl}
+$\sigma$ & tensione [MPa]\\
+$K$ & coefficiente di resistenza\\
+$\epsilon$ & fattore di incrudimento\\
+$n$ & Sensibilità alla velocità di incrudimento\\
+\end{tabular}
+\\
+Dalla \ref{eq:Cost} si può intuire che il il fattore $K$ lo si volgia particolarmente grande al fine di garantire un'alta resistenza allo snervamento.
+La stizione si manifesterà su una sezione "più debole" (impurità, vuoti, ecc\dots), da cui avrà luogo una deformazione della sezione stessa. Dunque sulla sezione si manifesterà incrudimento dovuto proprio alla trasformazione.
+L'incrudimento renderà la sezione molto più dura rispetto alle circostanti. Perciò si può dimostrare come il valore per cui la strizione si stabilizza è proprio pari al coefficiente $n$.
+Sotto queste ipotesi allora vale:
+\begin{equation}
+\epsilon = n
+\label{eq:StrizzCost}
+\end{equation}
+In generale si preferisce utilizzare materiali con coefficiente $n$ molto alto: per cui il materiale 
+si deforma molto prima della strizione. Dunque è più \textbf{duttile}.
+
+\subsection{Snervamento discontinuo}
+Lo snervamento discontinuo è tipico dei metalli che hanno basso valore interstiziale.
+Tipicamente, a fine lavorazione di tali metalli si presentano le \textbf{bande di Lüder}. Di fatto non costituiscono un difetto tecnologico, piuttosto puramente estetico. Siccome le lamiere vengono utilizzate anche per coperture, tali bande fanno sembrare il prodotto più scadente (Anche se di fatto non lo è).
+Il grafico \ref{fig:trazioneDiscontinua} rappresenta il comportamento di un materiale a snervamento discontinuo.
+
+\section{Tessitura e anisotropia}
+La tessitura è la descrizione della presentazione, sia estetica che prestazionale, del materiale
+Logicamente dipende direttamente dai grani cristallini presenti nel materiale.
+
+Quando questi si presentano in forma allungata (es. post laminazione), portano 
+a delle differenze dal punt odi vista meccanico-fisico del prodotto. 
+Portando \textbf{anisotropia}.
+Già si sa che i piani preferenziali di scorrimento sono quelli ad alte densità atomica
+e, nel caso non ce ne siano a sufficienza, il materiale tenderà a costituirne di nuovi%
+\footnote{Si vedrà anche in seguito che la questione dei piani di scorrimento è cruciale per la qualità del materiale}.
+
+\subsection{Proprietà modificate}
+Ricordando i principali termini di descrizione delle proprietà meccanico-fisiche dei metalli:\\
+\begin{tabular}{cl}
+$Y$ & Densità di snervamento\\
+$T_S$& Resistenza meccanica\\
+\end{tabular}
+\\
+Inoltre anche altre proprietà, non necessariamente meccaniche, vengono modificate da eventuali lavorazioni a freddo.
+Allora: considerando una lamiera lavorata a freddo vale:
+\begin{equation}
+\epsilon_1 + \epsilon_2 + \epsilon_3 = 0 \underbrace{\rightarrow}_{\text{per lamiere}}
+\epsilon_l + \epsilon_w + \epsilon_t = 0 
+\label{eqn:DefCost}
+\end{equation}
+La \ref{eqn:DefCost} definisce la \emph{costanza della deformazione del volume principale}.
+Si considerano pedici diversi da quelli classici per un volume massivo in quanto stiamo considerando una lamiera, percui i nuovi pedici indicano:\\
+\begin{tabular}{cl}
+$l$ & \textit{lenght}\\
+$w$ & \textit{width}\\
+$t$ & \textit{thickness}\\
+\end{tabular}
+\\
+Si ricordano, inoltre, le deformazioni per le principali grandezze:
+\begin{equation}
+\epsilon_w = \ln{\frac{w_1}{w_0}} \qquad \epsilon_t = \ln{\frac{h_1}{h_0}}
+\label{eqn:DefPrinc}
+\end{equation}
+Dove $w_1$ e $h_1$ sono le misurazioni dopo la prova di trazione, mentre $w_0$ e $h_0$ sono i valori iniziali.
+A partire dai termini sopraelencati, si può definire il parametro $r$ definito come nella \ref{eqn:r}.
+\begin{equation}
+r = \frac{\epsilon_w}{\epsilon_t}
+\label{eqn:r}
+\end{equation}
+Non ha un nome specifico, nonostante rappresenti la quantità di deformazione che una lamiera subisce se sottoposta a trazione.
+In particolare, le due deformazioni considerate sono quella in termini di spessore e quella in larghezza.
+Se il materiale avesse:
+\begin{equation}
+r = 1
+\end{equation}
+potrebbe essere considerato isotropo. Più correttamente si definiscono \textbf{isotropi} tutti quei materiali per cui vale la \ref{eqn:DefIsotropo}.
+\begin{equation}
+r_0 = r_{45} = r_{90} = 1
+\label{eqn:DefIsotropo}
+\end{equation}
+dove i fattori $r$ sono il rapporto tra le deformazioni come sopra però ponendo la trazione con angolo tanto quando indicato dal pedice:\\
+\begin{tabular}{cl}
+$r_0$ & Direzione laminazione\\
+$r_{45}$ & Direzione intermedia\\
+$r_{90}$ & Direzione ortogonale
+\end{tabular}
+\\
+Altrimenti il materiale è semplicemente \textbf{anisotropo}.
+L'anisotropia può essere un problema in termini di lavorazione di una lamiera: si prenda come esempio il caso della realizzazione di un contenitore per estrusione. Se il materiale fosse isotropo allora la deformazione avverrebbe in maniera uniforme su tutta la lamiera.
+Se, invece, il materiale è anisotropo, la deformazione diversificata produce variabilità sul bordo del prodotto. Successivamente sarebbe necessario un operazione di \textit{trimming} per eliminare il materiale in eccesso.
+L'anisotropia si può verificare in diverse forme.
+\begin{description}
+\item[$r_0 = r_{45} = r_{90} \lessgtr 1$] allora si parla di \textbf{Anisotropia normale} alla superficie della lamiera. Se ne può misurare il valore tramite:
+\begin{equation}
+r_m = \overline{r} = \frac{r_0 + r_{90} + 2 * r_{45}}{4}
+\label{eqn:MisAnisotropia}
+\end{equation}
+\item[$r_0 \neq r_{45} \neq r_{90}$] allora si parla di \textbf{compresenza di anisotropia planare e normale} da cui si può ottenere una misura
+\begin{equation}
+\Delta r = \frac{r_0 + r_{90} - 2 * r_{45}}{2}
+\label{eqn:MisPlanare}
+\end{equation}
+\end{description}
+In generale l'anisotropia si verifica quando, durante la laminazione, i reticoli cristallini si muovono per garantire i piani di scorrimento.
