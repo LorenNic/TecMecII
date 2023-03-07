@@ -136,7 +136,7 @@ r_m = \overline{r} = \frac{r_0 + r_{90} + 2 * r_{45}}{4}
 In generale l'anisotropia si verifica quando, durante la laminazione, i reticoli cristallini si muovono per garantire i piani di scorrimento.
 Ora si vuole dare una rapida visione delle principale strutture cristallini nei materiali.
 
-\subsubsection{Esagonale compatto}
+\subsubsection{Reticolo esagonale compatto}
 I piani di scorrimento si trovano sulle superfici di base del prisma compatto.
 Si definisce \textit{compatto} perché il rapporto tra l'altezza del prisma e la lunghezza di un lato di base, ovvero $c/a$ considerando i riferimenti della figura \ref{fig:EsaComp}.
 \begin{figure}
@@ -145,3 +145,72 @@ Si definisce \textit{compatto} perché il rapporto tra l'altezza del prisma e la
 \caption{Esagonale compatto}
 \label{fig:EsaComp}
 \end{figure}
+Si osserva che il rapporto \ref{eqn:r} per materiali con reticolo cristallino \eng{High c/}a è prossimo a a 0:
+\begin{equation}
+r_{\text{High c/a}} = \frac{\epsilon_w}{\epsilon_t} \longrightarrow 0
+\label{eqn:HighC_AR}
+\end{equation}
+Nella maggior parte dei casi si vuole un rapporto $r$ il più alto possibile. Così ché la deformazione della lamiera interessi la larghezza piuttosto dello spessore. Altrimenti potrebbero sorgere problemi sulla rigidità della lamiera anche senza eseguire alcuna lavorazione.
+Potremmo allora dire che:
+\begin{description}
+\item[$n$] indichi il ritardo nella deformazione (sensibilità alla deformazione)
+\item[$r$] indichi che tipo di deformazione si avrà. 
+\end{description} 
+
+Nel caso di materiali ad esagonale compatto ma con rapporto $c/a$ basso si osserva:
+\begin{equation}
+r_{\text{Low c/a}} \longrightarrow \infty 
+\end{equation}
+Ad esempio per guadagnare duttilità nel titanio (Ti) si effettuano lavorazioni a caldo.
+
+\subsubsection{Reticolo cubico}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Cubico}
+\caption{Reticoli cubici}
+\label{fig:Cubici}
+\end{figure}
+Per i metalli cristallizzanti a \ac{CFC} si osserva un valore di $r\approx 0.4 \div 0.8$.
+Mentre per i metalli a \ac{CCC} si osservano valori di $r \approx 1$.
+
+\section{Effetti delle lavorazioni a freddo}
+Come già accennato in precedenza, le lavorazioni a freddo permettono di ottenere da un materiale metallico sì la deformazione voluta. In più si garantisce al materiale maggiore durezza.
+Ciò è dovuto allo scorrimento delle dislocazioni, durante la lavorazione del materiale, che vengono bloccate dal bordo del grano cristallino.
+Di contro bisogna tenere a mente che una maggiore durezza impone una minore duttilità, considerazione che serve nel caso la lamiere debba subire diverse lavorazioni prima di divenire prodotto finito.
+\missingfigure{Da aggiungere il grafico tridimensionale sulla deformazione a freddo.}
+\missingfigure{Aggiungere proiezioni del grafico precedente in due dimensioni.}
+
+Dunque le lavorazioni a freddo hanno diversi vantaggi e svantaggi come descritto nella tabella \ref{tab:VantSvantFreddo}.
+
+\begin{table}
+\centering
+\caption{Vantaggi e svantaggi delle lavorazioni a freddo}
+\label{tab:VantSvantFreddo}
+\begin{tabularx}{\textwidth}{XX}
+\toprule
+\textcolor{UnifeDark}{\textbf{Vantaggi}} & \textcolor{UnifeDark}{\textbf{Svantaggi}}\\
+\midrule
+Metodo economico per indurire il materiale &
+Pressione sugli stampi più alti\\
+Il prodotto è quasi finito finite le lavorazioni (in genere) &
+Bisogna trovare un compromesso tra durezza desiderata e consumo delle attrezzature\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Per ovviare ad alcuni problemi evidenziati alla tabella \ref{tab:VantSvantFreddo}, si può pensare di ricorrere a ricotture parziali o complete.
+\missingfigure{Inserire Grafici ricotture}
+
+In particolare:
+\begin{description}
+\item[Lavorazione a freddo $T < 0.3 T_m$] evidenzia un chiaro incrudimento del materiale, che ne risulterà indurito.
+\item[Ricotture di distensione $0.3T_m < T < 0.5 T_m$] Permette una ridistribuzione delle dislocazioni ma senza ricristallizzazione
+\item[Ricottura di ricristallizzazione $T > 0.5 T_m$] Non è scontata la ricristallizzazione ma si ha una distensione dei grani, annullando eventuali lavorazioni a freddo precedenti.
+\end{description}
+Nonostante ciò le ricotture possono essere molto interessanti per le caratteristiche meccaniche dei materiali metallici.
+Ipotizzando di voler raggiungere un determinato obbiettivo di duttilità del materiale. Si può raggiungere tale obbiettivo semplicemente lavorando il materiale a freddo, dando una certa deformazione al pezzo.
+Sappiamo che così il pezzo sarà più indurito di conseguenza.
+C'è un ulteriore modo: se si incrudisce di più rispetto al obbiettivo, attraverso una deformazione maggiore di quella desiderata, si può pensare di sfruttare una ricottura di distensione per ritornare al livello di duttilità richiesto ma garantendo un livello di durezza maggiore rispetto alla sola lavorazione a freddo.
+Tale metodo viene chiamato \textit{forte incrudimento con ricottura parziale}.
+\missingfigure{Inserire grafico ricottura parziale.}
+In genere vale anche il viceversa. 

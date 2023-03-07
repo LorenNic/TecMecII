@@ -75,8 +75,6 @@
 \usepackage{microtype}
 \usepackage{mathtools}
 \usepackage{listings}                 % Source code printer for LaTeX
-\usepackage{tikz}
-\usepackage{pgfplots}
 \usepackage[tablegrid,owncaptions]{vhistory}
 
 % Links
@@ -91,6 +89,9 @@
 \graphicspath{{graphics/}}
 \usepackage{subfig}
 \usepackage{pst-solides3d}
+\usepackage{tabularx}
+\usepackage{tree}
+\usepackage{tikz}
 
 % Math
 \usepackage{euler}
@@ -104,7 +105,9 @@
 % Language
 \usepackage{polyglossia}    % multilingual typesetting and appropriate hyphenation
 \setdefaultlanguage{italian}
+\setotherlanguage[variant=american]{english}
 \usepackage{csquotes}       % language sensitive quotation facilities
+\newcommand{\eng}[1]{\foreignlanguage{english}{#1}}
 
 % Bibliography (references)
 \usepackage[backend=biber,
@@ -319,3 +322,6 @@
     %\patchcmd{\@memensuresigpages}{\repeat}{\repeat\frieze}{}{}
 }{}
 \makeatother
+
+% Custom comands
+\usepackage{multicol}
