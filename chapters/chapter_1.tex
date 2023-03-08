@@ -214,3 +214,97 @@ C'è un ulteriore modo: se si incrudisce di più rispetto al obbiettivo, attrave
 Tale metodo viene chiamato \textit{forte incrudimento con ricottura parziale}.
 \missingfigure{Inserire grafico ricottura parziale.}
 In genere vale anche il viceversa. 
+
+\missingfigure{Inserire grafico dimensione grano con ricottura}
+Ipotizzando una ricottura completa, ovvero portando il materiale a una temperatura $T > 0.5\:T_m$, si può avere ricristallizzazione del metallo che porta grani a dimensioni maggiori. Bisogna anche tenere a mente l'influenza del tempo su questi processi di ricottura.
+
+\subsection{Effetti della velocità di deformazione}
+Come visto nell'equazione costitutiva \ref{eqn:DefCost}, il materiale viene univocamente definito tramite tale equazione. In realtà è necessario "mettere in relazione" anche il tempo. Considerando l'equazione costitutiva per lavorazione a caldo:
+\begin{equation}
+\sigma_f = C \cdot \dot{\epsilon}^m
+\label{eqn:CostCaldo}
+\end{equation}
+Da cui si può osservare che se la temperatura aumenta allora $C$ diminuisce e contemporaneamente $m$ cresce. Infatti:
+\begin{description}
+\item[$C$] è il coefficiente di resistenza alla temperatura del materiale;
+\item[$m$] è l'indice di sensibilità alla velocità di deformazione;
+\item[$\dot{\epsilon}$] è la velocità di deformazione descritta come $V/h$
+\end{description}
+Con una strizione diffusa, l'incrudimento è diffuso su tutto il provino. E, come si era visto anche in precedenza, ciò migliora le caratteristiche meccaniche. Se invece, la strizione è localizzata rischia di indebolire il materiale.
+Il fatto che sia locale indica che il materiale in quel punto è più debole e può rompersi più facilmente.
+\todo{\\Rivedere questo paragrafo. Non è conclusivo}
+\begin{quote}
+In generale si privilegiano metalli che abbiano alta sensibilità al incrudimento e maggiore sensibilità alla velocità di strizionamento.
+\end{quote}
+
+
+Si vogliono ricordare i valori per cui $m$ porta ad un determinato comportamento il materiale:
+\begin{description}
+\item[$-0.05 < m < 0.05$] \eng{Cold working}
+\item[$0.05 < m < 0.3$] \eng{Hot working}
+\item[$0.3 < m < 0.7$] \eng{Superplasicity}%
+\footnote{Valori di deformazione tipici delle lavorazioni con materiali plastici}
+\item[$m > 1$] \eng{Newtonian fluid}
+\end{description}
+
+\section{Limiti di formabilità delle lamiere}
+\begin{enumerate}
+\item Manifestazione di strizioni localizzate.
+\item Con strizione diffusa, prima della rottura.
+\item Generazione delle bande di L\"uder
+\item Generazione della superficie a buccia d'arancia
+\end{enumerate}
+A parte le prime due che portano a conseguenze meccaniche per cui la lamiera effettivamente non può più essere vendute o utilizzate per la produzione.
+La terza ha una motivazione puramente estetica: siccome le lamiere possono essere utilizzate come copertura, tale superficie può essere problematica. Non lo è dal punto di vista meccanico-fisico.
+La superficie a buccia d'arancia anch'essa non influisce sulle prestazione meccaniche del prodotto%
+\footnote{C'è da dire che una maggiore porosità superficiale potrebbe stimolare la generazione di cricche in alcune lavorazioni.}.
+La formazione è dovuta alla rotazione dei grani cristallini durante eventuali lavorazioni.
+La soluzione è quella di sfruttare, per le lamiere in particolare, materiali a grana fine.
+
+\subsection{Come mai le lamiere?}
+Le lamiere vengono largamente impiegate largamente per la produzione di oggetti metallici, e le tecniche che verranno trattate in questo corso volgono a a sfruttare tale prodotti in larga scala.
+\todo{\\Da rivedere :-/}
+Principalmente le lamiere vengono sfruttate perché:
+\begin{itemize}
+\item A parità di prodotto, un oggetto pieno e uno ricavato tramite lavorazione di lamiera risulta più pesante.
+\item La laminazione è una lavorazione molto efficiente: si producono tanti pezzi in poco tempo e con minore energia.
+\item La laminazione permette di raggiungere risultati molto accurati (in termini di spessori e qualità del laminato) con poche risorse, dunque ad un costo molto basso.
+\item La lamiera è un prodotto "quasi" pronto all'uso.
+\end{itemize}
+
+\section{Materiali per lamiere}
+I materiali che in industria vengono più comunemente utilizzati per lamiere sono ad esempio:
+\begin{itemize}
+\item Acciai, dolci + inossidabili
+\item Leghe di allumino
+\item Ottoni
+\item Bronzi
+\item Rame
+\item Magnesio
+\item Titanio
+\end{itemize}
+Sebbene la maggior parte dei prodotti in lamiera siano lavorati a freddo, ci sono alcuni materiali che necessitano di lavorazioni a caldo.
+In particolare alla figura \ref{fig:LavCaldo}, si presentano i motivi per cui sia necessaria la lavorazione a caldo
+
+\begin{figure}
+\centering
+\usetikzlibrary{trees}
+\begin{tikzpicture}[
+sibling distance = 10em,
+every node/.style={rectangle, rounded corners, draw, align=center}]
+\node[top color=UnifeLight]{Lavorazioni a caldo}
+	child{node[top color=UnifeDark, bottom color=UnifeDark!50, white]{Esagonale\\compatto}
+		child{node[top color=UnifeDark!50, bottom color=UnifeDark!50, white]{Maggiore\\duttilità}}
+		child{node[top color=UnifeDark!50, bottom color=UnifeDark!50, white]{Si spera in\\un cambio\\di reticolo}}}
+	child{node[top color=UnifeDark, bottom color=UnifeDark!50, white]{Superplasticità}}
+	child{node[top color=UnifeDark, bottom color=UnifeDark!50, white]{Forze troppo\\alte}};
+\end{tikzpicture}
+\caption{Motivazioni delle lavorazioni a caldo}
+\label{fig:LavCaldo}
+\end{figure}
+Ora si vedranno nel dettaglio tutte le caratteristiche e motivazioni per cui viene scelta una determinata categoria di materiali.
+
+\subsection{Acciai}
+In genere si preferiscono acciai che abbiano un tenore di carbonio minore del 0.15\%, ovvero gli acciai dolci.
+Inoltre, bisogna includere gli acciai inossidabili: sia per motivi di mercato, che necessità operative dei prodotti finali.
+\todo[inline]{Continuare con i metalli}
