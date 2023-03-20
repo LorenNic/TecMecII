@@ -1,11 +1,17 @@
-\selectlanguage *{italian}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+\setforeignlanguage {italian}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Prove di trazione\relax }}{2}{figure.caption.12}%
+\setforeignlanguage {italian}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Esagonale compatto\relax }}{5}{figure.caption.13}%
+\setforeignlanguage {italian}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Reticoli cubici\relax }}{5}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Motivazioni delle lavorazioni a caldo\relax }}{10}{figure.caption.20}%
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Andamenti tipici di un acciaio dopo ricottura\relax }}{8}{figure.caption.18}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Motivazioni delle lavorazioni a caldo\relax }}{10}{figure.caption.20}%
 \addvspace {10pt}
 \addvspace {10pt}

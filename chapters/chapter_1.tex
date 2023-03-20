@@ -199,7 +199,7 @@ Bisogna trovare un compromesso tra durezza desiderata e consumo delle attrezzatu
 \end{table}
 
 Per ovviare ad alcuni problemi evidenziati alla tabella \ref{tab:VantSvantFreddo}, si può pensare di ricorrere a ricotture parziali o complete.
-\missingfigure{Inserire Grafici ricotture}
+Alcuni esempi sono riportati alle figure \ref{fig:RsRicottura}
 
 In particolare:
 \begin{description}
@@ -210,12 +210,20 @@ In particolare:
 Nonostante ciò le ricotture possono essere molto interessanti per le caratteristiche meccaniche dei materiali metallici.
 Ipotizzando di voler raggiungere un determinato obbiettivo di duttilità del materiale. Si può raggiungere tale obbiettivo semplicemente lavorando il materiale a freddo, dando una certa deformazione al pezzo.
 Sappiamo che così il pezzo sarà più indurito di conseguenza.
-C'è un ulteriore modo: se si incrudisce di più rispetto al obbiettivo, attraverso una deformazione maggiore di quella desiderata, si può pensare di sfruttare una ricottura di distensione per ritornare al livello di duttilità richiesto ma garantendo un livello di durezza maggiore rispetto alla sola lavorazione a freddo.
+C'è un ulteriore modo: se si incrudisce di più rispetto al obbiettivo, attraverso una deformazione maggiore di quella desiderata, si può pensare di sfruttare una ricottura di distensione per ritornare al livello di duttilità richiesto ma garantendo un livello di durezza maggiore rispetto alla sola lavorazione a freddo. In genere vale anche il viceversa. 
 Tale metodo viene chiamato \textit{forte incrudimento con ricottura parziale}.
-\missingfigure{Inserire grafico ricottura parziale.}
-In genere vale anche il viceversa. 
+Alla figura \ref{fig:Ricot} è graficato l'andamento delle tensioni di snervamento e rottura dopo una ricottura completa. Si osserva che vengono perse completamente le caratteristiche meccaniche guadagnate tramite incrudimento per lavorazione a freddo.
+Alla figura \ref{fig:RicotRs} viene mostrato il processo per ottenere una determinata tensione di snervamento dopo forte incrudimento. 
 
-\missingfigure{Inserire grafico dimensione grano con ricottura}
+\begin{figure}
+\centering
+\subfloat[][\emph{Duttilità, snervamento e rottura dopo ricottura}\label{fig:Ricot}]%
+{\includegraphics[width = 0.4\textwidth]{Rinvenimento}}\quad
+\subfloat[][\emph{Durata ricottura in base allo snervamento richiesto}\label{fig:RicotRs}]%
+{\includegraphics[width = 0.4\textwidth]{CotturaRinvenimento}}
+\caption{Andamenti tipici di un acciaio dopo ricottura}\label{fig:RsRicottura}
+\end{figure}
+
 Ipotizzando una ricottura completa, ovvero portando il materiale a una temperatura $T > 0.5\:T_m$, si può avere ricristallizzazione del metallo che porta grani a dimensioni maggiori. Bisogna anche tenere a mente l'influenza del tempo su questi processi di ricottura.
 
 \subsection{Effetti della velocità di deformazione}
@@ -232,10 +240,10 @@ Da cui si può osservare che se la temperatura aumenta allora $C$ diminuisce e c
 \end{description}
 Con una strizione diffusa, l'incrudimento è diffuso su tutto il provino. E, come si era visto anche in precedenza, ciò migliora le caratteristiche meccaniche. Se invece, la strizione è localizzata rischia di indebolire il materiale.
 Il fatto che sia locale indica che il materiale in quel punto è più debole e può rompersi più facilmente.
-\todo{\\Rivedere questo paragrafo. Non è conclusivo}
-\begin{quote}
+
+\begin{definition}{Considerazione}{*}
 In generale si privilegiano metalli che abbiano alta sensibilità al incrudimento e maggiore sensibilità alla velocità di strizionamento.
-\end{quote}
+\end{definition}
 
 
 Si vogliono ricordare i valori per cui $m$ porta ad un determinato comportamento il materiale:
@@ -307,4 +315,25 @@ Ora si vedranno nel dettaglio tutte le caratteristiche e motivazioni per cui vie
 \subsection{Acciai}
 In genere si preferiscono acciai che abbiano un tenore di carbonio minore del 0.15\%, ovvero gli acciai dolci.
 Inoltre, bisogna includere gli acciai inossidabili: sia per motivi di mercato, che necessità operative dei prodotti finali.
-\todo[inline]{Continuare con i metalli}
+Essendo una gamma decisamente ampia di materiali, le lavorazioni possibili sono molteplici:
+\begin{description}
+\item[lavorazioni a caldo] non vengono sfruttate troppo per gli acciai in quanto si preferisce mantenere l'incrudimento ottenuto tramite la lavorazione a freddo. Anche se si impiega per:
+	\begin{itemize}
+	\item Ottenere maggiore duttilità per il materiale.
+	\item Quando le forze in gioco sono eccessive è opportuno aumentare la duttilità grazie ad 
+	una maggiore temperatura.
+	\end{itemize}
+	Si rischia di incorrere in:
+	\begin{itemize}
+	\item Finiture peggiori.
+	\item Maggiore rugosità da cui derivano pure caratteristiche meccaniche peggiori.
+	\item Non si ottiene incrudimento. 
+	\end{itemize}
+\item[Lavorazioni a freddo] In industria vengono sfruttate molto più volentieri per via:
+	\begin{itemize}
+	\item Migliori tolleranze geometriche ottenibili.
+	\item Migliore finitura superficiale,
+	\item Migliori prestazioni meccaniche a parità mi materiale usato.
+	\end{itemize}
+\end{description}
+

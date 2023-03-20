@@ -15,10 +15,10 @@
 \contentsline {subsubsection}{\numberline {1.2.1.1}Reticolo esagonale compatto}{4}{subsubsection.1.2.1.1}%
 \contentsline {subsubsection}{\numberline {1.2.1.2}Reticolo cubico}{6}{subsubsection.1.2.1.2}%
 \contentsline {section}{\numberline {1.3}Effetti delle lavorazioni a freddo}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Effetti della velocità di deformazione}{8}{subsection.1.3.1}%
-\contentsline {section}{\numberline {1.4}Limiti di formabilità delle lamiere}{9}{section.1.4}%
+\contentsline {subsection}{\numberline {1.3.1}Effetti della velocità di deformazione}{7}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Limiti di formabilità delle lamiere}{8}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Come mai le lamiere?}{9}{subsection.1.4.1}%
 \contentsline {section}{\numberline {1.5}Materiali per lamiere}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Acciai}{10}{subsection.1.5.1}%
-\contentsline {appendix}{\chapternumberline {A}Appendix A}{11}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Acronimi}{12}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{12}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Acronimi}{13}{appendix.B}%
