@@ -20,5 +20,9 @@
 \contentsline {subsection}{\numberline {1.4.1}Come mai le lamiere?}{9}{subsection.1.4.1}%
 \contentsline {section}{\numberline {1.5}Materiali per lamiere}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Acciai}{10}{subsection.1.5.1}%
-\contentsline {appendix}{\chapternumberline {A}Appendix A}{12}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Acronimi}{13}{appendix.B}%
+\contentsline {chapter}{\chapternumberline {2}Lavorazioni per asportazione di truciolo}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduzione}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Taglio ortogonale}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Fattore di attrito}{16}{subsection.2.2.1}%
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{17}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Acronimi}{18}{appendix.B}%
