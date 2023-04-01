@@ -3,9 +3,9 @@
 \contentsline {chapter}{Prefazione}{ii}{chapter*.4}%
 \contentsline {chapter}{Acknowledgements}{iii}{chapter*.5}%
 \contentsline {chapter}{Indice}{iv}{section*.6}%
-\contentsline {chapter}{Elenco delle figure}{v}{section*.8}%
-\contentsline {chapter}{Elenco delle tabelle}{vi}{section*.9}%
-\contentsline {chapter}{Todo list}{vii}{section*.10}%
+\contentsline {chapter}{Elenco delle figure}{vi}{section*.8}%
+\contentsline {chapter}{Elenco delle tabelle}{vii}{section*.9}%
+\contentsline {chapter}{Todo list}{viii}{section*.10}%
 \contentsline {chapter}{\chapternumberline {1}Introduzione}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Proprietà meccaniche sulla deformabilità}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Tensione a freddo nelle lavorazioni a freddo}{1}{subsection.1.1.1}%
@@ -22,7 +22,9 @@
 \contentsline {subsection}{\numberline {1.5.1}Acciai}{10}{subsection.1.5.1}%
 \contentsline {chapter}{\chapternumberline {2}Lavorazioni per asportazione di truciolo}{12}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduzione}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Taglio ortogonale}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Taglio ortogonale ideale}{13}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Fattore di attrito}{16}{subsection.2.2.1}%
-\contentsline {appendix}{\chapternumberline {A}Appendix A}{17}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Acronimi}{18}{appendix.B}%
+\contentsline {subsection}{\numberline {2.2.2}Valutazione delle forze}{16}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Taglio ortogonale realistico}{20}{section.2.3}%
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{21}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Acronimi}{22}{appendix.B}%
