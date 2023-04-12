@@ -275,8 +275,8 @@ taglio $F_n$.
 Questa dipende dall'angolo di spoglia superiore.
 L'effetto di tale forza è stato già evidenziato: questa fornisce una specie di compressione 
 idrostatica sul piano di taglio portando il materiale ad essere più duttile.
-Ciò spesso si traduce in un truciolo continuo che però da una finitura superficiale peggiore.
-\todo{\\Rivedere dopo aggiornamento sul truciolo}
+Ciò spesso si traduce in un truciolo continuo che però è problematico per la continuazione
+della lavorazione: in quanto ingombrante e pericoloso.
 
 \begin{figure}
 \centering
@@ -314,20 +314,24 @@ Tra l'altro questo tipo di usura è la più severa per l'utensile.
 Il taglio del materiale non avviene più nel piano
 di taglio, bensì sulla zona di taglio detta anche
 \textbf{Zona di taglio primaria} mostrato in 
-figura \todo{\\Aggiungi riferimento figura}.
+figura \ref{fig:TaglioOrtoRealScheme}.
 
 \begin{figure}
-\missingfigure{Aggiungere schema taglio ortogonale realistico}
-\caption{Taglio ortogonale realistico}
-\label{fig:TaglioOrtoReal}
+\centering
+\subfloat[][\emph{Schematizzazione del taglio ortogonale realistico}\label{fig:TaglioOrtoRealScheme}]
+{\includegraphics[width=0.5\textwidth]{TaglioOrtoRealScheme}}\\
+\subfloat[][\emph{Tipologie di truciolo}\label{fig:Trucioli}]
+{\includegraphics[width = \textwidth]{TaglioOrtoReal}}
+\caption{Taglio ortogonale reale}
+\label{fig:TaglioOrtoreal}
 \end{figure}
 
 Inoltre si osserva una zona deformata plasticamente, per cui si presenta un incremento della 
 resistenza pari a quasi 3 volte la durezza nominale del pezzo lavorato.
 
 Analizzando il comportamento del truciolo si possono
-verificare due situazioni:
-\subsection{Truciolo continuo} Si verifica per velocità abbastanza basse. Come dice il nome il truciolo forma un continuo filamento di materiale.
+verificare delle situazioni, come illustrato in figura \ref{fig:Trucioli}:
+\subsection{Truciolo continuo} Si verifica per velocità abbastanza basse. Come dice il nome Truciolo forma un continuo filamento di materiale.
 Risulta più semplice lubrificare la faccia dell'utensile, abbassando $\beta$ come avevamo visto
 in precedenza per diminuire la dimensione del piano di taglio. Dunque la zona di taglio resta più sottile
 e la superficie uscirà dalla lavorazione con una 
@@ -361,7 +365,7 @@ strettamente legata alla temperatura generata durante la lavorazione.
 Rimanendo nel tema del truciolo continuo si può verificare una situazione di truciolo continuo ma
 ondulato
 
-\subsection{Truciolo continuo ondulato}
+\subsubsection{Truciolo continuo ondulato}
 È dovuto ad una variazione periodica nella forza di taglio. Possono esserci diversi motivi per cui 
 si verifichi tale variazione: 
 \begin{itemize}
@@ -379,7 +383,7 @@ e proprio.
 
 Altra situazione particolare, di cui tenere nota, è la casistica in cui si forma il truciolo a dente di sega.
 
-\subsection{Truciolo continuo a dente di sega}
+\subsubsection{Truciolo continuo a dente di sega}
 Costituito da sezioni a diversa deformazione, la successione di zone spesse a bassa deformazione a zone fine di alta deformazione.
 Le cause di tale comportamento è da imputarsi a:
 \begin{itemize}
@@ -412,6 +416,13 @@ può essere d'intralcio all'operatore e alla macchina.
 
 Allora si ha la necessità di rompere il truciolo.
 
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.3\textwidth]{Rompitruciolo}
+\caption{Esempi di rompi-truciolo}
+\label{fig:Rompitruciolo}
+\end{wrapfloat}
+
+
 \subsection{La rottura del truciolo}
 È particolarmente facile coi materiali fragili, più
 complicato per quei materiali duttili che tendono
@@ -425,13 +436,8 @@ I rompi-truciolo hanno uno specifico valore efficace
 di rottura del truciolo dipendente dalla profondità 
 dello spessore indeformato: questa è una 
 caratteristica della forma e dimensione geometrica 
-del rompi-truciolo.
-
-\begin{figure}
-\missingfigure{Aggiungere esempi di rompi-truciolo}
-\caption{Esempi di rompi-truciolo}
-\label{fig:Rompitruciolo}
-\end{figure}
+del rompi-truciolo. In figura \ref{fig:Rompitruciolo} 
+un dettaglio.
 
 \section{Taglio obliquo}
 Viene sfruttato maggiormente dalle aziende.
@@ -447,16 +453,43 @@ a spostarsi via dal punto di lavorazione.
 Si evita la necessità di rompere il truciolo, anche 
 se è una pratica che comunque viene mantenuta.
 È opportuno definire un nuovo angolo di spoglia 
-superiore \todo{\\Inserire equazioni angolo di spoglia superiore}.
+superiore.
+\begin{align}
+\alpha_e &:= \text{Angolo di spoglia efficace}\\
+\alpha_n &:= \text{Angolo di spoglia normale}\\
+&\text{In generale: }\alpha_e > \alpha_n
+\end{align}
+Vale che più il tagliente è inclinato, più aumenta $\alpha_e$ 
+e di conseguenza $F_c$ diminuisce.
 
 Nel caso in cui il tagliente non sia più grande del
 pezzo in lavorazione, lo spessore del truciolo 
 indeformato non è più sufficiente a descrivere i 
 fenomeni legati a questo. Dunque è necessario parlare
-di \textbf{avanzamento}. Inoltre si introduce 
-la \textbf{profondità di passaggio}.
+di \textbf{avanzamento} $f$. Inoltre si introduce 
+la \textbf{profondità di passaggio} $w$.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Schema del taglio obliquo}\label{fig:TaglioObliquoScheme}]
+{\includegraphics[width = \textwidth]{TaglioObliquo}}\\
+\subfloat[]
+[\emph{Parametri del taglio ortogonale per confronto}\label{fig:TaglioObliquoParam1}]
+{\includegraphics[width = 0.4\textwidth]{TaglioObliquoParam1}}\quad
+\subfloat[][\emph{Ulteriori parametri del taglio obliquo}\label{fig:TaglioObliquoParam2}]
+{\includegraphics[width = 0.4\textwidth]{TaglioObliquoParam2}}
+\caption{Il taglio obliquo}
+\label{fig:TaglioObliquo}
+\end{figure}
 
 \subsection{Tornitura}
+Un esempio di tornitura è riportato alla figura \ref{fig:TaglioObliquoParam2}.
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.5\textwidth]{Utensile}
+\caption{Esempio di utensile per tornitura}
+\label{fig:UtensileTornitua}
+\end{wrapfloat}
+
 \begin{itemize}
 \item utensile con tagliente inclinato
 \item $f$ è ortogonale al tagliente e rappresenta 
@@ -465,12 +498,6 @@ l'avanzamento;
 \item $h$ è lo spessore di truciolo indeformato.
 \end{itemize}
 
-\begin{figure}
-\missingfigure{Grafico inclinazione tagliente}
-\caption{Visualizzazione dei parametri nella tornitura}
-\label{fig:ParamTornitura}
-\end{figure}
-
 Con l'utensile inclinato si ha una maggiore forza 
 necessaria al taglio, però si aumenta 
 considerevolmente la durata dell'utensile.
@@ -478,3 +505,161 @@ Indubbiamente la caratterizzazione del tagliente
 risulta più complicata. Si ha l'ulteriore vantaggio
 di avere un utensile che può presentare più 
 taglienti.
+
+\subsection{Calcolo della forza ed energia}
+Siccome per via del tipo di lavorazione non siamo in grado di sfruttare
+la deformazione per flusso plastico a causa della velocità decisamente 
+superiore.
+È decisamente importante sapere quanta energia o potenza è necessaria 
+per effettuare la lavorazione. Perché tale potenza sarà quella che il
+motore della macchina deve fornire all'utensile.
+
+A differenza della lavorazione per deformazione plastica in cui 
+la "pressa" deve fornire una certa pressione per permettere la 
+deformazione. Nell'asportazione si possono cambiare alcuni
+parametri in base anche punto della lavorazione si è.
+Continuando a lavorare il pezzo.
+
+Resta evidente come la parametrizzazione della lavorazione sia
+definitivamente importante: in modo da garantire la continuazione
+della lavorazione, cambiando alcune condizioni senza interromperla.
+Anche per il fatto che fermando la lavorazione peggiora la finitura.
+
+Nella definizione dell'energia necessaria si sa che si va a commettere
+un'errore di circa il $20\%$.
+Di fatto sarebbe necessario conoscere $\beta$, ma non è facile da valutare.
+Allora si può valutare la \textbf{pressione di taglio}.
+
+\begin{equation}
+p_c = \frac{\overbrace{F_c}^{\text{Componente parallela alla velocità di taglio}}}{h \cdot w}
+\end{equation} 
+Per ottenere una forma di energia basta integrare la pressione
+o forza per la lunghezza del lavoro eseguito ovvero:
+\begin{equation}
+l := \text{lunghezza di taglio}\\
+\end{equation}
+
+\begin{definition}{Pressione ed energia di taglio specifica}{PEspec}
+\begin{subequations}
+\begin{align}
+p_c &= \frac{F_c}{h \cdot w} \\
+E_1 &= p_c \cdot \frac{l}{l} \:[\unit{\W\s/\m^3}]
+\end{align}
+\end{subequations}
+Dove $p_c$ è la pressione specifica di taglio e $E_1$ è l'energia specifica.
+\end{definition}
+
+\begin{definition}{Fattore di rimozione}{FattRim}
+Si può definire anche il Fattore di rimozione del materiale:
+\begin{equation}
+k_1 = \frac{1}{E_1}
+\end{equation}
+dove $k_1$ rappresenta la quantità di materiale asportato da una macchina
+a motore a potenza unitaria.
+\end{definition}
+
+I 3 parametri non sono costanti per un materiale perché dipendono anche dai
+parametri di processo quali spessore di truciolo indeformato, angolo di spoglia e
+velocità di taglio.
+L'energia spesa nella zona di taglio primaria e la quantità di materiale rimosso
+sono proporzionali allo spessore di truciolo indeformato.
+\begin{equation}
+E = k \cdot h \cdot p \cdot l
+\end{equation}
+
+Nella zona di taglio primaria la pressione specifica, l'energia specifica e il fattore di
+rimozione del materiale sono costanti del materiale.
+L'energia consumata sul dorso dell'utensile è indipendente dallo spessore di
+truciolo indeformato, possiamo ritenerla quasi costante.
+Quindi vale:
+\begin{equation}
+\frac{E_d}{h \cdot p \cdot l} \neq cost.
+\end{equation}
+
+A questo punto si è definita una relazione in cui si può già definire la forza necessaria.
+C'è da tenere in considerazione l'usura dell'utensile: in quanto quest'ultima tende
+a richiedere una maggiore pressione da parte del tagliente per tagliare.
+Siccome l'usura del tagliente è un argomento che richiede la considerazione di diversi
+parametri e che tali non possono sempre essere determinatiti così facilmente.
+Semplicemente si aggiunge un $30\%$ in più all'energia necessaria.
+
+Ulteriori parametri derivati dai precedenti sono:
+\begin{definition}{Ulteriori Parametri}{UltParam}
+Sono delle derivazioni dei parametri visti precedentemente.
+\begin{equation}
+E = E_1 \left(\frac{h}{h_{ref}}\right)^{-a} = E_1 \cdot h^{-a}
+\end{equation}
+Dove $E$ è l'energia di lavorazione, $h_{ref} = 1\unit{\mm}$ è lo spessore indeformato di 
+riferimento e $a \approx 0.3$.
+Da cui si può definire la potenza necessaria per la lavorazione:
+\begin{equation}
+Power(W) = \frac{E \cdot V_t}{\eta}
+\end{equation}
+Dove $V_t$ è la velocità di taglio, $\eta$ il rendimento della macchina.
+Da cui si può ottenere la forza necessaria per il taglio:
+\begin{equation}
+F_c = \frac{Power(W)}{v}
+\end{equation}
+\end{definition}
+
+\subsection{Temperature}
+Siccome la lavorazione prevede di "muovere" del materiale dentro se stesso
+questo provoca un accumulo di energia danti alla faccia dell'utensile.
+Tale energia rimane nella maggior parte nel truciolo.
+
+\begin{wrapfloat}{figure}{I}{0pt}
+\includegraphics[width = 0.4\textwidth]{Temperature}
+\caption{Analisi termica dell'asportazione di truciolo}
+\label{fig:Temp}
+\end{wrapfloat}
+
+Come si vede dalla figura \ref{fig:Temp}, le temperature raggiunte non sono da 
+trascurare: si può arrivare a $\approx 1000\unit{\celsius}$ sulla faccia dell'utensile.
+Sappiamo che con l'aumento della temperatura, aumentano il numero di dislocazioni
+interne al materiale che diventa più duttile dunque più facile da lavorare.
+
+La maggior parte dell'energia resta interna al truciolo che, portando con se del
+calore, abbassa la temperatura del lavorato. Resta il calore trasferito 
+all'utensile, il quale tende ad aumentare la temperatura considerevolmente.
+Infatti, come si vede proprio dalla figura \ref{fig:Temp}, è proprio
+l'utensile a mostrare le temperature più alte. Ciò impone che il
+materiale dell'utensile debba essere di un materiale alto resistente a caldo.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Schema delle isoterme sulla faccia dell'utensile}\label{fig:TempUtensile}]
+{\includegraphics[width = 0.4\textwidth]{TempScheme}}\quad
+\subfloat[][\emph{Relazione tra velocità di lavorazione e temperatura}
+\label{fig:TempVel}]
+{\includegraphics[width = 0.4\textwidth]{TempVel}}
+\caption{Temperature durante le lavorazioni ad asportazione}
+\label{fig:TempLav}
+\end{figure}
+
+Come fatto in precedenza, si è cercato di relazionare la temperatura con la
+velocità di lavorazione: legame che fisicamente è noto ma non così facile 
+da porre analiticamente.
+
+\begin{equation}
+T_t = E \left( \frac{v \cdot h}{k \cdot \rho \cdot c}\right)^{1/2}
+\end{equation}
+Dove:\\
+\begin{tabularx}{\textwidth}{cX}
+$E_1$ & Energia specifica\\
+$v$ & Velocità di taglio\\
+$h$ & Spessore di truciolo indeformato\\
+$k$ & Conduttività termica\\
+$\rho$ & Densità\\
+$c$ & Calore specifico 
+\end{tabularx}\\
+Se ne ottiene una stima della temperatura media sulla faccia dell'utensile.
+Come spesso succede nei sistemi fisici reali, tutta l'energia donata dalla
+macchina al materiale viene trasformata in calore.
+Indubbiamente durante le lavorazioni non si deve superare la temperatura di fusione
+del materiale lavorato: altrimenti si va ad ottenere una lavorazione molto grossolana di
+cui non si riesce a controllarne i parametri.
+I materiali a bassa fusione risultano più facili da lavorare.
+Inoltre, per lavorazioni di finitura particolarmente restrittive, bisogna considerare
+le variazioni dimensionali dovute alla dilatazione termica.
+
+\subsection{Fluidi da taglio}

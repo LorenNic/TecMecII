@@ -26,12 +26,13 @@
 \contentsline {subsection}{\numberline {2.2.1}Fattore di attrito}{16}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Valutazione delle forze}{16}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Taglio ortogonale realistico}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Truciolo continuo}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Truciolo continuo ondulato}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Truciolo continuo a dente di sega}{22}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Truciolo discontinuo}{22}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}La rottura del truciolo}{22}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.1}Truciolo continuo}{20}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}Truciolo continuo ondulato}{22}{subsubsection.2.3.1.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}Truciolo continuo a dente di sega}{22}{subsubsection.2.3.1.2}%
+\contentsline {subsection}{\numberline {2.3.2}Truciolo discontinuo}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}La rottura del truciolo}{23}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Taglio obliquo}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Tornitura}{23}{subsection.2.4.1}%
-\contentsline {appendix}{\chapternumberline {A}Appendix A}{25}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Acronimi}{26}{appendix.B}%
+\contentsline {subsection}{\numberline {2.4.1}Tornitura}{25}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Calcolo della forza ed energia}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Temperature}{27}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Fluidi da taglio}{28}{subsection.2.4.4}%
