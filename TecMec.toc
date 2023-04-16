@@ -36,3 +36,9 @@
 \contentsline {subsection}{\numberline {2.4.2}Calcolo della forza ed energia}{25}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Temperature}{27}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Fluidi da taglio}{28}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Lavorazioni al trapano}{29}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Tipologie di trapani}{31}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Fresatura}{31}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fresatura periferica}{32}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Fresatura verticale}{32}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Fresa a codolo}{33}{subsubsection.2.6.2.1}%
