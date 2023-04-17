@@ -20,25 +20,27 @@
 \contentsline {subsection}{\numberline {1.4.1}Come mai le lamiere?}{9}{subsection.1.4.1}%
 \contentsline {section}{\numberline {1.5}Materiali per lamiere}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Acciai}{10}{subsection.1.5.1}%
-\contentsline {chapter}{\chapternumberline {2}Lavorazioni per asportazione di truciolo}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduzione}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Taglio ortogonale ideale}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Fattore di attrito}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Valutazione delle forze}{16}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Taglio ortogonale realistico}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Truciolo continuo}{20}{subsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.1.1}Truciolo continuo ondulato}{22}{subsubsection.2.3.1.1}%
-\contentsline {subsubsection}{\numberline {2.3.1.2}Truciolo continuo a dente di sega}{22}{subsubsection.2.3.1.2}%
-\contentsline {subsection}{\numberline {2.3.2}Truciolo discontinuo}{22}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}La rottura del truciolo}{23}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Taglio obliquo}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Tornitura}{25}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Calcolo della forza ed energia}{25}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Temperature}{27}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Fluidi da taglio}{28}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Lavorazioni al trapano}{29}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Tipologie di trapani}{31}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}Fresatura}{31}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fresatura periferica}{32}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Fresatura verticale}{32}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}Fresa a codolo}{33}{subsubsection.2.6.2.1}%
+\contentsline {chapter}{\chapternumberline {2}Sinterizzazione}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}La lavorazione}{12}{section.2.1}%
+\contentsline {chapter}{\chapternumberline {3}Lavorazioni per asportazione di truciolo}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduzione}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Taglio ortogonale ideale}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Fattore di attrito}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Valutazione delle forze}{18}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Taglio ortogonale realistico}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Truciolo continuo}{22}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Truciolo continuo ondulato}{24}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Truciolo continuo a dente di sega}{24}{subsubsection.3.3.1.2}%
+\contentsline {subsection}{\numberline {3.3.2}Truciolo discontinuo}{24}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}La rottura del truciolo}{25}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Taglio obliquo}{25}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Tornitura}{27}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Calcolo della forza ed energia}{27}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Temperature}{29}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Fluidi da taglio}{30}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Lavorazioni al trapano}{32}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Tipologie di trapani}{34}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Fresatura}{34}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Fresatura periferica}{35}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Fresatura verticale}{35}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}Fresa a codolo}{36}{subsubsection.3.6.2.1}%
