@@ -22,6 +22,7 @@
 \contentsline {subsection}{\numberline {1.5.1}Acciai}{10}{subsection.1.5.1}%
 \contentsline {chapter}{\chapternumberline {2}Sinterizzazione}{12}{chapter.2}%
 \contentsline {section}{\numberline {2.1}La lavorazione}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Produzione delle polveri}{13}{subsection.2.1.1}%
 \contentsline {chapter}{\chapternumberline {3}Lavorazioni per asportazione di truciolo}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduzione}{14}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Taglio ortogonale ideale}{15}{section.3.2}%
@@ -44,3 +45,12 @@
 \contentsline {subsection}{\numberline {3.6.1}Fresatura periferica}{35}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Fresatura verticale}{35}{subsection.3.6.2}%
 \contentsline {subsubsection}{\numberline {3.6.2.1}Fresa a codolo}{36}{subsubsection.3.6.2.1}%
+\contentsline {section}{\numberline {3.7}Brocciatura e taglio di filetti}{36}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}La brocciatura}{36}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Filettature}{37}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}Produzione di ingranaggi}{37}{section.3.8}%
+\contentsline {chapter}{\chapternumberline {4}Variabili di processo per lavorazioni in asportazione di truciolo}{39}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Durata lavorazione e potenza macchina}{40}{subsection.4.0.1}%
+\contentsline {subsubsection}{\numberline {4.0.1.1}Esempio applicativo}{41}{subsubsection.4.0.1.1}%
+\contentsline {chapter}{\chapternumberline {5}Macchine Utensili}{42}{chapter.5}%
+\contentsline {appendix}{\chapternumberline {A}Acronimi}{43}{appendix.A}%

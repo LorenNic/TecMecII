@@ -1,0 +1,111 @@
+\chapter{Variabili di processo per lavorazioni in asportazione di truciolo}
+\label{chp:VarProcAsportazione}
+GLi aspetti principali da considerare per tali lavorazioni sono:
+\begin{itemize}
+\item \todo{\\Inserire aspetti da considerare}
+\end{itemize}
+
+La prima decisione necessaria è la sequenza delle operazioni da eseguire.
+Per ogni lavorazione bisogna scegliere velocità di taglio e avanzamento in funzione dei materiali del pezzo e utensile. Anche la fase della lavorazione 
+va tenuta in conto, sgrossatura e finitura hanno due obbiettivi diversi 
+e necessitano considerazioni diverse.
+
+La finitura superficiale e le tolleranze dimensionali richieste vengono ottenute eseguendo un taglio di finitura con valori piccoli di avanzamento e profondità di passata.
+Per cui in caso di oggetti \eng{near net-shape}, che possono presentare degli ossidi per via di lavorazioni a caldo precedenti, deve tenere in considerazione che un'operazione di finitura andrà a consumare maggiormente l'utensile: sapendo che il cambio utensile può essere svantaggioso in termini di finitura superficiale.
+
+In una piccola officina il tempo non è un fattore eccessivamente importante.
+Spesso ci si basa sull'esperienza dell'operatore per gestire la lavorazione
+Diverso è il discorso per un'azienda ad alta produttività, in cui per tenere
+basso il tempo ciclo di produzione è critico.
+In questo caso, il \eng{set-up} può essere particolarmente problematico, 
+allora alcuni enti hanno costituito col tempo, dei manuali da cui prendere
+spunto per realizzare una lavorazione abbastanza rapidamente e senza eccessivo consumo dell'utensile. 
+
+Ricordiamo che l'usura dell'utensile è determinata dalla temperatura raggiunta dall'utensile.
+la temperatura, a sua volta, dipende dalla velocità di taglio.
+\missingfigure{Grafico relazione durezza-temperatura-velocità}
+\todo{\\Sulla figura inserire anche il cartiglio per via delle descrizione delle diverse curve}
+\missingfigure{Grafico relazione durezza-temperatura-velocità materiali non ferrosi}
+
+I grafici precedenti \todo{\\riferimenti figure} aiutano a scegliere i principali 3 parametri per le operazioni di sgrossatura.
+Gli avanzamenti vanno scelti in funzione delle durezze dei materiali in cui si va a lavorare.
+In generale i grafici grafici danno un'indicazione generica, un punto di partenza prudente, per la lavorazione. Le stime si basano sul portare la durata dell'utensile accettabile per circa 1-2 ore.
+Tramite prove tecnologiche, si può accelerare la lavorazione se l'utensile arriva ad un tempo superiore alle 2 ore.
+I riferimenti sono per un'operazione di tornitura. I manuali danno, in genere, i parametri di riferimento per altre operazioni come: fresatura, piallatura ecc\dots
+\missingfigure{Costruire tabella coi riferimenti oppure inserire la figura}
+$Z_p$ e $Z_f$ sono dei coefficienti da moltiplicare ai riferimenti ottenuti dalla tornitura alle altre lavorazioni.\todo{\\Vedi la descrizione della tabella}
+
+La foratura con punta da trapano viene trattata a parte per via della sua natura. in generale si hanno dei valori piuttosto simbolici tipo $v = 0.5v_s$ per il ferro e $v = 0.6v_s$ per materiali non ferrosi \todo{\\verifica}.
+Anche la brocciatura ha dei parametri diversificati per cui viene descritta a parte.
+Per esempio anche la profondità del foro gioca un ruolo importane nel controllo della temperatura.
+
+Altri miglioramenti in termini di velocità si differenziano in base al materiale dell'utensile: per utensili ceramici si possono quasi raddoppiare le velocità di lavorazione (ovviamente da vedere nel caso specifico).
+
+Non bisogna dimenticare anche altri aspetti tipo: rigidezza della macchina, il pezzo da ottenere, elementi di fissaggio, ecc\dots
+Una macchina di alto livello riesce ad assorbire le vibrazioni non cedendole all'utensile: ottenendo un controllo migliore sulla lavorazione.
+
+\subsection{Durata lavorazione e potenza macchina}
+Una volta scelti i parametri di velocità e avanzamento di solito si stimano:
+\begin{itemize}
+\item la quantità di volume da rimuovere.
+\item la velocità di rimozione del truciolo
+\item Dai parametri precedenti si può stimare la durata della lavorazione come $t_c = \frac{\overbrace{v_c}^{\text{velocità di taglio}}}{\underbrace{V_t}_{\text{volume rimosso}}}$
+\item Si stimano energia specifica e successivamente la potenza richiesta dalla macchina.
+\end{itemize}
+Si ricorda che la velocità di asportazione è data dalla velocità di taglio per la sezione trasversale del truciolo: spessore indeformato e profondità di passata.
+
+\subsubsection{Esempio applicativo}
+Si vuole allargare un foro in un getto in acciaio con un utensile in carburo. Il diametro iniziale è $D_i = 130\unit{\mm}$ a $D_f = 138\unit{mm}$. Si vuole suggerire velocità di taglio e avanzamento, profondità e potenza necessaria.
+
+\subsubsection*{Soluzione}
+Da manuale si ottengono: 
+\begin{itemize}
+\item $UTS$ del materiale: in questo caso $UTS = 485\unit{\MPa}$.
+\item da cui si ricava $HB = 3*485*9.8=150\unit{\kg/\mm^2}$.
+\end{itemize}
+Allora possiamo stimare;
+\begin{itemize}
+\item Profondità di passata: $w = (138-130)/2 = 4\unit{\mm}$,
+\item Dal grafico otteniamo: $v_s = 1.8\unit{\m/\s}$ che può essere aumentata del 20\% per via dell'utensile usa-e-getta al carburo da cui: $v_s = 1.8 * 1.2 = 2.16\unit{\m/\s}$
+\end{itemize}
+Siccome stiamo trattando una tornitura di interni:
+\begin{itemize}
+\item avanzamento: $f_s = 0.5\unit{\mm}$
+\item siccome $Z_f = 1$ allora $f = 0.5\unit{\mm}$
+\item Area trasversale truciolo: $A = f*w = 0.5*4 = 2\unit{\mm^2}$
+\item Volume asportato: $V_t = A * v_s = 4320\unit{\mm^3/\s}$
+\end{itemize}
+Per calcolare la potenza:
+\begin{itemize}
+\item Dalla tabella: $E_1 = 2.1\unit{\W\s/\mm^2}$
+\item Energia spesa: $E = E_1 * h^{-a}= 2.59\unit{\W\s/\mm^2}$
+\item Da cui la potenza: $P = \frac{2.59 * 4320}{0.7} = 16\unit{\kW}$
+\item la forza di taglio: $P_c = \frac{15956}{2.16} = 7.4\unit{\kN}$
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macchine Utensili											       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Macchine Utensili}\label{chp:MacchineUtensili}
+Spesso il cliente chiede delle macchine con delle specifiche particolari
+in base alle lavorazioni che necessita.
+In generale sono le dimensioni che differenziano le macchine.
+Può capitare che ci siano delle necessità particolari per delle operazioni 
+molto particolari.
+
+Un caso particolare è rappresentato dalle macchine esapodi: presentano sei colonne che possono allungarsi e accorciarsi. Il vantaggio è che data la geometria impedisce alle colonne di flettere ma solo di porsi in trazione e compressione.
+Ciò dovrebbe garantire altissima precisione e accuratezza nella lavorazione ma non hanno avuto grande successo per via del grande ingombro rispetto al volume lavorabile. Dunque poco adatte per una lavorazione industriale.
+
+Si era già accennato lo sviluppo delle macchine a controllo numerico.
+La diffusione di tali macchine è dovuta all'integrazione tra macchina e 
+processore.
+
+Ulteriore problematica ed eventuale miglioramento delle macchine sta nella capacità di assorbire le vibrazioni.
+
+Passando ad un altro aspetto: ovvero la stabilità termica.
+In generale una macchina provoca calore nella lavorazione. Dunque è necessario considerare l'eventuale dilatazione termica dovuta all'incremento della temperatura.
+Allora sono state sviluppate delle tecniche di controllo adattativo: ovvero le macchine riescono a compensare delle variazioni durante la lavorazione, proprio come la dilatazione termica. 
+Per esempio può essere rilevata la variazione dimensionale di un pezzo proprio per dilatazione termica, allora si può adattare la profondità dell'utensile per compensare tale variazione. 
+Per questo scopo devono essere montati dei sensori abbordo macchina.
+Eventualmente è necessario scegliere dei motori della macchina che possano compensare eventuali errori nel posizionamento come i motori a passo.
+
