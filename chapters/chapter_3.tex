@@ -57,13 +57,66 @@ In generale il processo di sinterizzazione deve passare attraverso
 tre principali processi:
 
 \begin{center}
-\smartdiagramset{%
-sequence item uniform color = UniFeLight!50,
-sequence item width = 0.3\textwidth,
-back arrow disabled=true}
 \smartdiagram[sequence diagram]{Produzione Polveri, Compattazione, Sinterizzazione}
 \end{center}
 
 Sarà anche la la sequenza delle trattazioni successive.
 
 \subsection{Produzione delle polveri}
+La produzione delle polveri a partire da un semilavorato è un'operazione importate dato che, dalla caratterizzazione della polvere, si possono ottenere diverse proprietà meccaniche.
+Come illustrato dalla figura \ref{fig:ProcSint}, le polveri possono essere prodotte in diverse modalità tipo:
+\begin{description}
+\item[Estrazione] Da un blocco di materiale si ottengono le particelle tramite:
+	\begin{description}
+	\item[Riduzione in ossido] dalla quale si disgrega il materiale di partenza per ossidazione e si ottiene una \textit{torta porosa}.
+	\item[Decomposizione chimica] Tramite agenti chimici che attaccano il materiale di partenza si ottengono delle particelle aguzze.
+	\item[Elettrolisi] Anche in questo caso si tratta di un attacco chimico e produce depositi che devono subire una successiva macinazione.
+	\item[Precipitazione per soluzione acquosa] Il deposito si ha per precipitazione a partire da una soluzione liquida.
+	\end{description}
+\item[Deposizione] Si vaporizza il metallo per poi farlo precipitare dopo un raffreddamento. Ciò impone di prestare attenzione a quale sia la temperatura di fusione ed eventuale vaporizzazione del metallo.
+\item[Atomizzazione] Può essere svolta in diverse modalità. Si sfrutta la formazione di piccole gocce di materiale fuso che, una volta raffreddate, possano diventare polvere a grana molto fine. 
+In industria sono tre le modalità principalmente utilizzate, come illustrato alla figura \ref{fig:Atom}:
+	\begin{enumerate}
+	\item Frammentazione per fluido, in figura \ref{fig:Atom1}: dove viene fatto colare il fuso da un ugello che già forma delle gocce. Viene, poi, spruzzato del fluido, che può essere acqua o aria, per frammentare il fuso in piccole particelle. In genere si ha una relazione tipo $p_{\text{fluido}} \nearrow$ allora $D_{\text{polvere}} \searrow$.
+	Bisogna comunque considerare che le particelle saranno ossidate per via del raffreddamento tramite fluido. Che può essere positivo nel caso del alluminio perché si forma allumina, non positivo per materiali ferrosi dove l'ossido forma strutture troppo dure e fragili, dannose per il prodotto post sinterizzazione.
+	\item Atomizzazione centrifuga, in figura \ref{fig:Atom2}: Il colato viene spruzzato, come prima, sopra un cilindro rotante raffreddato. La forza centrifuga imposta dal cilindro alle gocce separa ulteriormente il colato formando particelle più fine. Le quali verranno raffreddate ulteriormente per il fatto che all'impatto col cilindro trovano una superficie molto più fredda.
+	\item Atomizzazione con elettrodo rotante, in figura \ref{fig:Atom3}: grazie all'elettrodo si realizza un arco elettrico col materiale da polverizzare che di conseguenza si consumerà producendo la polvere. Si pone in rotazione il materiale da polverizzare. Con questo processo si ottengono delle particelle particolarmente pulite da ossidi e molto fine.
+	\end{enumerate}
+\item[Produzione di fibre] Non è insolito produrre delle fibre invece di polveri, le modalità sono diverse, simili a quelle viste per ottenere le polveri e sono illustrate alle figure \ref{fig:Fiber}. Le fibre hanno dei tempi di raffreddamento molto veloce: ottenendo strutture amorfe per via del fatto che il materiale non ha tempo di realizzare le strutture cristalline o non completamente.
+Se si vuole ottenere fibre a partire dalla frantumazione del blocco di partenza, allora è necessario che il materiale si molto fragile.
+\end{description}
+
+Una volta ottenute le polveri e/o fibre, si passa alla caratterizzazione delle tali: ciò per mette di capire quale sia il miglior processo per la produzione.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Atomizzazione per frammentazione a fluido}\label{fig:Atom1}]
+{\includegraphics[width = 0.3\textwidth]{Atom1}}\:
+\subfloat[][\emph{Atomizzazione tramite cilindro rotante raffreddato}%
+\label{fig:Atom2}]
+{\includegraphics[width  = 0.3\textwidth]{Atom2}}\:
+\subfloat[][\emph{Atomizzazione tramite elettrodo}\label{fig:Atom3}]
+{\includegraphics[width = 0.3\textwidth]{Atom3}}
+\caption{Principali modalità di atomizzazione}
+\label{fig:Atom}
+\end{figure}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Ottenimento delle fibre per frantumazione}\label{fig:Fiber1}]
+{\includegraphics[width = 0.3\textwidth]{Fiber1}}\:
+\subfloat[][\emph{realizzazione di fibre tramite cilindro rotante raffreddato}%
+\label{fig:Fiber2}]
+{\includegraphics[width  = 0.3\textwidth]{Fiber2}}\:
+\subfloat[][\emph{laminazione del fuso per ottenere delle fibre}\label{fig:Fiber3}]
+{\includegraphics[width = 0.3\textwidth]{Fiber3}}
+\caption{Principali modalità per ottenere delle fibre}
+\label{fig:Fiber}
+\end{figure}
+
+\subsubsection{Caratterizzazione delle polveri}
+Una prima caratterizzazione può essere in base alla \textbf{morfologia} della polvere.
+La caratterizzazione è normata tramite ISO e si suddivide in due principlai dimensioni:
+\begin{description}
+\item[Forma] Le principali forme
+\end{description}

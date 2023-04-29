@@ -693,8 +693,15 @@ si spostano i trucioli dalla zona i lavorazione.
 È una macchina utensile molto diffusa.
 In realtà realizza una sola lavorazione: crea dei fori.
 Data la necessità di creare dei fori, se ne capisce la fondamentalità.
-\missingfigure{Tipologie di lavorazioni al trapano}
-dalla figura si può vedere che esistono diverse punte da trapano.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Trapanatura}
+\caption{Alcune punte da trapano per diverse forature}
+\label{fig:Tapanatura}
+\end{figure}
+
+dalla figura \ref{fig:PunteTrapano} si può vedere che esistono diverse punte da trapano.
 Si può già fare un confronto tra le punte da trapano e gli utensili
 monotagliente visti per il tornio.
 In genere l'utensile monotagliente tende a flettere parecchio, mentre nelle punte da trapano 
@@ -707,7 +714,18 @@ a due funzioni:
 \end{itemize}
 In realtà non fanno correttamente nessuna delle due operazioni.
 
-\missingfigure{Tipologie di punte}
+\begin{figure}
+\centering
+\subfloat[][\emph{Principali punte da trapano}
+\label{fig:PunteTrapano}]
+{\includegraphics[width = \textwidth]{PunteTrapano}}\\
+\subfloat[][\emph{Punte per foratura}\label{fig:PunteForatura}]
+{\includegraphics[width = 0.4\textwidth]{PunteForatura}}\quad
+\subfloat[][\emph{Esempi di mecchie}\label{fig:UlterioriPunte}]
+{\includegraphics[width = 0.4\textwidth]{UlterioriPunte}}
+\caption{Varie tipologie di punte da trapano}
+\label{fig:Punte}
+\end{figure}
 
 Nella foratura le forze sono bilanciate. Più importante è da considerare:
 Man mano che ci si avvicina all'asse della punta i taglienti lavorano ad una velocità di taglio
@@ -722,7 +740,7 @@ eseguita la foratura principale che porta il foro alla dimensione desiderata.
 
 Ovviamente lo scalpello della punta si usura e dunque si dovrà applicare maggiore forza alla punta.
 Per cui la forma dello scalpello si è evoluta in modo da rendere minore la forza di spinta da applicare alla 
-punta. IN più sulle scanalature elicoidali sono presenti delle scanalature ulteriori che fungono da 
+punta. In più, sulle scanalature elicoidali sono presenti delle scanalature ulteriori che fungono da 
 rompitruciolo.
 
 Ulteriore problematica è quella dello spostamento dell'asse della punta. Allora si utilizza una punta
@@ -733,11 +751,10 @@ L'angolo di spoglia diminuisce avvicinandosi al centro della punta.
 Per favorire lo spostamento del truciolo, spesso si utlizzano delle punte con angolo d'elica particolarmente 
 elevato.
 
-\missingfigure{Inserire Tipologie di punte per foratura.}
-
 Dove c'è dello spazio grigio indica il fatto che si deve eseguire un prima foratura prima di usare 
 quell'utensile.
 
+Con riferimento alla figura \ref{fig:PunteTrapano}, rispettivamente sono:
 \begin{enumerate}
 \item Punta da trapano classica;
 \item Va usato dopo l'utensile precedente e semplicemente allarga il foro
@@ -755,13 +772,17 @@ da trapano che presentano degli inserti. Certo si hanno dei fori un po' magiori 
 degli inserti.
 Eventualmente si ricorre a dei trattamenti termochimici per aumentare la durata della punta.
 
-Ulteriori utensili sono mostrati in figura
-\missingfigure{Figura con mecchie, svaso ecc}
+Ulteriori utensili sono mostrati in figura \ref{fig:UlterioriPunte}.
 Le Mecchie sono utilizzate per realizzare fori di piccola profondità.
 Le mecchine di forma conica permettono di realizzare dei fori in base alla profondità a cui si spinge la punta
 a diametro variabile. Spesso usate per lavorazioni su lamiere.
 
-\missingfigure{Aggiungere tabella con le velocità consigliate.}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{VelTrapanatura}
+\caption{Velocità consigliate di trapanatura}
+\label{fig:Veltrapanatura}
+\end{figure}
 
 \subsection{Tipologie di trapani}
 \missingfigure{Tipologie di trapani}
@@ -863,6 +884,25 @@ Quando si parla di macchine a più assi (4,5) si possono avere delle rotazioni d
 Eventualmente Si possono sfruttare degli utensili a testa sferica (opportunamente inclinati per non avere 
 velocità nulle sull'asse di rotazione).
 
+\section{Taglio con sega}
+Risulta una forma di fresatura, con dei taglienti molto fini.
+In genere si sfrutta un'utensile cilindrico molto fino al quale vengono
+attaccati i taglienti che possono essere di materiale diverso da quello 
+dell'utensile stesso.
+Viene spesso utilizzata per separare due parti di materiale.
+In figura \ref{fig:Seghe} ne sono presentate alcune.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Tipologie principali di seghe utilizzate in industria}
+\label{fig:Seghe}]
+{\includegraphics[width = \textwidth]{Seghe}}\\
+\subfloat[][\emph{Esempio di inserto per sega}\label{fig:SegheInserti}]
+{\includegraphics[width = \textwidth]{SegheInserti}}
+\caption{Breve descrizione delle seghe industriali}
+\label{fig:SegheInd}
+\end{figure}
+
 \section{Brocciatura e taglio di filetti}
 \subsection{La brocciatura}
 si ha sempre un'utensile di forma, di cui se ne controlla solo il moto primario. Ciò è possibile perché l'avanzamento viene realizzato per cui
@@ -871,10 +911,21 @@ La maggior parte del materiale verrà asportata di taglienti detti di sgrossatur
 Ad ogni componente da realizzare il suo utensile.
 
 Solitamente si eseguono dei fori non circolari. Si effettua da prima 
-un foro circolare per poi passare con la \textit{broccia} che realizza forme particolare come richiesto.
-\missingfigure{Utensile broccia.}
+un foro circolare per poi passare con la \textit{broccia}, in figura \ref{fig:Broccia}, che realizza forme particolare come richiesto.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempio e parametrizzazione di una broccia}\label{fig:Broccia}]
+{\includegraphics[width = \textwidth]{Broccia}}\\
+\subfloat[][\emph{Dettaglio della lavorazione tramite broccia}
+\label{fig:DettaglioBroccia}]
+{\includegraphics[width = \textwidth]{DettaglioBroccia}}
+\caption{Brocciatura}
+\label{fig:Brocciatura}
+\end{figure}
+
 Si tratta di un utensile parecchio costoso per via del fatto che è un'utensile massiccio. Viene utilizzato solitamente per la produzione in grande serie, per ammortizzare meglio il costo.
-I taglienti asportano il materiale in maniera progressiva, a differenza di quanto visto per altri utensili precedenti.
+I taglienti asportano il materiale in maniera progressiva, in figura \ref{fig:DettaglioBroccia}, a differenza di quanto visto per altri utensili precedenti.
 Da considerare l'eventuale deflessione dell'utensile posta dalla resistenza
 meccanica del materiale lavorato, soprattutto per brocciature esterne.
 Per quelle interne non sussiste il problema.
@@ -886,16 +937,32 @@ Discorso diverso nel caso in cui l'utensile viene tirato, per cui si possono ave
 \subsection{Filettature}
 L'operazione non è molto diversa da quella precedente: cambia il tipo di moto applicato all'utensile: nella filettatura si ha un moto di rotazione
 elicoidale per cui l'utensile avanza radialmente e longitudinalmente.
-\missingfigure{utensili per filettature.}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Utensile per filettatura interna}\label{fig:FilettaturaEsterna}]
+{\includegraphics[width = 0.4\textwidth]{FilettaturaInterna}}\quad
+\subfloat[][\emph{Utensile per filettatura esterna}]
+{\includegraphics[width = 0.4\textwidth]{FilettaturaEsterna}}
+\caption{Utensili per filettature}
+\label{fig:Filettature}
+\end{figure}
+
 Normalmente la filettatura viene realizzata tramite deformazione plastica,
 si ha incrudimento per lavorazione a freddo, non si asporta materiale e dunque le fibre del materiale non vengono tagliate orientandole in senso
 assiale rispetto alla filettatura dando ulteriore resistenza meccanica.
 
 \section{Produzione di ingranaggi}\label{sc:Ingranaggi}
-Per la produzione di ingranaggi si sfruttano quasi tutte le lavorazioni che si sono viste in precedenza.
-In particolare, gli ingranaggi per applicazioni critiche, sono ancora realizzati tramite lavorazioni per asportazione di truciolo.
+Per la produzione di ingranaggi si sfruttano quasi tutte le lavorazioni che si sono viste in precedenza come evidenziato dalla figura \ref{fig:Ingranaggi}.
+In particolare, gli ingranaggi per applicazioni critiche, sono ancora realizzati tramite lavorazioni per asportazione di truciolo. Ciò garantisce un'ottima finitura di forma, arrivando a tolleranze molto restrittive.
 Spesso sono lavorazioni di forma, con moto alternativo (caso della lamatura), oppure rotativo (caso della fresatura).
-\missingfigure{Possibili lavorazioni per gli ingranaggi.}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Ingranaggi}
+\caption{Alcuni utensili per la produzione di ingranaggi}
+\label{fig:Ingranaggi}
+\end{figure}
 
 Più complicata è la realizzazione di ingranaggi conici.
 Si devono utilizzare degli utensili di forma, su macchine più adatte per 
