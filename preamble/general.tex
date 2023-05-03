@@ -77,6 +77,7 @@
 \usepackage{listings}                 % Source code printer for LaTeX
 \usepackage[tablegrid,owncaptions]{vhistory}
 
+
 % Links
 \usepackage[hyphens]{url}             % Allow hyphens in URL's
 \usepackage[unicode=false,psdextra]{hyperref}                 % References package
@@ -97,7 +98,6 @@
 \usepackage{tcolorbox}
 \usepackage{wrapfig}
 \usepackage{smartdiagram}
-
 % Math
 \usepackage{euler}
 \usepackage{amsmath}
@@ -179,6 +179,9 @@
 \newcommand{\lesstodo}[2][]{\todo[color=green!40,#1]{#2}}
 \newcommand{\moretodo}[2][]{\todo[color=red!40,#1]{#2}}
 
+% Partstyle
+
+
 % Chapterstyle
 \makeatletter
 \makechapterstyle{mychapterstyle}{
@@ -238,7 +241,7 @@
 \setsecheadstyle              {\huge\sffamily\raggedright}
 \setsubsecheadstyle           {\LARGE\sffamily\raggedright}
 \setsubsubsecheadstyle        {\Large\sffamily\raggedright}
-%\setparaheadstyle             {\normalsize\sffamily\itseries\raggedright}
+\setparaheadstyle             {\normalsize\sffamily\itseries\raggedright}
 %\setsubparaheadstyle          {\normalsize\sffamily\raggedright}
 
 
@@ -254,12 +257,13 @@
     linktoc=all,
     plainpages=false,
     unicode=true,
-    colorlinks=false,
+    colorlinks=true,
+    linkcolor=UnifeLight,
     citebordercolor=dtured,           % color of links to bibliography
     filebordercolor=dtured,           % color of file links
     linkbordercolor=dtured,           % color of internal links (change box color with linkbordercolor)
     urlbordercolor=s13,               % color of external links
-    hidelinks                         % Do not show boxes or colored links.
+    %hidelinks                         % Do not show boxes or colored links.
 }
 
 % Hack to make right pdfbookmark link. The normal behavior links just below the chapter title. This hack put the link just above the chapter like any other normal use of \chapter.

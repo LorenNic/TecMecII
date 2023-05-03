@@ -1,7 +1,7 @@
 \input{preamble/static}
 
 \newcommand{\papersizeswitch}[3]{\ifnum\strcmp{\papersize}{#1}=0#2\else#3\fi}
-\papersizeswitch{b5paper}{\def\classfontsize{10pt}}{\def\classfontsize{12pt}}
+\papersizeswitch{a4paper}{\def\classfontsize{10pt}}{\def\classfontsize{12pt}}
 
 \documentclass[\classfontsize,\papersize,oneside,extrafontsizes]{memoir}
 
@@ -26,20 +26,36 @@
 \include{frontmatter/intro}
 \include{frontmatter/acknowledgements}
 \clearforchapter
-\tableofcontents
+\begingroup
+	\hypersetup{hidelinks}
+	\tableofcontents
+\endgroup
 \clearforchapter
-\listoffigures
+\begingroup
+	\hypersetup{hidelinks}
+	\listoffigures
+\endgroup
 \clearforchapter
-\listoftables
+\begingroup
+	\hypersetup{hidelinks}
+	\listoftables
+\endgroup
 \clearforchapter
-\mylistoftodos
+\begingroup
+	\hypersetup{hidelinks}
+	\mylistoftodos
+\endgroup
 
 \mainmatter
+\part{Lavorazioni su Lamiere}
 \include{chapters/chapter_1} %Introduzione e lavorazioni su lamiera
+\part{Sitenrizzazione}
 \include{chapters/chapter_3} %Sinterizzazione
+\part{Asportazione di truciolo}
 \include{chapters/chapter_2} %Asportazione di truciolo
 \include{chapters/chapter_4} %Ottimizzazione lavorazioni
 \include{chapters/chapter_5} %Lavorazioni abrasive
+\part{Lavorazioni non convenzionali}
 \include{chapters/chapter_6} %Lavorazioni non convenzionali
 
 

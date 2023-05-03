@@ -103,10 +103,15 @@ Si ricorda che la velocità di asportazione è data dalla velocità di taglio pe
 \subsection{Esempio applicativo}
 Si vuole allargare un foro in un getto in acciaio con un utensile in carburo. Il diametro iniziale è $D_i = 130\unit{\mm}$ a $D_f = 138\unit{mm}$. Si vuole suggerire velocità di taglio e avanzamento, profondità e potenza necessaria.
 
-\missingfigure{Aggiungere i grafici di riferimento}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{RendimentiEsercizio}
+\caption{Specifiche durezza dei materiali}
+\label{fig:RendimentiEsercizio}
+\end{figure}
 
 \subsection*{Soluzione}
-Da manuale si ottengono: 
+Da manuale \eqref{fig:Rel_VelTempDur}, \eqref{fig:FattoriAltreLav} e \eqref{fig:RendimentiEsercizio} si ottengono: 
 \begin{itemize}
 \item $UTS$ del materiale: in questo caso $UTS = 485\unit{\MPa}$.
 \item da cui si ricava $HB = 3*485*9.8=150\unit{\kg/\mm^2}$.
@@ -171,7 +176,12 @@ Per questo scopo devono essere montati dei sensori abbordo macchina.
 Eventualmente è necessario scegliere dei motori della macchina che possano compensare eventuali errori nel posizionamento come i motori a passo.
 
 \subsection{Esempio di controllo numerico}
-\missingfigure{Tabella confronto tra macchina tradizionale e \ac{FMS}}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{TornioCNC}
+\caption{Esempio di Macchina CNC}
+\label{fig:TornioCNC}
+\end{figure}
 Si evidenziano come i tempi di fissaggi sia la maggior parte di tempo persa durante una lavorazione per asportazione.
 
 \section{Ottimizzazione delle lavorazione per asportazioni di truciolo}

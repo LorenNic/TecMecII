@@ -689,7 +689,7 @@ si spostano i trucioli dalla zona i lavorazione.
 % Capitoli già realizzati									    	%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\section{Lavorazioni al trapano}
+\chapter{Lavorazioni al trapano}\label{chp:LavTrapano}
 È una macchina utensile molto diffusa.
 In realtà realizza una sola lavorazione: crea dei fori.
 Data la necessità di creare dei fori, se ne capisce la fondamentalità.
@@ -774,7 +774,7 @@ Eventualmente si ricorre a dei trattamenti termochimici per aumentare la durata 
 
 Ulteriori utensili sono mostrati in figura \ref{fig:UlterioriPunte}.
 Le Mecchie sono utilizzate per realizzare fori di piccola profondità.
-Le mecchine di forma conica permettono di realizzare dei fori in base alla profondità a cui si spinge la punta
+Le mecchie di forma conica permettono di realizzare dei fori in base alla profondità a cui si spinge la punta
 a diametro variabile. Spesso usate per lavorazioni su lamiere.
 
 \begin{figure}
@@ -784,19 +784,36 @@ a diametro variabile. Spesso usate per lavorazioni su lamiere.
 \label{fig:Veltrapanatura}
 \end{figure}
 
-\subsection{Tipologie di trapani}
-\missingfigure{Tipologie di trapani}
+\section{Tipologie di trapani}
 
-Le punte da alesaggio hanno scanalature piccole, questo perché si ha meno materiale da rimuovere, in più 
-si ha una maggiore rigidezza dell'utensile per via del maggiore spessore del centro.
-In generale gli utensili alesatori hanno angoli di elica sono molto motlo piccole o addirittura cilindriche.
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempio di trapano semplice}\label{fig:Trapano}]
+{\includegraphics[width = 0.4\textwidth]{Trapano}}\quad
+\subfloat[][\emph{Esempio di trapano a controllo numerico}\label{fig:TrapanoCNC}]
+{\includegraphics[width = 0.4\textwidth]{TrapanoCNC}}\\
+\subfloat[][\emph{Particolare sulle punte alesatrici}\label{fig:PuntaFresatrice}]
+{\includegraphics[width = 0.5\textwidth]{PuntaFresatrice}}
+\caption{Alcuni esempi di trapani e dettaglio punta alesatrice}
+\label{fig:Trapani}
+\end{figure}
+Alcuni esempi di trapanio sono riportati alle figure \ref{fig:Trapani}. Risulta molto riduttivo parlare di macchine che eseguono solo trapanature (nonostante esistano e vengano tutt'oggi prodotte) perché ormai soppiantate dai centri di lavoro \ac{FMS}.
+Di fatto l'evoluzione dei centri \ac{FMS} ha ormai inglobato quasi tutte le possibili lavorazioni per asportazioni di truciolo in un'unica macchina.
+Di questo se ne parlerà nel capitolo \ref{chp:MacchineUtensili} a pagina \pageref{chp:MacchineUtensili}.
 
-\section{Fresatura}
-È la lavorazione più versatiule che si può trava in officina, permette di realizzare la più grande varietà 
-di forme.
-Un esempio è quello della fresatrice orizzontale: determinato dall'asse di rotazione dell'utensile.
-\missingfigure{Inserire figura della fresatrice orizzontale}
-L'utensile può presentare talglienti elicoidali sia cilindrici.
+Piccolo approfondimento per le punte da alesaggio.\\
+Le punte da alesaggio \ref{fig:PuntaFresatrice} hanno scanalature piccole, questo perché si ha meno materiale da rimuovere, in più si ha una maggiore rigidezza dell'utensile per via del maggiore spessore del centro.
+In generale gli utensili alesatori hanno angoli di elica sono molto molto piccole o addirittura cilindriche.
+
+\chapter{Fresatura}\label{chp:Fresatura}
+È la lavorazione più versatile che si può trovare in officina, permette di realizzare la più grande varietà di forme.
+Un esempio è quello della fresatrice orizzontale: \ref{fig:FresaOrizzontale} determinato dall'asse di rotazione dell'utensile.
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{FresaOrizzontale}
+\caption{Esempio di fresatrice orizzontale}
+\label{fig:FresaOrizzontale}
+\end{wrapfloat}
+L'utensile può presentare taglienti elicoidali sia cilindrici.
 
 Siccome la varietà di lavorazioni è alta, anche la gamma di utensili è piuttosto ampia.
 
@@ -804,40 +821,49 @@ L'evoluzione della lavorazione ha portato al fatto che gli utensili non sono sos
 Piuttosto si utilizzano utensili fissati a singolo punto.
 Il tipo ideale di fresatura si chiama \emph{fresatura periferica}.
 
-\subsection{Fresatura periferica}
-Come anticipato, l'utensile può essere ad elica o a scanalature cilindriche. In gengere si preferisce 
-il tagliente a d elica perché subisce meno urti e si possono avere più taglienti immersi sul materiale
-contemporaneamente. 
-Le eliche possono essere in concordanza o opposizione.
-La differenza, oltre che alle direzioni di lavorazione e alimentazione sta anche nel metodo di asportazione.
-Infatti nella lavoazione in concordanza il talgiente incontra immediatamente la superficie del lavorato.
-Ciò provoca urti più alti al tagliente e in potrebbe incontrare pure degli ossidi che rendono il materiale
-più duro.
-Mentre la lavorazione in opposizione presenta un problema di deformazione elastica: siccome lo spessore 
-indeformato è nullo, il talgiente andrà a schiacciare il materiale andandolo a subire il successivo 
-comportamento elastico.
+\section{Fresatura periferica}
+Come anticipato, l'utensile può essere ad elica o a scanalature cilindriche. In genere si preferisce il tagliente ad elica perché subisce meno urti e si possono avere più taglienti immersi sul materiale contemporaneamente.
+ 
+Le eliche possono essere in concordanza \ref{fig:FresaConc} o opposizione \ref{fig:FresaOpp}.
+La differenza, oltre che alle direzioni di lavorazione e alimentazione sta anche nel metodo di asportazione. 
+Infatti nella lavorazione in concordanza il tagliente, in figura \ref{fig:TaglConc}, incontra immediatamente la superficie del lavorato. Ciò provoca urti più alti al tagliente e in potrebbe incontrare pure degli ossidi che rendono il materiale più duro.
 
-In generale si sfrutta la fresatura in concordanza nel caso in cui si predilige una migliore finitura 
-superficiale e il materiale non è stato trattato a caldo: per cui non presenta ossidi superficiali che 
-potrebbero consumare molto rapidamente i taglienti.
-Altrimenti si sfrutta la fresatura in opposizione al netto delle peggiori tolleranze dimensionali ottenibili 
-per via del ritorno elastico e la maggiore rigidezza della macchina necessaria per via dello scambio di 
-forze che si va a verificare durante la lavorazione.
+Mentre la lavorazione in opposizione, figura \ref{fig:TaglOpp}, presenta un problema di deformazione elastica: siccome lo spessore indeformato è nullo, il tagliente andrà a schiacciare il materiale andandolo a subire il successivo comportamento elastico.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Fresatura in opposizione}\label{fig:FresaOpp}]
+{\includegraphics[width =0.4\textwidth]{FresaOpp}}\quad
+\subfloat[][\emph{Fresatura in concordanza}\label{fig:FresaConc}]
+{\includegraphics[width = 0.4\textwidth]{FresaConc}}\\
+\subfloat[][\emph{Dettaglio del tagliente in opposizione}\label{fig:TaglOpp}]
+{\includegraphics[width = 0.4\textwidth]{TaglOpp}}\quad
+\subfloat[][\emph{Dettaglio del tagliente concorde}\label{fig:TaglConc}]
+{\includegraphics[width = 0.4\textwidth]{TaglConc}}
+\caption{Fresatura in opposizione e concordanza}\label{fig:DirFresa}
+\end{figure}
+
+In generale si sfrutta la fresatura in concordanza nel caso in cui si predilige una migliore finitura superficiale e il materiale non è stato trattato a caldo: per cui non presenta ossidi superficiali che potrebbero consumare molto rapidamente i taglienti.
+Altrimenti si sfrutta la fresatura in opposizione al netto delle peggiori tolleranze dimensionali ottenibili per via del ritorno elastico e la maggiore rigidezza della macchina necessaria per via dello scambio di forze che si va a verificare durante la lavorazione.
 
 La lavorazione in definitiva viene detta anche \emph{spianatura}. 
-A differenza di quanti visto per la piallatrice o lilatrice, la lavorazione risulta più veloce in quanto
-non è necessaria la corsa di ritorno e l'utensile può essere parecchio largo.
+A differenza di quanti visto per la piallatrice o levigatrice, la lavorazione risulta più veloce in quanto non è necessaria la corsa di ritorno e l'utensile può essere parecchio largo.
 
 La spianatura può essere realizzata anche tramite utensile a sbalzo monotagliente.
 
-\subsection{Fresatura verticale}
-In questo caso si ha l'asse dell'utensile in veritale rispetto al lavorato. 
+\section{Fresatura verticale}
+In questo caso si ha l'asse dell'utensile in verticale rispetto al lavorato. 
 Attenzione che l'utensile è a sbalzo e non più fissato a due punti, quindi generalmente più rigido.
 Può essere che queste macchine sfruttino una tecnologia ibrida per cui possono realizzare sia lavorazioni
 in verticale che in orizzontale.
+\begin{wrapfloat}{figure}{I}{0pt}
+\includegraphics[width = 0.4\textwidth]{FresaVert}
+\caption{Esempio di fresa verticale}
+\label{fig:FresaVert}
+\end{wrapfloat}
 
 \begin{quote}
-Come mai si preferisce un'utensile a sbalzo rispetto ad uno più rigido magari fissato in due punti?
+\emph{Come mai si preferisce un'utensile a sbalzo rispetto ad uno più rigido magari fissato in due punti?}
 \end{quote}
 
 È più facile cambiare utensile e può essere fatto automaticamente. Anche l'accessibilità alla zona di lavoro
@@ -845,24 +871,32 @@ non è da sottovalutare.
 L'affermazione di tali macchinari è, dunque, puramente pratico.
 Per cui si preferisce che l'utensile sia a sbalzo.
 
-\subsubsection{Fresa a codolo}
-La fresa a codolo è molto simile ad un trapano, ma la punta non presenta lo scalpello in virtù del fatto che
-l'elica non ha lo scopo di effettuare una foratura. Bensì l'elica ha lo scopo di evitare degli urti
-del tagliente che teoricamente potrebbe essere perfettamente cilindrico.
-la tipica lavorazione di questa macchina è l'ottenimento di oggetti a piani paralleli.
-Si ottengono dei gradini per via della lavorazione a piani paralleli, quindi sarà necessaria una successiva 
-passata di finitura per ottenere una forma continua.
-Tra l'altro, i piani non per forza devono essere orizontali, possono essere anche verticali o a diversa 
-inclinazione.
-Indubbiamente l'automazioen di queste macchine è fondamentale. Le quali possono realizzare delle forme che
-non sarebbero ottenibili con altre macchina.
+\subsection{Fresa a codolo}
+La fresa a codolo, in figura \ref{fig:FresaCodolo}, è molto simile ad un trapano, ma la punta non presenta lo scalpello in virtù del fatto che l'elica non ha lo scopo di effettuare una foratura. Bensì l'elica ha lo scopo di evitare degli urti del tagliente che teoricamente potrebbe essere perfettamente cilindrico.
+La tipica lavorazione di questa macchina è l'ottenimento di oggetti a piani paralleli.
+Si ottengono dei gradini per via della lavorazione a piani paralleli, quindi sarà necessaria una successiva passata di finitura per ottenere una forma continua.
+Tra l'altro, i piani non per forza devono essere orizzontali, possono essere anche verticali o a diversa inclinazione.
+Indubbiamente l'automazione di queste macchine è fondamentale. Le quali possono realizzare delle forme che non sarebbero ottenibili con altre macchina.
 In generale macchine ad alta automazione vengono anche chiamate \emph{centro di lavoro}.
-Sono delle macchine ad alta automazione che uniscono i vantaggi delle principali lavorazioni per asportazione
-di truciolo.
-Realizzano lavorazioni su tutte e 5 le facce del pezzo (La faccia di riferimento è quella appoggiata al 
-portapezzo). In inglese \ac{FMS}.
+Sono delle macchine ad alta automazione che uniscono i vantaggi delle principali lavorazioni per asportazione di truciolo.
+Realizzano lavorazioni su tutte e 5 le facce del pezzo (La faccia di riferimento è quella appoggiata al porta-pezzo). In inglese \ac{FMS}.
 
 Una prodotto tipico di queste lavorazioni sono gli stampi.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.3\textwidth]{FresaCodolo}
+\caption{Schematizzazione della fresatura a codolo}
+\label{fig:FresaCodolo}
+\end{wrapfloat}
+
+Per ridurre tale condizione, evitando di fare più passate successive, si possono usare delle frese a codolo a testa sferica, \ref{fig:FresaSferica}, che evitano il problema della velocità radiale nulla al centro della punta. Vanno usate ad un'inclinazione di circa $15\unit{\degree} \div 30\unit{\degree}$ per mantenere una buona velocità radiale in qualsiasi punto dei taglienti. 
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{FresaSferica}
+\caption{Esempio di frese a testa sferica}
+\label{fig:FresaSferica}
+\end{figure}
 
 \section*{Il controllo numerico}
 \begin{description}
@@ -884,6 +918,7 @@ Quando si parla di macchine a più assi (4,5) si possono avere delle rotazioni d
 Eventualmente Si possono sfruttare degli utensili a testa sferica (opportunamente inclinati per non avere 
 velocità nulle sull'asse di rotazione).
 
+\chapter{Altre Lavorazioni}\label{chp:AltreLav}
 \section{Taglio con sega}
 Risulta una forma di fresatura, con dei taglienti molto fini.
 In genere si sfrutta un'utensile cilindrico molto fino al quale vengono
@@ -951,6 +986,22 @@ elicoidale per cui l'utensile avanza radialmente e longitudinalmente.
 Normalmente la filettatura viene realizzata tramite deformazione plastica,
 si ha incrudimento per lavorazione a freddo, non si asporta materiale e dunque le fibre del materiale non vengono tagliate orientandole in senso
 assiale rispetto alla filettatura dando ulteriore resistenza meccanica.
+
+\section{Aspetti conclusivi}
+Alla figura \ref{fig:TolleranzeFilettature}, vengono riportate quali sono le principali lavorazioni ottenibili per asportazione di truciolo. Vengono anche specificate le tolleranze minime ottenibili.
+Mentre alla figura \ref{fig:ProductionRates}, sono indicati quali siano le produttività.
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{TolleranzeFiletti}
+\caption{Riepilogo lavorazioni per asportazione di truciolo}
+\label{fig:TolleranzeFiletti}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{ProductionRates}
+\caption{Indicazioni sulla produttività delle specifiche lavorazioni per asportazione di truciolo}
+\label{fig:ProductionRates}
+\end{figure}
 
 \section{Produzione di ingranaggi}\label{sc:Ingranaggi}
 Per la produzione di ingranaggi si sfruttano quasi tutte le lavorazioni che si sono viste in precedenza come evidenziato dalla figura \ref{fig:Ingranaggi}.
