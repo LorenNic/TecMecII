@@ -1,13 +1,20 @@
 \chapter{Lavorazioni non convenzionali}\label{chp:NonConvenzionale}
 Sono caratterizzate dal fatto che non usano l'energia meccanica per modellare il materiale.
 Dato questo, la durezza del materiale non costituisce un limite a tale problema. Per cui ci sono diverse possibilità anche per materiali non normalmente lavorabili.
+Alla figura \ref{fig:NonConv} sono riportate le principali lavorazioni
+secondo una classificazione in base all'agente tramite il quale si lavora.
 
-\missingfigure{Grafico lavorazioni non convenzionali}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{NonConv}
+\caption{Classificazione lavorazioni non convenzionali}
+\label{fig:NonConv}
+\end{figure}
 
 \begin{description}
 \item[Attacco chimico] Si vuole rimuovere del materiale tramite azione chimica. Allora il problema non è più come togliere il materiale, piuttosto controllarla.
 \item[Elettroerosione] Si sfrutta il movimento degli atomi per separarli dal lavorato.
-\item[Scarica elettrica] Si sfrutta un'arco elettrico per separare il materiale. Se ne era già parlato per la generazione delle polveri per la sinterizzazione
+\item[Scarica elettrica] Si sfrutta un arco elettrico per separare il materiale. Se ne era già parlato per la generazione delle polveri per la sinterizzazione
 \item[lavorazioni ad alto contenuto energetico] Si parla di trasmettere elettroni ad alta energia per la separazione del materiale.
 \item[Altre tipologie] in cui si includono il taglio ad acqua (anche se potrebbe rientrare tra le tecniche abrasive), lavorazioni ad ultrasuoni ecc\dots
 \end{description}
@@ -18,28 +25,51 @@ Di solito sono lavorazioni realizzati nelle fasi finali della produzione.
 Si provoca una corrosione controllata sul materiale da lavorare. Si proteggono le superfici che non si vuole corrodere detta \emph{maschera}, mentre le parti che devono essere rimosse vengono esposte all'ambiente corrosivo.
 Perciò il metallo viene convertito in un composto solubile che rimarrà nell'attaccante corrosive.
 
-\missingfigure{Attacco chimico}
+Alla figura \ref{fig:LavChimiche} ne sono presentate alcune.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{LavChimiche}
+\caption{Modalità di attacco chimico}
+\label{fig:LavChimiche}
+\end{figure}
 
 Data la natura della lavorazione, si nota che si può avere della corrosione anche al di sotto della maschera. Per cui si formano dei sottosquadri. Tra l'altro, gli stessi, risulteranno non rettilinei ma curvilinei per il fatto che quella superficie rimane esposta per più tempo all'agente corrosivo, a differenza del piano che si vorrebbe lavorare.
 Si tratta di un'operazione che può essere ripetuta più volte. Il risultato è una superficie piana.
-Il livello di rugosità può essere piuttosto modesto, in virtù del fatto che il materiale può essere polifasico, con diversa velocità di corrosione delle fasi presenti nel materiale.
+Il livello di rugosità può essere piuttosto modesto come illustrato in figura \ref{fig:RisLavChimiche}, in virtù del fatto che il materiale può essere polifasico, con diversa velocità di corrosione delle fasi presenti nel materiale.
 
 Parlando delle maschere: ne esistono di diverse forme e materiali. In genere si crea un film di materiale resistente alla corrosione che semplicemente viene tagliato per esporre il materiale da corrodere.
-La massima \todo{\\Aggiungere la continuazione}
+La massima accuratezza può essere ottenuta con il film sensibili alla luce usati nella tecnologia dei semiconduttori.
 
 Un esempio di applicazione sta nei pannelli rinforzati dove viene esposta la maggior parte del materiale coprendo una struttura rinforzante. Ne risulta un materiale particolarmente resistente senza dover saldare un'armatura. Si tratta di applicazioni in cui si ha alto valore aggiunto visto che spesso si spreca molto materiale.
 
-\subsection{Tranciatura chimica}
-\todo[inline]{Aggiungere tranciatura chimica}
-
 Queste lavorazioni vengono favorite, accelerandole, tramite il controllo della temperatura.
 Questo aspetto può essere sfruttato anche per operazioni di sbavatura. Non si creano problemi al restante materiale a patto che la bava sia molto più fine del materiale totale. In modo tale che si scaldi più facilmente di tutto il materiale e risulti più facile attaccarla.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{RisLavChimica}
+\caption{Risultati ottenibili con le lavorazioni chimiche}
+\label{fig:RisLavChimiche}
+\end{figure}
+
+\paragraph{Tranciatura chimica}
+La tranciatura chimica viene usata per tagliare lamiere sottili.
+Quando la maschera viene ottenuta tramite tecniche fotochimiche, il processo viene chiamato lavorazione fotochimica.
+
 
 \section{Lavorazioni elettrochimiche}
 Vengono sottratti degli atomi (ioni) dal materiale da lavorare considerabile come anodo. Il tutto viene messa in bagno elettrochimico. Viene poi messo un catodo che funge da utensile per captare tali ioni separati dall'anodo.
 Entrambi i materiali devono essere conduttori altrimenti tutto ciò non ha senso.
 Su alcuni metalli può costituirsi uno strato di ossido, ma può essere facilmente rimosso tramite scintille.
-\missingfigure{Schema lavorazione elettrochimica}
+Il funzionamento è illustrato alla figura \ref{fig:LavElettroChim}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{LavElettroChim}
+\caption{Schema generale delle lavorazioni elettrochimiche}
+\label{fig:LavElettroChim}
+\end{figure}
 
 \subsection{Elettroerosione}
 Si tratta di una lavorazione molto importante perché permette di finire gli stampi. Anche se ultimamente sta perdendo dispiego.
@@ -63,7 +93,7 @@ In alcune aziende viene addirittura soppiantata da eventuale fresatura con utens
 
 Gli elettrodi possono essere consumarsi, in genere sono fatti in rame o grafite, con un rapporto di erosione che va dai $3:1$ del rame fino a $100:1$ della grafite.
 
-\subsubsection{Elettroerosione a tuffo}
+\subsection{Elettroerosione a tuffo}
 L'elettrodo ha un movimento alternato tra avvicinamento e allontanamento.
 Ha la forma che si vuole ottenere in negativo.
 \missingfigure{elettroerosione a tuffo}
@@ -74,7 +104,7 @@ I dielettrici più usati sono
 \end{itemize}
 In qualche caso, l'elettrodo ha movimento laterale ma è una casistica molto rara.
 
-\subsubsection{Elettroerosione a filo}
+\subsection{Elettroerosione a filo}
 \missingfigure{schema elettroerosione a filo}
 Si parte da un blocco di materiale e tramite l'elettroerosione a filo si va a scontornare il materiale.
 Si realizzano dei fori di forma qualsiasi a pareti ortogonali rispetto al piatto. Il risultato è simile ad una lappatura o tranciatura.
@@ -90,6 +120,7 @@ Anche per questa lavorazione c'è il problema dell'\eng{overcut}.
 L'elettroerosione può essere sfruttata anche in altre situazioni: ad esempio la si può sfruttare per realizzare dei fori a qualsiasi profondità di piccola sezione trasversale. Basta realizzare degli elettrodi dedicati.
 
 \section{Lavorazioni con fasci alto contenuto energetico}
+\todo{\\Aggiungi dettagli funzionamento generico lavorazioni a fasci energetici}
 \subsection{A fascio elettronico}
 \missingfigure{Tubo catodico}
 Si tratta di una lavorazione effettuata tramite fascio elettronico.
@@ -106,7 +137,7 @@ Dunque è altrettanto importante la sessione di pompaggio a vuoto del tubo catod
 
 Queste lavorazioni vengono spesso utilizzate per realizzare delle filiere per materiali polimerici.
 
-\subsubsection{Taglio Laser}
+\subsection{Taglio Laser}
 \missingfigure{Taglio laser}
 Il funzionamento non è troppo diverso dalla lavorazione precedente, però si sfruttano emissioni di luce laser per tagliare il materiale.
 Il vantaggio è che non c'è la necessità di concentrare elettroni ma fotoni.
@@ -119,7 +150,7 @@ Inoltre, essendo che è possibile orientare il fascio di raggi laser, è possibi
 
 Come primo materiale si è sfruttato il rubino, che viene utilizzato per sistemi di puntamento. Infatti l'energia concentrabile tramite rubino non è eccessivamente elevata, ma si può estendere per lunghezze considerevoli.
 
-la dimenzione del punto che si va a realizzare dipende da:
+la dimensione del punto che si va a realizzare dipende da:
 \begin{itemize}
 \item Lunghezza d'onda: più è alta più si riesce a controllare lo spot.
 \item L'ottica: migliore è l'ottica e più energia si riesce a concentrare energia.
@@ -128,10 +159,10 @@ Industrialmente parlando, viene utilizzata l'anidride carbonica come materiale e
 Perciò la concentrazione non è molto alta, però si raggiungono potenze nell'ordine dei $40\unit{\kW}$ con efficienza del $15\%$ che sembra poco ma nel campo dei laser è considerevole.
 Si può direzionare il fascio attraverso degli specchi che riescono a riflettere la specifica lunghezza d'onda. Non si tratta di specchi convenzionali.
 
-Altro materiale emettitore è il \emph{Nd:YAG}, produce degli infrarossi vicini: si hanno migliori concentrazioni di energia ma con valori di potenza di molto inferiori rispetto al precedente. Dunque non si raggiungono gli stessi valori di temperatura raggiunte con la $CO_2$.
+Altro materiale emettitore è il \texttt{Nd:YAG}, produce degli infrarossi vicini: si hanno migliori concentrazioni di energia ma con valori di potenza di molto inferiori rispetto al precedente. Dunque non si raggiungono gli stessi valori di temperatura raggiunte con la $CO_2$.
 Di certo, essendo più concentrata l'energia si può trasmettere a distanze maggiori. In più con opportune ottiche si può suddividere in più fasci.
 
-Altra casistica è quello del \emph{laser a eccimeri}. Si ha una lunghezza d'onda molto piccola ed alta frequenza, arrivando allo spettro degli ultravioletti. 
+Altra casistica è quello del \texttt{laser a eccimeri}. Si ha una lunghezza d'onda molto piccola ed alta frequenza, arrivando allo spettro degli ultravioletti. 
 Ciò permette di avere una grandissima precisione, infatti vengono impiegati perla realizzazione di pezzi in minuteria, in chirurgia.
 Si possono utilizzare in modalità continua o pulsata.
 
@@ -143,7 +174,7 @@ Viste le temperature raggiunte si possono lavorare dei materiali altofondenti. N
 la lunghezza d'onda influisce sul diametro minimo del più piccolo foro realizzabile:
 $0.5\unit{\mm}$ per la $CO_2$, fino ad arrivare al $1\unit{\um}$ per il laser ad eccimeri.
 
-\subsubsection{Taglio al plasma}
+\subsection{Taglio al plasma}
 \begin{quote}
 Cos'è il plasma?
 \end{quote}
@@ -152,11 +183,11 @@ Viene usato in industria per tagliare lamiere ed effettuare saldature ad alta ve
 Il taglio al plasma ha una finitura peggiore di quelle ottenibili tramite laser.
 \missingfigure{taglio al plasma}
 
-\subsubsection{Taglio al cannello ossiacetilenico}
+\subsection{Taglio al cannello ossiacetilenico}
 \missingfigure{Taglio ossiacetilenico}
 Si sfrutta una fiamma ossiacetilenica per scaldare il materiale per tagliare lamiere. Anche in questo caso si hanno delle finiture peggiori delle precedenti. Infatti si preferisce usarlo per effettuare delle saldature.
 
-\subsection{Taglio ad acqua}
+\section{Taglio ad acqua}
 Si usa l'energia meccanica generata da un getto d'acqua contenente delle particelle abrasive.
 Non è una vera e propria lavorazione non convenzionale per via del fatto che in questo caso si sta sfruttando l'energia cinetica dell'acqua o particelle abrasive per rimuovere il materiale.
 
