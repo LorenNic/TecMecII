@@ -78,15 +78,15 @@
 \contentsline {part}{\partnumberline {IV}Lavorazioni non convenzionali}{61}{part.4}%
 \contentsline {chapter}{\chapternumberline {10}Lavorazioni non convenzionali}{62}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Lavorazioni chimiche}{63}{section.10.1}%
-\contentsline {paragraph}{Tranciatura chimica}{63}{section*.78}%
+\contentsline {paragraph}{Tranciatura chimica}{63}{section*.79}%
 \contentsline {section}{\numberline {10.2}Lavorazioni elettrochimiche}{63}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}Elettroerosione}{65}{subsection.10.2.1}%
 \contentsline {subsection}{\numberline {10.2.2}Elettroerosione a tuffo}{65}{subsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.2.3}Elettroerosione a filo}{66}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.3}Elettroerosione a filo}{65}{subsection.10.2.3}%
 \contentsline {section}{\numberline {10.3}Lavorazioni con fasci alto contenuto energetico}{66}{section.10.3}%
 \contentsline {subsection}{\numberline {10.3.1}A fascio elettronico}{66}{subsection.10.3.1}%
 \contentsline {subsection}{\numberline {10.3.2}Taglio Laser}{67}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}Taglio al plasma}{67}{subsection.10.3.3}%
+\contentsline {subsection}{\numberline {10.3.3}Taglio al plasma}{68}{subsection.10.3.3}%
 \contentsline {subsection}{\numberline {10.3.4}Taglio al cannello ossiacetilenico}{68}{subsection.10.3.4}%
 \contentsline {section}{\numberline {10.4}Taglio ad acqua}{68}{section.10.4}%
 \contentsline {part}{\partnumberline {V}Tecniche di giunzione}{69}{part.5}%
@@ -99,11 +99,11 @@
 \contentsline {subsection}{\numberline {11.2.4}Giunzione a deformazione plastica}{72}{subsection.11.2.4}%
 \contentsline {subsubsection}{\numberline {11.2.4.1}\foreignlanguage {english}{Sanp-fit}}{72}{subsubsection.11.2.4.1}%
 \contentsline {section}{\numberline {11.3}Saldature allo stato solido}{73}{section.11.3}%
-\contentsline {paragraph}{Saldatura a freddo per sovrapposizione}{74}{section*.84}%
-\contentsline {paragraph}{Saldatura a freddo di testa}{74}{section*.85}%
-\contentsline {paragraph}{Saldatura a freddo di profili}{74}{section*.86}%
-\contentsline {paragraph}{Saldatura a freddo per esplosione}{74}{section*.87}%
-\contentsline {paragraph}{Saldatura a freddo ad ultrasuoni}{74}{section*.88}%
+\contentsline {paragraph}{Saldatura a freddo per sovrapposizione}{74}{section*.86}%
+\contentsline {paragraph}{Saldatura a freddo di testa}{74}{section*.87}%
+\contentsline {paragraph}{Saldatura a freddo di profili}{74}{section*.88}%
+\contentsline {paragraph}{Saldatura a freddo per esplosione}{74}{section*.89}%
+\contentsline {paragraph}{Saldatura a freddo ad ultrasuoni}{74}{section*.90}%
 \contentsline {subsection}{\numberline {11.3.1}Saldature per diffusione}{74}{subsection.11.3.1}%
 \contentsline {section}{\numberline {11.4}Saldature a caldo}{75}{section.11.4}%
 \contentsline {section}{\numberline {11.5}Saldatura a frizione}{75}{section.11.5}%
