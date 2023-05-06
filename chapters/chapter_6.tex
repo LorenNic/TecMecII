@@ -132,12 +132,18 @@ Anche per questa lavorazione c'è il problema dell'\eng{overcut}.
 L'elettroerosione può essere sfruttata anche in altre situazioni: ad esempio la si può sfruttare per realizzare dei fori a qualsiasi profondità di piccola sezione trasversale. Basta realizzare degli elettrodi dedicati.
 
 \section{Lavorazioni con fasci alto contenuto energetico}
-\todo{\\Aggiungi dettagli funzionamento generico lavorazioni a fasci energetici}
+I materiali possono essere lavorati o forati mediante fusioni o vaporizzazioni controllate.
+Per via della natura della lavorazione può essere utilizzata su materiali che sono difficilmente lavorabili come: alcune plastiche, ceramici e compositi.
+
 \subsection{A fascio elettronico}
-\missingfigure{Tubo catodico}
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.3\textwidth]{TuboCatodico}
+\caption{Schema funzionamento tubo catodico}
+\label{fig:TuboCatodico}
+\end{wrapfloat}
 Si tratta di una lavorazione effettuata tramite fascio elettronico.
 Di solito si tratta di tagli o forature tramite queste lavorazioni.
-Per generare il fascio elettronico avviene su tubi catodici.
+Per generare il fascio elettronico avviene su tubi catodici come quello illustrato alla figura \ref{fig:TuboCatodico}.
 In genere il tubo catodico è a vuoto spinto per garantire migliore precisione del fascio di elettroni.
 Si susseguono una serie di avvolgimenti elettrici che permettono di concentrare e direzionare il fascio elettronico.
 Gli elettroni escono dalla camera, vanno ad urtare il materiale lavorato.
@@ -150,15 +156,24 @@ Dunque è altrettanto importante la sessione di pompaggio a vuoto del tubo catod
 Queste lavorazioni vengono spesso utilizzate per realizzare delle filiere per materiali polimerici.
 
 \subsection{Taglio Laser}
-\missingfigure{Taglio laser}
-Il funzionamento non è troppo diverso dalla lavorazione precedente, però si sfruttano emissioni di luce laser per tagliare il materiale.
+\begin{figure}
+\centering
+\subfloat[][\emph{Schema generale del taglio laser}\label{fig:LaserCut}]
+{\includegraphics[width = 0.4\textwidth]{LaserCut}}\quad
+\subfloat[][\emph{Taglio laser con laser ad ossigeno}\label{fig:OxLaserCut}]
+{\includegraphics[width = 0.4\textwidth]{OxLaserCut}}
+\caption{Esempi di taglio laser}
+\label{fig:TaglLaser}
+\end{figure}
+
+Il funzionamento non è troppo diverso dalla lavorazione precedente, però si sfruttano emissioni di luce laser per tagliare il materiale come si vede alle figure \ref{fig:TaglLaser}.
 Il vantaggio è che non c'è la necessità di concentrare elettroni ma fotoni.
 Ciò non viene influenzato dalla presenza di altre particelle presenti in atmosfera.
 
-In più il laser è estremamente preciso in quanto il cono in cui vengono sparati gli elettroni è molto piccolo.
-In più essendo che la luce laser è concorde e monocromatica, rende lo sfruttamento di tale tecnologia più efficace.
+In più il laser è estremamente preciso in quanto il cono in cui vengono sparati i fotoni è molto piccolo.
+In più essendo che la luce laser è concorde e monocromatica, rende il controllo di tale tecnologia più efficace.
 Le sostanze che vengono utilizzate per produrre luce laser sono ben definite e conosciute.
-Inoltre, essendo che è possibile orientare il fascio di raggi laser, è possibile lavorare anche in punti nascoste.
+Inoltre, essendo che è possibile orientare il fascio di raggi laser, è possibile lavorare anche in punti nascoste. Un esempio è riportato alla figura \ref{fig:OxLaserCut}.
 
 Come primo materiale si è sfruttato il rubino, che viene utilizzato per sistemi di puntamento. Infatti l'energia concentrabile tramite rubino non è eccessivamente elevata, ma si può estendere per lunghezze considerevoli.
 
@@ -167,6 +182,7 @@ la dimensione del punto che si va a realizzare dipende da:
 \item Lunghezza d'onda: più è alta più si riesce a controllare lo spot.
 \item L'ottica: migliore è l'ottica e più energia si riesce a concentrare energia.
 \end{itemize}
+
 Industrialmente parlando, viene utilizzata l'anidride carbonica come materiale emettitore. La luce emessa è nell'intervallo degli infrarossi lontani: alta lunghezza d'onda e bassa frequenza.
 Perciò la concentrazione non è molto alta, però si raggiungono potenze nell'ordine dei $40\unit{\kW}$ con efficienza del $15\%$ che sembra poco ma nel campo dei laser è considerevole.
 Si può direzionare il fascio attraverso degli specchi che riescono a riflettere la specifica lunghezza d'onda. Non si tratta di specchi convenzionali.
@@ -175,7 +191,7 @@ Altro materiale emettitore è il \texttt{Nd:YAG}, produce degli infrarossi vicin
 Di certo, essendo più concentrata l'energia si può trasmettere a distanze maggiori. In più con opportune ottiche si può suddividere in più fasci.
 
 Altra casistica è quello del \texttt{laser a eccimeri}. Si ha una lunghezza d'onda molto piccola ed alta frequenza, arrivando allo spettro degli ultravioletti. 
-Ciò permette di avere una grandissima precisione, infatti vengono impiegati perla realizzazione di pezzi in minuteria, in chirurgia.
+Ciò permette di avere una grandissima precisione, infatti vengono impiegati per la realizzazione di pezzi in minuteria, in chirurgia.
 Si possono utilizzare in modalità continua o pulsata.
 
 In generale per le lavorazioni a taglio laser non ha controllo della profondità di lavorazione. Allora si utilizzano per realizzare dei fori passanti.
@@ -186,6 +202,17 @@ Viste le temperature raggiunte si possono lavorare dei materiali altofondenti. N
 la lunghezza d'onda influisce sul diametro minimo del più piccolo foro realizzabile:
 $0.5\unit{\mm}$ per la $CO_2$, fino ad arrivare al $1\unit{\um}$ per il laser ad eccimeri.
 
+\begin{figure}
+\subfloat[][\emph{Effettivo taglio al plasma su macchina \ac{CNC}}\label{fig:TaglPlasma}]
+{\includegraphics[width = 0.3\textwidth]{TaglPlasma}}\:
+\subfloat[][\emph{Taglio/Saldatura ossiacetilenica}\label{fig:TaglOssi}]
+{\includegraphics[width = 0.3\textwidth]{TaglOssi}}\:
+\subfloat[][\emph{Lavorazione per taglio ad acqua}\label{fig:TaglAcqua}]
+{\includegraphics[width = 0.3\textwidth]{TaglAcqua}}
+\caption{Altre lavorazioni non convenzionali}
+\label{fig:AltreNonConv}
+\end{figure}
+
 \subsection{Taglio al plasma}
 \begin{quote}
 Cos'è il plasma?
@@ -193,16 +220,17 @@ Cos'è il plasma?
 Si tratta di un gas ionizzato, viene definito così perché le proprietà fisiche del plasma sono considerevolmente differenti dallo stato di gas per via delle ionizzazioni delle particelle.
 Viene usato in industria per tagliare lamiere ed effettuare saldature ad alta velocità per via delle più alte temperature raggiunte.
 Il taglio al plasma ha una finitura peggiore di quelle ottenibili tramite laser.
-\missingfigure{taglio al plasma}
+Un esempio di taglio al plasma è questo \ref{fig:TaglPlasma}.
 
 \subsection{Taglio al cannello ossiacetilenico}
-\missingfigure{Taglio ossiacetilenico}
-Si sfrutta una fiamma ossiacetilenica per scaldare il materiale per tagliare lamiere. Anche in questo caso si hanno delle finiture peggiori delle precedenti. Infatti si preferisce usarlo per effettuare delle saldature.
+Si sfrutta una fiamma ossiacetilenica per scaldare il materiale per tagliare lamiere. Anche in questo caso si hanno delle finiture peggiori delle precedenti. Infatti si preferisce usarlo per effettuare delle saldature come si vede in figura \ref{fig:TaglOssi}.
 
 \section{Taglio ad acqua}
-Si usa l'energia meccanica generata da un getto d'acqua contenente delle particelle abrasive.
+Si usa l'energia meccanica generata da un getto d'acqua contenente delle particelle abrasive come in figura \ref{fig:TaglAcqua}.
 Non è una vera e propria lavorazione non convenzionale per via del fatto che in questo caso si sta sfruttando l'energia cinetica dell'acqua o particelle abrasive per rimuovere il materiale.
 
 A differenza delle precedenti non provoca il riscaldamento del materiale.
 Si può usare anche per materiali particolarmente fragili come vetro e marmo.
 Non è una lavorazione molto efficiente per via della molta energia da imprimere all'acqua. Inoltre è particolarmente rumorosa.
+
+

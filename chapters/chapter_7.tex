@@ -1,20 +1,29 @@
 \chapter{Tecniche di giunzione}\label{chp:Giunzione}
-Prevedi unire più componenti meccanici ne caso in cui non sia possibili ottenere un prodotto finito solo tramite le lavorazioni convenzionali e non convenzionali.
+Prevede di unire più componenti meccanici ne caso in cui non sia possibili ottenere un prodotto finito solo tramite le lavorazioni convenzionali e non convenzionali.
 Le principali tecniche sono:
-\begin{itemize}
-\item Fissaggio meccanico: si tratta di fissaggi non removibili, quindi niente bulloneria piuttosto rivettature.
-\item Creazione di un legame metallurgico mediante adesione e diffusione.
+\begin{description}
+\item[Fissaggio meccanico]: si tratta di fissaggi non removibili, quindi niente bulloneria piuttosto rivettature.
+\item[Saldatura a freddo] Creazione di un legame metallurgico mediante adesione e diffusione.
 Viene anche detta saldatura a freddo.
-\item Unione tramite fusione con l'uso di varie fonti di calore. Detta saldatura a caldo
-\item Brasature con metalli bassofondenti.
-\end{itemize}
+\item[Saldatura a caldo] Unione tramite fusione con l'uso di varie fonti di calore. Detta saldatura a caldo
+\item[Brasatura] legami con l'aggiunta di metalli bassofondenti.
+\end{description}
 
 La giunzione viene utilizzata perché non siamo in grado di realizzare un prodotto complessivo in un unico colpo ma in successivi assemblaggi.
 In genere si parla di giunzioni su metalli, non sono da escludere tecniche su ceramici e polimerici.
 
 \section{Classificazione delle tecniche}
+Le principali tecniche di fissaggio sono quelle della figura \ref{fig:Fissaggi}.
 
-\missingfigure{Schema suddivisione giunzioni}
+\begin{figure}
+\centering
+\subfloat[][\emph{Principali tecniche di fissaggio}\label{fig:Fissaggi}]
+{\includegraphics[width = \textwidth]{Fissaggi}}\\
+\subfloat[][\emph{Confronto tra le tecniche di fissaggio}\label{fig:ConfFissaggi}]
+{\includegraphics[width = 0.8\textwidth]{ConfFissaggi}}
+\caption{Fissaggi}
+\label{fig:TipiFissagi}
+\end{figure}
 
 Le tecniche di giunzione sono tra le tecniche che maggiormente si tende ad automatizzare.
 In genere perché:
@@ -23,13 +32,11 @@ In genere perché:
 \item In particolare per le saldature a caldo possono generarsi dei fumi nocivi o comunque ambienti pericolosi.
 \end{enumerate}
 
-\missingtable{Confronto tra le tecniche di saldatura}
-
 \begin{description}
 \item[\eng{arc welding}] Si sfrutta un arco elettrico per portare il materiale apportato a fusione.
 \item[\eng{Resistence Welding}] la modalità non è diversa dalla precedente ma si sfrutta la legge di Ohm per scaldare il materiale.
 \item[Brasatura] Si apporta del materiale bassofondente per legare i componenti.
-\item[Bullonatura] Si sfruttano dei componenti meccanici per matenere uniti più pezzi.
+\item[Bullonatura] Si sfruttano dei componenti meccanici per mantenere uniti più pezzi.
 \item[Ritevettatura] Come prima ma non removibile
 \item[Grafettatura] Si usano delle graffette per mantenere uniti più componenti.
 \item[Aggraffatura] Specifico per lamiere, prevede di utilizzare delle specifiche forme per unire le lamiere, se ne era già parlato quando si è parlato nella piegatura delle lamiere al capitolo \ref{chp:Lamiere} a pagina \pageref{chp:Lamiere}.
@@ -39,35 +46,86 @@ In genere perché:
 \section{Giunzioni meccaniche}
 \subsection{Rivettatura}
 Si tratta di una giunzione realizzata tramite una specie di chiodo che poi viene opportunamente lavorato per permettergli di mantenere giuntate le componenti, tramite la realizzazione di due teste aderenti ai componenti.
-\missingfigure{Tipologie di rivettatura}
+Si chiamano rivetti e alcuni sono mostrati in figura \ref{fig:TipiRivetti}.
 
-La più comune tra le rivettature è a \emph{rivetti ciechi}.
-\missingfigure{rivettatura cieca}
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = \textwidth, angle = 90]{TipiRivetti}
+\caption{Tipologie di rivetti}
+\label{fig:TipiRivetti}
+\end{wrapfloat}
+
+La più comune tra le rivettature è a \textbf{Rivetti ciechi} come quelli in figura \ref{fig:RivettoCieco}.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{RivettoCieco}
+\caption{Rivettatura cieca}
+\label{fig:RivettoCieco}
+\end{figure}
 
 Il fatto che la rivettatura sia costosa rispetto ad altre giunzioni per il fatto che i componenti da giuntare devono già essere forati. Per cui si deve aggiungere una lavorazione aggiuntiva per poter rivettare.
 In più la foratura è una fonte di incertezza sul comportamento a fatica del prodotto rivettato.
 In più c'è il problema di dover sbavare i fori, in quanto le bave sono fonte di tensioni residue.
 
-\missingfigure{Considerazioni su corretta rivettatura}
-Bisogna scegliere correttamente la dimensione del rivetto perché si rischia di piegare il gambo piuttosto di realizzare la testa.
-Bisogna lasciare il giusto spazio affinché la macchina che crea la testa possa lavorare correttamente.
-Anche il fatto di forare vicino ai bordi può essere fonte di pessimo comportamento a fatica.
-\todo{\\Da mettere come elenco}
+\begin{figure}
+\centering
+\subfloat[][\emph{Rivetto troppo lungo}\label{fig:TooLong}]
+{\includegraphics[width = 0.4\textwidth]{TooLong}}\quad
+\subfloat[][\emph{Rivetto coperto}\label{fig:Covered}]
+{\includegraphics[width = 0.4\textwidth]{Covered}}\\
+\subfloat[][\emph{Adesione non completa}\label{fig:NotProperly}]
+{\includegraphics[width = 0.4\textwidth]{NotProperly}}\quad
+\subfloat[][\emph{Troppo vicino al bordo}\label{fig:NearEdge}]
+{\includegraphics[width = 0.4\textwidth]{NearEdge}}
+\caption{Considerazione sulla corretta rivettatura}
+\label{fig:ConsRiv}
+\end{figure}
+I casi che possono portare alla rivettatura a fallire prematuramente possono essere:
+scegliere correttamente la dimensione del rivetto perché si rischia di piegare il gambo piuttosto di realizzare la testa, caso \ref{fig:TooLong}.
+Bisogna lasciare il giusto spazio affinché la macchina che crea la testa possa lavorare correttamente, caso \ref{fig:Covered}.
+Anche il fatto di forare vicino ai bordi può essere fonte di pessimo comportamento a fatica, caso \ref{fig:NearEdge}.
 
 \subsection{Grafettatura}
-Si possono realizzare giunzioni tramite una graffetta per lamiere.
+Si possono realizzare giunzioni tramite una graffetta per lamiere, \ref{fig:Graffettatura}.
 Non hanno alti carichi di giunzione ma vengono alle volte usate per la realizzazione di mobili.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempi di graffettatura}\label{fig:Graffettatura}]
+{\includegraphics[width = 0.4\textwidth]{Graffettatura}}\:
+\subfloat[][\emph{Realizzazione dell'aggraffatura}\label{fig:Aggraffatura}]
+{\includegraphics[width = 0.4\textwidth]{Aggraffatura}}\\
+\subfloat[][\emph{Esempio di fissaggio \eng{snap-fit}}\label{fig:SnapFit}]
+{\includegraphics[width = 0.4\textwidth]{Snapfit}}
+\caption{Fissaggi meccanici di graffettatura, aggraffatura e \eng{snap-fit}}
+\label{fig:GripMec}
+\end{figure}
 
 \subsection{Aggraffatura}
 Si era anticipato l'argomento al capitolo \ref{chp:Lamiere} a pagina \pageref{chp:Lamiere}.
+Comunque in figura \ref{fig:Aggraffatura} è riproposto il processo per realizzare tale tipo di giunzione.
 
 \subsection{Giunzione a deformazione plastica}
 Si realizzano delle piccole deformazioni del materiale per poter alloggiare delle giunzione tra un nucleo e manicotto.
 Si possono sfruttare le variazioni dimensionali tramite variazione termica per poter facilitare la giunzione.
+È una tecnica particolarmente usata in ambito elettrotecnico per realizzare gli ancoraggi ai morsetti ed eventuali collegamenti tra metalli diversi (tipo rame-alluminio).
+Alcuni esempi sono alla figura \ref{fig:DefPlastGrip}.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{DefPlastGrip}
+\caption{Alcuni esempi di fissaggio per deformazione plastica}
+\label{fig:DefPlastGrip}
+\includegraphics[width = 0.5\textwidth]{Ribattitura}
+\caption{Processo di ribattitura}
+\label{fig:Ribattitura}
+\includegraphics[width = 0.5\textwidth]{AltriGripMec}
+\caption{Ulteriori metodi di fissaggio meccanico utilizzati}
+\label{fig:AltriGripMec}
+\end{figure}
 
 \subsubsection{\eng{Sanp-fit}}
-\missingfigure{snap-fit}
-Detta anche chiusura a scatto. Viene molto apprezzata per:
+Detta anche chiusura a scatto, \ref{fig:SnapFit}. Viene molto apprezzata per:
 \begin{itemize}
 \item Basse forze di montaggio,
 \item elevate forze di smontaggio,
@@ -78,10 +136,15 @@ Detta anche chiusura a scatto. Viene molto apprezzata per:
 \item omogeneità dei materiali.
 \end{itemize}
 
-\missingfigure{Ribattitura}
-Si "gonfia" una lamiera e successivamente viene deformata per poter fissarci un'ulteriore lamiera. Viene usata per la realizzazione dell'accoppiamento tra lattina e aprilattina.
+\subsubsection{Ribattitura}
+Si "gonfiano" le lamiere e successivamente viene deformata per poter fissare entrambe tramite la deformazione di entrambe. 
+Il processo è riportato alla figura \ref{fig:Ribattitura}.
+Viene usata per la realizzazione dell'accoppiamento tra lattina e aprilattina.
 
-\missingfigure{Altre giunzioni meccaniche}
+Invece, alla figura \ref{fig:AltriGripMec} sono riportati ulteriori metodi di fissaggio meccanico.
+
+\pagebreak
+
 
 \section{Saldature allo stato solido}
 \missingfigure{Tipi saldature a freddo}
