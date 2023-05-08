@@ -26,87 +26,90 @@
 \contentsline {section}{\numberline {2.1}La lavorazione}{12}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Produzione delle polveri}{13}{subsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.1.1}Caratterizzazione delle polveri}{14}{subsubsection.2.1.1.1}%
-\contentsline {part}{\partnumberline {III}Asportazione di truciolo}{16}{part.3}%
-\contentsline {chapter}{\chapternumberline {3}Lavorazioni per asportazione di truciolo}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduzione}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Taglio ortogonale ideale}{18}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Fattore di attrito}{20}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Valutazione delle forze}{20}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Taglio ortogonale realistico}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Truciolo continuo}{24}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Truciolo continuo ondulato}{25}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Truciolo continuo a dente di sega}{25}{subsubsection.3.3.1.2}%
-\contentsline {subsection}{\numberline {3.3.2}Truciolo discontinuo}{25}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}La rottura del truciolo}{25}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Taglio obliquo}{26}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Tornitura}{26}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Calcolo della forza ed energia}{26}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Temperature}{29}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Fluidi da taglio}{30}{subsection.3.4.4}%
-\contentsline {chapter}{\chapternumberline {4}Lavorazioni al trapano}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tipologie di trapani}{33}{section.4.1}%
-\contentsline {chapter}{\chapternumberline {5}Fresatura}{35}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Fresatura periferica}{35}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Fresatura verticale}{35}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Fresa a codolo}{36}{subsection.5.2.1}%
-\contentsline {chapter}{\chapternumberline {6}Altre Lavorazioni}{38}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Taglio con sega}{38}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Brocciatura e taglio di filetti}{38}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}La brocciatura}{38}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Filettature}{38}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}Aspetti conclusivi}{38}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Produzione di ingranaggi}{39}{section.6.4}%
-\contentsline {chapter}{\chapternumberline {7}Variabili di processo per lavorazioni in asportazione di truciolo}{43}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Durata lavorazione e potenza macchina}{44}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Esempio applicativo}{48}{subsection.7.1.1}%
-\contentsline {chapter}{\chapternumberline {8}Macchine Utensili}{49}{chapter.8}%
-\contentsline {subsection}{\numberline {8.0.1}Esempio di controllo numerico}{50}{subsection.8.0.1}%
-\contentsline {section}{\numberline {8.1}Ottimizzazione delle lavorazione per asportazioni di truciolo}{50}{section.8.1}%
-\contentsline {chapter}{\chapternumberline {9}Abrasione}{53}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Rettifica}{53}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Fluidi da rettifica}{56}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Lavorazioni di rettifica}{56}{subsection.9.1.2}%
-\contentsline {subsubsection}{\numberline {9.1.2.1}Obbiettivi della rettifica}{57}{subsubsection.9.1.2.1}%
-\contentsline {subsubsection}{\numberline {9.1.2.2}Nastri e carte vetrate}{57}{subsubsection.9.1.2.2}%
-\contentsline {subsubsection}{\numberline {9.1.2.3}Levigatura}{58}{subsubsection.9.1.2.3}%
-\contentsline {section}{\numberline {9.2}Abrasione non legata}{58}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Lappatura}{58}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Burattatura}{59}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Sabbiatura}{59}{subsection.9.2.3}%
-\contentsline {section}{\numberline {9.3}Considerazioni finali}{59}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Aspetti progettuali}{60}{subsection.9.3.1}%
-\contentsline {part}{\partnumberline {IV}Lavorazioni non convenzionali}{61}{part.4}%
-\contentsline {chapter}{\chapternumberline {10}Lavorazioni non convenzionali}{62}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Lavorazioni chimiche}{63}{section.10.1}%
-\contentsline {paragraph}{Tranciatura chimica}{63}{section*.78}%
-\contentsline {section}{\numberline {10.2}Lavorazioni elettrochimiche}{63}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Elettroerosione}{65}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Elettroerosione a tuffo}{65}{subsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.2.3}Elettroerosione a filo}{65}{subsection.10.2.3}%
-\contentsline {section}{\numberline {10.3}Lavorazioni con fasci alto contenuto energetico}{66}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}A fascio elettronico}{66}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Taglio Laser}{67}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}Taglio al plasma}{68}{subsection.10.3.3}%
-\contentsline {subsection}{\numberline {10.3.4}Taglio al cannello ossiacetilenico}{68}{subsection.10.3.4}%
-\contentsline {section}{\numberline {10.4}Taglio ad acqua}{68}{section.10.4}%
-\contentsline {part}{\partnumberline {V}Tecniche di giunzione}{70}{part.5}%
-\contentsline {chapter}{\chapternumberline {11}Tecniche di giunzione}{71}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Classificazione delle tecniche}{71}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Giunzioni meccaniche}{73}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}Rivettatura}{73}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}Grafettatura}{73}{subsection.11.2.2}%
-\contentsline {subsection}{\numberline {11.2.3}Aggraffatura}{73}{subsection.11.2.3}%
-\contentsline {subsection}{\numberline {11.2.4}Giunzione a deformazione plastica}{73}{subsection.11.2.4}%
-\contentsline {subsubsection}{\numberline {11.2.4.1}\foreignlanguage {english}{Sanp-fit}}{75}{subsubsection.11.2.4.1}%
-\contentsline {subsubsection}{\numberline {11.2.4.2}Ribattitura}{75}{subsubsection.11.2.4.2}%
-\contentsline {section}{\numberline {11.3}Saldature allo stato solido}{76}{section.11.3}%
-\contentsline {paragraph}{Saldatura a freddo per sovrapposizione}{76}{section*.92}%
-\contentsline {paragraph}{Saldatura a freddo di testa}{76}{section*.93}%
-\contentsline {paragraph}{Saldatura a freddo di profili}{76}{section*.94}%
-\contentsline {paragraph}{Saldatura a freddo per esplosione}{76}{section*.95}%
-\contentsline {paragraph}{Saldatura a freddo ad ultrasuoni}{76}{section*.96}%
-\contentsline {subsection}{\numberline {11.3.1}Saldature per diffusione}{77}{subsection.11.3.1}%
-\contentsline {section}{\numberline {11.4}Saldature a caldo}{77}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Saldatura a frizione}{77}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}friction stir welding}{78}{subsection.11.5.1}%
-\contentsline {appendix}{\chapternumberline {A}Acronimi}{79}{appendix.A}%
+\contentsline {paragraph}{Particelle sferoidali}{15}{section*.24}%
+\contentsline {subsection}{\numberline {2.1.2}Preparazione delle polveri}{16}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Miscelazione}{16}{subsubsection.2.1.2.1}%
+\contentsline {part}{\partnumberline {III}Asportazione di truciolo}{17}{part.3}%
+\contentsline {chapter}{\chapternumberline {3}Lavorazioni per asportazione di truciolo}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduzione}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Taglio ortogonale ideale}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Fattore di attrito}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Valutazione delle forze}{21}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Taglio ortogonale realistico}{24}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Truciolo continuo}{25}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Truciolo continuo ondulato}{26}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Truciolo continuo a dente di sega}{26}{subsubsection.3.3.1.2}%
+\contentsline {subsection}{\numberline {3.3.2}Truciolo discontinuo}{26}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}La rottura del truciolo}{26}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Taglio obliquo}{27}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Tornitura}{27}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Calcolo della forza ed energia}{27}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Temperature}{30}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Fluidi da taglio}{31}{subsection.3.4.4}%
+\contentsline {chapter}{\chapternumberline {4}Lavorazioni al trapano}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tipologie di trapani}{34}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {5}Fresatura}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Fresatura periferica}{36}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fresatura verticale}{36}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Fresa a codolo}{37}{subsection.5.2.1}%
+\contentsline {chapter}{\chapternumberline {6}Altre Lavorazioni}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Taglio con sega}{39}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Brocciatura e taglio di filetti}{39}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}La brocciatura}{39}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Filettature}{39}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Aspetti conclusivi}{39}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Produzione di ingranaggi}{40}{section.6.4}%
+\contentsline {chapter}{\chapternumberline {7}Variabili di processo per lavorazioni in asportazione di truciolo}{44}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Durata lavorazione e potenza macchina}{45}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Esempio applicativo}{49}{subsection.7.1.1}%
+\contentsline {chapter}{\chapternumberline {8}Macchine Utensili}{50}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Esempio di controllo numerico}{51}{subsection.8.0.1}%
+\contentsline {section}{\numberline {8.1}Ottimizzazione delle lavorazione per asportazioni di truciolo}{51}{section.8.1}%
+\contentsline {chapter}{\chapternumberline {9}Abrasione}{54}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Rettifica}{54}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Fluidi da rettifica}{57}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Lavorazioni di rettifica}{57}{subsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.2.1}Obbiettivi della rettifica}{58}{subsubsection.9.1.2.1}%
+\contentsline {subsubsection}{\numberline {9.1.2.2}Nastri e carte vetrate}{58}{subsubsection.9.1.2.2}%
+\contentsline {subsubsection}{\numberline {9.1.2.3}Levigatura}{59}{subsubsection.9.1.2.3}%
+\contentsline {section}{\numberline {9.2}Abrasione non legata}{59}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Lappatura}{59}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Burattatura}{60}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Sabbiatura}{60}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Considerazioni finali}{60}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Aspetti progettuali}{61}{subsection.9.3.1}%
+\contentsline {part}{\partnumberline {IV}Lavorazioni non convenzionali}{62}{part.4}%
+\contentsline {chapter}{\chapternumberline {10}Lavorazioni non convenzionali}{63}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Lavorazioni chimiche}{64}{section.10.1}%
+\contentsline {paragraph}{Tranciatura chimica}{64}{section*.78}%
+\contentsline {section}{\numberline {10.2}Lavorazioni elettrochimiche}{64}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Elettroerosione}{66}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Elettroerosione a tuffo}{66}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Elettroerosione a filo}{66}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}Lavorazioni con fasci alto contenuto energetico}{67}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}A fascio elettronico}{67}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Taglio Laser}{68}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Taglio al plasma}{69}{subsection.10.3.3}%
+\contentsline {subsection}{\numberline {10.3.4}Taglio al cannello ossiacetilenico}{69}{subsection.10.3.4}%
+\contentsline {section}{\numberline {10.4}Taglio ad acqua}{69}{section.10.4}%
+\contentsline {part}{\partnumberline {V}Tecniche di giunzione}{71}{part.5}%
+\contentsline {chapter}{\chapternumberline {11}Tecniche di giunzione}{72}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Classificazione delle tecniche}{72}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Giunzioni meccaniche}{74}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Rivettatura}{74}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Grafettatura}{74}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Aggraffatura}{74}{subsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.2.4}Giunzione a deformazione plastica}{74}{subsection.11.2.4}%
+\contentsline {subsubsection}{\numberline {11.2.4.1}\foreignlanguage {english}{Sanp-fit}}{76}{subsubsection.11.2.4.1}%
+\contentsline {subsubsection}{\numberline {11.2.4.2}Ribattitura}{76}{subsubsection.11.2.4.2}%
+\contentsline {section}{\numberline {11.3}Saldature allo stato solido}{77}{section.11.3}%
+\contentsline {paragraph}{Saldatura a freddo per sovrapposizione}{77}{section*.92}%
+\contentsline {paragraph}{Saldatura a freddo di testa}{77}{section*.93}%
+\contentsline {paragraph}{Saldatura a freddo di profili}{77}{section*.94}%
+\contentsline {paragraph}{Saldatura a freddo per esplosione}{77}{section*.95}%
+\contentsline {paragraph}{Saldatura a freddo ad ultrasuoni}{77}{section*.96}%
+\contentsline {subsection}{\numberline {11.3.1}Saldature per diffusione}{78}{subsection.11.3.1}%
+\contentsline {section}{\numberline {11.4}Saldature a caldo}{78}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Saldatura a frizione}{78}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}friction stir welding}{79}{subsection.11.5.1}%
+\contentsline {appendix}{\chapternumberline {A}Acronimi}{80}{appendix.A}%
