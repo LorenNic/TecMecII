@@ -1,5 +1,6 @@
 \contentsline {todo}{Figure: 1.3~(1)~Da aggiungere il grafico tridimensionale sulla deformazione a freddo.}{5}{section.1.3}%
 \contentsline {todo}{Figure: 1.3~(2)~Aggiungere proiezioni del grafico precedente in due dimensioni.}{6}{section.1.3}%
+<<<<<<< Updated upstream
 \contentsline {todo}{Figure: 9.1~(3)~Aggiungere le figure delle lavorazioni di rettifica}{57}{subsection.9.1.2}%
 \contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 9.1~(4)~Aggiungere i dettagli}{58}{section*.68}%
 \contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 9.1~(5)~Aggiungere dati}{58}{section*.70}%
@@ -49,3 +50,24 @@
 \contentsline {todo}{Figure: 11.9~(49)~Cannello e confronto qualità}{92}{section*.119}%
 \contentsline {todo}{Figure: 11.9~(50)~Tipi di fiamme}{92}{section*.119}%
 \contentsline {todo}{\fcolorbox {black}{red!40}{\textcolor {red!40}{o}}\ 11.9~(51)~\\integra con le slide}{92}{section*.120}%
+=======
+\contentsline {todo}{Figure: 9.1~(3)~Aggiungere le figure delle lavorazioni di rettifica}{59}{subsection.9.1.2}%
+\contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 9.1~(4)~Aggiungere i dettagli}{60}{section*.69}%
+\contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 9.1~(5)~Aggiungere dati}{60}{section*.71}%
+\contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 9.1~(6)~Completare l'esercizio}{60}{section*.73}%
+\contentsline {todo}{Figure: 9.1~(7)~Confronto abrasivi e superabrasivi}{61}{subsubsection.9.1.2.3}%
+\contentsline {todo}{Figure: 9.2~(8)~lappatura}{61}{subsection.9.2.1}%
+\contentsline {todo}{Figure: 9.2~(9)~Utensile ad ultrasuoni}{61}{subsection.9.2.1}%
+\contentsline {todo}{Figure: 9.2~(10)~Burattatura}{62}{subsection.9.2.2}%
+\contentsline {todo}{Figure: 9.3~(11)~Tabella di confronto lavorazioni}{62}{section.9.3}%
+\contentsline {todo}{Figure: 9.3~(12)~Grafico limiti geometrici per lavorazione}{62}{section.9.3}%
+\contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 9.3~(13)~\\Completare elenco}{63}{section*.74}%
+\contentsline {todo}{Figure: 11.3~(14)~Tipi saldature a freddo}{79}{section.11.3}%
+\contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 11.3~(15)~\\Elenco}{79}{section*.92}%
+\contentsline {todo}{Figure: 11.3~(16)~saldatura a freddo per sovrapposizione}{79}{section*.93}%
+\contentsline {todo}{Figure: 11.3~(17)~Ultrasuoni}{79}{section*.97}%
+\contentsline {todo}{Figure: 11.3~(18)~Saldature per diffusione}{80}{subsection.11.3.1}%
+\contentsline {todo}{\fcolorbox {black}{orange}{\textcolor {orange}{o}}\ 11.4~(19)~\\Aggiungi}{80}{section*.98}%
+\contentsline {todo}{Figure: 11.5~(20)~Saldatura per frizione}{80}{section.11.5}%
+\contentsline {todo}{Figure: 11.5~(21)~Processo di saldatura per attrito}{81}{section.11.5}%
+>>>>>>> Stashed changes
