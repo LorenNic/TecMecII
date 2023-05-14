@@ -3,9 +3,9 @@
 \contentsline {chapter}{Prefazione}{ii}{chapter*.4}%
 \contentsline {chapter}{Acknowledgements}{iii}{chapter*.5}%
 \contentsline {chapter}{Indice}{iv}{section*.6}%
-\contentsline {chapter}{Elenco delle figure}{vii}{section*.8}%
-\contentsline {chapter}{Elenco delle tabelle}{ix}{section*.9}%
-\contentsline {chapter}{Todo list}{x}{section*.10}%
+\contentsline {chapter}{Elenco delle figure}{viii}{section*.8}%
+\contentsline {chapter}{Elenco delle tabelle}{x}{section*.9}%
+\contentsline {chapter}{Todo list}{xi}{section*.10}%
 \contentsline {part}{\partnumberline {I}Lavorazioni su Lamiere}{1}{part.1}%
 \contentsline {chapter}{\chapternumberline {1}Introduzione}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Proprietà meccaniche sulla deformabilità}{2}{section.1.1}%
@@ -103,13 +103,41 @@
 \contentsline {subsubsection}{\numberline {11.2.4.1}\foreignlanguage {english}{Sanp-fit}}{76}{subsubsection.11.2.4.1}%
 \contentsline {subsubsection}{\numberline {11.2.4.2}Ribattitura}{76}{subsubsection.11.2.4.2}%
 \contentsline {section}{\numberline {11.3}Saldature allo stato solido}{77}{section.11.3}%
-\contentsline {paragraph}{Saldatura a freddo per sovrapposizione}{77}{section*.92}%
-\contentsline {paragraph}{Saldatura a freddo di testa}{77}{section*.93}%
-\contentsline {paragraph}{Saldatura a freddo di profili}{77}{section*.94}%
-\contentsline {paragraph}{Saldatura a freddo per esplosione}{77}{section*.95}%
-\contentsline {paragraph}{Saldatura a freddo ad ultrasuoni}{77}{section*.96}%
-\contentsline {subsection}{\numberline {11.3.1}Saldature per diffusione}{78}{subsection.11.3.1}%
-\contentsline {section}{\numberline {11.4}Saldature a caldo}{78}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Saldatura a frizione}{78}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}friction stir welding}{79}{subsection.11.5.1}%
-\contentsline {appendix}{\chapternumberline {A}Acronimi}{80}{appendix.A}%
+\contentsline {subsection}{\numberline {11.3.1}Saldature a freddo}{77}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Saldature per diffusione}{78}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Saldature a caldo}{78}{subsection.11.3.3}%
+\contentsline {subsection}{\numberline {11.3.4}Saldatura a frizione}{78}{subsection.11.3.4}%
+\contentsline {subsubsection}{\numberline {11.3.4.1}Friction Stir Welding}{80}{subsubsection.11.3.4.1}%
+\contentsline {section}{\numberline {11.4}Saldature a fusione}{81}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Caratteristiche del giunto}{82}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}Difetti e qualità della saldatura a fusione}{83}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}Intensità di energia}{84}{subsection.11.4.3}%
+\contentsline {paragraph}{Cannello ossiacetilenico}{84}{section*.98}%
+\contentsline {paragraph}{Saldatura ad arco}{84}{section*.99}%
+\contentsline {paragraph}{Fascio laser o elettronico}{84}{section*.100}%
+\contentsline {section}{\numberline {11.5}La saldabilità}{85}{section.11.5}%
+\contentsline {paragraph}{Acciai ferritici}{85}{section*.101}%
+\contentsline {paragraph}{Lamiere rivestite}{85}{section*.102}%
+\contentsline {paragraph}{Acciai inossidabili}{85}{section*.103}%
+\contentsline {paragraph}{Zinco}{85}{section*.104}%
+\contentsline {paragraph}{Alluminio e magnesio}{85}{section*.105}%
+\contentsline {paragraph}{Leghe a base di rame}{85}{section*.107}%
+\contentsline {paragraph}{Nichel}{85}{section*.108}%
+\contentsline {paragraph}{Leghe di titanio e refrattarie}{85}{section*.109}%
+\contentsline {section}{\numberline {11.6}Saldatura a resistenza}{85}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Saldatura su rilievo}{86}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}Saldatura a scintillio}{87}{subsection.11.6.2}%
+\contentsline {section}{\numberline {11.7}Saldature ad arco}{87}{section.11.7}%
+\contentsline {subsection}{\numberline {11.7.1}Saldatura ad arco con elettrodo permanente}{88}{subsection.11.7.1}%
+\contentsline {subsection}{\numberline {11.7.2}Saldatura ad arco al plasma}{88}{subsection.11.7.2}%
+\contentsline {subsection}{\numberline {11.7.3}Saldatura ad arco con elettrodo consumabile}{89}{subsection.11.7.3}%
+\contentsline {subsection}{\numberline {11.7.4}Saldatura ad arco con elettrodo rivestito}{90}{subsection.11.7.4}%
+\contentsline {subsection}{\numberline {11.7.5}Saldatura ad arco con fondente intubato}{90}{subsection.11.7.5}%
+\contentsline {subsection}{\numberline {11.7.6}Saldatura ad arco sommerso}{90}{subsection.11.7.6}%
+\contentsline {subsection}{\numberline {11.7.7}Saldatura ad arco con elettroscoria}{91}{subsection.11.7.7}%
+\contentsline {subsection}{\numberline {11.7.8}Saldatura ad arco a perno}{91}{subsection.11.7.8}%
+\contentsline {section}{\numberline {11.8}Automazione delle saldatura}{91}{section.11.8}%
+\contentsline {section}{\numberline {11.9}Saldature chimiche}{92}{section.11.9}%
+\contentsline {subsection}{\numberline {11.9.1}Saldatura con cannello ossiacetilenico}{92}{subsection.11.9.1}%
+\contentsline {subsection}{\numberline {11.9.2}Saldatura alla termite}{92}{subsection.11.9.2}%
+\contentsline {appendix}{\chapternumberline {A}Acronimi}{93}{appendix.A}%
