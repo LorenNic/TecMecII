@@ -455,3 +455,135 @@ In figura \ref{fig:TaglLamiera} sono riportati alcuni esempi di operazioni di ta
 \caption{Operazioni di taglio su lamiere e affini}
 \label{fig:TaglLam}
 \end{figure}
+
+Il primo passo, indipendentemente dalle dimensioni del pezzo da produrre i primi passi sono quelli di tagliare il pezzo dalla lamiera o nastro che sia.
+Si ottiene un semilavorato di forma opportuna tramite \textbf{Tranciatura} o \textbf{Punzonatura}.
+Alla figura \ref{fig:TaglLamiere2} in rosso è eseguita una punzonatura in cui l'area rimasta sulla lamiera è il prodotto. Mentre, in blu, una tranciatura in cui il prodotto è ciò che viene separato dalla lamiera.
+Di fatto la macchina utile per fare entrambe le lavorazioni.
+
+Un processo simile alla punzonatura, con lo scopo di ottenere delle forme più complicate è la \textbf{roditura}. Un punzone di forma molto semplice, spesso cilindrica, tramite un movimento alternativo ad alta frequenza separa i due materiali.
+
+Il processo di separazione di parti adiacenti di una lamiera mediante frattura controllata, in figura \ref{fig:FrattLam}, non può essere descritto come una deformazione puramente plastica o come taglio.
+La lamiera è collocata tra i bordi dei 2 utensili da taglio, nel caso della tranciatura: punzone e matrice. Gli eventi che si verificano durante la corsa della pressa possono essere seguiti analizzando la registrazione della forza del punzone in funzione della corsa e dall'ispezione delle superfici di taglio.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Separazione della lamiera con luce punzone-matrice adeguata}\label{fig:FrattLam1}]
+{\includegraphics[width = 0.3\textwidth]{FrattLam1}}\quad
+\subfloat[][\emph{Luce punzone-matrice troppo stretta}\label{fig:FrattLam2}]
+{\includegraphics[width = 0.3\textwidth]{FrattLam2}}\quad
+\subfloat[][\emph{Luce punzone-matrice troppo lasca}\label{fig:FrattLam3}]
+{\includegraphics[width = 0.3\textwidth]{FrattLam3}}\\
+\subfloat[][\emph{Schematizzazione della propagazione delle cricche in funzione della luce}
+\label{fig:FrattLam4}]
+{\includegraphics[width = 0.5\textwidth]{FrattLam4}}
+\caption{Processo di generazione di fratture controllate su lamiera durante taglio}
+\label{fig:FrattLam}
+\end{figure}
+
+Le fasi del taglio possono essere riassunte in tre fasi distinte:
+\begin{description}
+\item[I Fase]Quando i bordi degli utensili penetrano nella lamiera, questa viene prima spinta nella matrice e la deformazione plastica provoca un arrotondamento del suo bordo. 
+La prima fase del taglio perciò è una piegatura dei bordi della lamiera, visibili nei disegni \ref{fig:FrattLam}, \eng{rounded edge} visibile in particolare nel disegno \ref{fig:FrattLam1}.
+\item[II Fase] Quindi viene spinta nella matrice mediante deformazione plastica simile a un'estrusione, indicata da una zona brunita con striature parallele sulla superficie di taglio e caratterizzata da una forza in costante aumento, \eng{burnished zone} indicata al disegno \ref{fig:FrattLam1}. 
+\item[III Fase] Dopo una certa deformazione critica, si generano fratture ad un leggero angolo rispetto alla direzione di taglio, di solito cominciando dal bordo della matrice.
+Quando queste fratture si incontrano, la tranciatura è completa (\eng{fracture surface} sempre indicata al disegno \ref{fig:FrattLam1}). La forza di taglio scende anche se i bordi di taglio degli utensili sono entrati solo in parte nello spessore della lamiera. La nascita e propagazione delle cricche è la terza fase, che completa il taglio.
+\end{description}
+
+La superficie di frattura non è perpendicolare alla superficie del foglio e presenta una certa rugosità. Tuttavia, la finitura è accettabile per mole applicazioni.
+
+La parte tagliata resterebbe attaccata alla matrice e deve essere spinta dal punzone oltre la parete verticale.
+La qualità della superficie di taglio è fortemente influenzata dalla distanza tra i due bordi di taglio, chiamata \textbf{luce}. Con una luce molto piccola, le fratture che hanno origine dai bordi degli utensili non si incontrano e il taglio viene poi completato da un processo secondario di frattura, producendo un bordo frastagliato a circa metà dello spessore della lamiera (\eng{torn edge} nella figura \ref{fig:FrattLam2}).
+Una luce eccessiva consente una deformazione plastica estesa, la separazione è ritardata e si forma un bordo superiore di bava tagliente (\eng{burr} al disegno \ref{fig:FrattLam3}).
+Le figure a colori, \ref{fig:FrattLam4}, mostrano che la curvatura del bordo della lamiera aumenta con la luce.
+
+Nel corso della tranciatura di migliaia di parti, i bordi degli utensili si usurano, si arrotondano e si forma un bordo frastagliato e tagliente anche con una luce ottimale.
+Il bordo frastagliato della bava concentra gli sforzi; l'effetto nocivo è evidente nell'allungamento ridotto misurato nella prova di trazione.
+La bava provoca l'innesco della frattura durante la deformazione successiva o in servizio, quindi una corretta scelta della luce e una manutenzione regolare degli utensili sono aspetti vitali del processo.
+Una piccola luce conduce ad una usura più rapida degli utensili, pertanto la massima economia si ottiene quando la luce viene scelta più grande possibile compatibilmente con l'applicazione prevista. Ricordo che all'aumentare della luce aumenta anche la curvatura della lamiera.
+In genere la luce è compresa tra il 4 e il 12\% dello spessore della lamiera (i valori inferiori si usano con i materiali più duttili).
+
+\subsection{Valutazione delle forze sul taglio}
+Si può facilmente valutare la forza della pressa necessaria per la tranciatura convenzionale. Poiché la deformazione è concentrata in una zona molto stretta con forte incrudimento, la forza massima può essere ottenuta da una tensione di taglio determinata sperimentalmente moltiplicata per la sezione trasversale da tagliare.
+La tensione di taglio diminuisce all'aumentare della luce, ma i valori medi possono essere trovati nei manuali o possono essere considerati come una frazione $C_1$ del $UTS$, tensione massima a rottura, cioè la massima tensione nella curva tensione-deformazione nominale.
+Così, la forza di taglio $P_s$ è data dalla formula:
+\begin{equation}
+P_s = C_1(TS) h l = C_1 K \left(\frac{n}{e}\right)^n hl
+\label{eqn:ForzaTaglio}
+\end{equation}
+dove:\\
+\begin{tabular}{cl}
+$h$ & è lo spessore della lamiera\\
+$l$ & è la lunghezza del taglio\\
+$C_1$ & è $0.85$ per i materiali duttili e quelli $0.65$ i meno duttili\\
+\end{tabular}\\
+L'$UTS$ della maggior parte dei materiali è noto.
+Se sono disponibili solo i valori K e n, l'$UTS$ può essere approssimato sostituendo 
+\begin{equation}
+UTS = K \left(\frac{n}{e} \right)^n
+\end{equation}
+dove $e$ è la base dei logaritmi naturali. 
+Ricordando che la deformazione vale $n$ quando comincia a manifestarsi la strizione.
+Quando i bordi di taglio sono paralleli, $l$ è l'intera lunghezza del profilo di taglio.
+
+Ciò può portare a forze molto elevate, che possono quindi essere ridotte inclinando tra loro i due bordi di taglio, come in una ghigliottina, pertanto si deve considerare solo la lunghezza istantanea di taglio, come al disegno \ref{fig:ValForzeTaglio1}.
+Nella tranciatura, il materiale di scarto può essere piegato e l'inclinazione è sullo stampo, come in figura \ref{fig:ValForzeTaglio2}. Nella punzonatura, per lo stesso motivo l'inclinazione è sul punzone, in figura \ref{fig:ValForzeTaglio3}. L'inclinazione è sempre simmetrica, in modo che la forza risultante sia verticale. In caso contrario la forza tenderebbe a spostare lateralmente la lamiera.
+Alcune Possibili soluzioni sono quelle rappresentate alla figura \ref{fig:PunzoneInc}.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Valutazione della pressione necessaria per eseguire un taglio}\label{fig:ValForzeTaglio1}]
+{\includegraphics[width = 0.3\textwidth]{ValForzeTaglio1}}\quad
+\subfloat[][\emph{Inclinazione matrice per diminuire la forza necessaria (tranciatura)}\label{fig:ValForzeTaglio2}]
+{\includegraphics[width = 0.3\textwidth]{ValForzeTaglio2}}\quad
+\subfloat[][\emph{Inclinazione del punzone per limitare le forze sull'utensile (punzonatura)}\label{fig:ValForzeTaglio3}]
+{\includegraphics[width = 0.3\textwidth]{ValForzeTaglio3}}
+\caption{Valutazione delle forze applicate per un taglio di lamiera e miglioramento delle forze applicate agli utensili}
+\label{fig:ValForzeTaglio}
+\end{figure}
+
+In termini energetici: l'energia di tranciatura $E_s$ che la pressa deve fornire è uguale all'area sotto la curva forza-spostamento. Un valore approssimativo può essere ottenuto dalla formula:
+\begin{equation}
+E_s = C_2 P_s h
+\end{equation}
+dove $C_2 = 0.5$ per i materiali teneri e $0.35$ per i materiali duri.
+Mentre $P_s$ è quella dell'equazione \eqref{eqn:ForzaTaglio}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{PunzoneInc}
+\caption{Tipologie di sistemi punzone-matrice inclinati}
+\label{fig:PunzoneInc}
+\end{figure}
+
+\subsection{Aspetti migliorativi}
+Esiste una grande richiesta per processi che producano bordi tagliati di qualità, perpendicolari alla superficie della lamiera e con una finitura superficiale sufficientemente liscia per consentire l'uso immediato delle parti, ad esempio come ingranaggi in macchine con carichi limitati e tolleranze strette.
+Sono possibili diversi approcci; nella maggior parte di essi, un contro-punzone collabora con il punzone principale e, come vantaggio aggiuntivo, elimina la curvatura della lamiera.
+
+\begin{enumerate}
+\item Abbiamo visto che la frattura può essere ritardata dall'imposizione di un'alta pressione idrostatica.
+Questo principio viene sfruttato nella tranciatura fine. Un premi-lamiera appositamente sagomato viene premuto sulla lamiera appena prima di iniziare il taglio, così la zona in cui avviene la deformazione viene mantenuta in compressione e l'intero spessore viene tagliato senza che partano le cricche.
+Tale tecnica è mostrata al disegno \ref{fig:PremiLamiera}.
+\item Una pressione idrostatica elevata viene provocata anche tagliando con una luce negativa (interferenza) e la parte in effetti viene spinta (estrusa) attraverso la matrice, illustrato dal disegno \ref{fig:LuceNegativa}.
+\item In qualche caso la lamiera viene bloccata tra due matrici. I punzoni penetrano in una direzione fino a quando non si generano le cricche, quindi il taglio viene completato nell'altra direzione. Illustrato al disegno \ref{fig:PunzControPunz}.
+\item Una lamiera tranciata in modo convenzionale può subire una \textbf{rasatura} di finitura in un set di stampi con luce molto ridotta. In figura \ref{fig:TrancFine}.
+\item La qualità del taglio migliora notevolmente nel taglio ad alta velocità quando le velocità di taglio superano la velocità di propagazione delle dislocazioni nel metallo. Ciò richiede velocità molto elevate, nell'ordine di $30 \unit{\m/\s}$.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Tranciatura fine tramite premi-lamiera}\label{fig:PremiLamiera}]
+{\includegraphics[width = 0.25\textwidth]{PremiLamiera}}
+\subfloat[][\emph{Tranciatura fine tramite punzone a luce negativa}\label{fig:LuceNegativa}]
+{\includegraphics[width = 0.25\textwidth]{LuceNegativa}}
+\subfloat[][\emph{Tranciatura fine tramite punzone e contro-punzone}\label{fig:PunzControPunz}]
+{\includegraphics[width = 0.25\textwidth]{PunzControPunz}}
+\subfloat[][\emph{Tranciatura fine tramite rasatura}\label{fig:TrancFine}]
+{\includegraphics[width = 0.25\textwidth]{TrancFine}}
+\caption{Esempi di tranciature fini in diversi metodi}
+\label{fig:TranciaturaFine}
+\end{figure}
+
+Il punzone e la matrice sono fatti con acciaio per utensili o, per i lotti più grandi, con WC sinterizzato.
+Il materiale di scarto (o, in punzonatura, la parte) si incastrerebbe sul punzone (o si infila nella matrice) e deve essere staccato con piastre di estrazione fisse, a molla o mosse da camme o con un cuscino di schiuma plastica (solitamente poliuretanica).
+La scelta del processo è determinata principalmente dalle caratteristiche del prodotto e dalla dimensione del lotto di produzione.
