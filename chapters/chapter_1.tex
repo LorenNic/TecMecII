@@ -177,8 +177,6 @@ Mentre per i metalli a \ac{CCC} si osservano valori di $r \approx 1$.
 Come già accennato in precedenza, le lavorazioni a freddo permettono di ottenere da un materiale metallico sì la deformazione voluta. In più si garantisce al materiale maggiore durezza.
 Ciò è dovuto allo scorrimento delle dislocazioni, durante la lavorazione del materiale, che vengono bloccate dal bordo del grano cristallino.
 Di contro bisogna tenere a mente che una maggiore durezza impone una minore duttilità, considerazione che serve nel caso la lamiere debba subire diverse lavorazioni prima di divenire prodotto finito.
-\missingfigure{Da aggiungere il grafico tridimensionale sulla deformazione a freddo.}
-\missingfigure{Aggiungere proiezioni del grafico precedente in due dimensioni.}
 
 Dunque le lavorazioni a freddo hanno diversi vantaggi e svantaggi come descritto nella tabella \ref{tab:VantSvantFreddo}.
 
@@ -587,3 +585,274 @@ Tale tecnica è mostrata al disegno \ref{fig:PremiLamiera}.
 Il punzone e la matrice sono fatti con acciaio per utensili o, per i lotti più grandi, con WC sinterizzato.
 Il materiale di scarto (o, in punzonatura, la parte) si incastrerebbe sul punzone (o si infila nella matrice) e deve essere staccato con piastre di estrazione fisse, a molla o mosse da camme o con un cuscino di schiuma plastica (solitamente poliuretanica).
 La scelta del processo è determinata principalmente dalle caratteristiche del prodotto e dalla dimensione del lotto di produzione.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{TranciaturaFine}
+\caption{Confronto tra tranciatura semplice e tranciatura fine}
+\label{fig:TanciaturaFine}
+\end{figure}
+
+Fori di dimensioni e forme standard possono essere tagliati su presse punzonatrici standard con utensili intercambiabili.
+
+\subsection{Macchinari e tecniche di lavorazione}
+
+La sostituzione della matrice viene accelerata con apparati rotanti nelle macchine a torretta.
+Le punzonatrici \ac{CNC}, dotate di tavole x-y e di magazzini utensili, consentono un rapido e preciso posizionamento della lamiera e la selezione del punzone e della matrice, consentendo quindi la produzione a basso costo e flessibile di quantità piccole e medie.
+I fori più grandi possono essere fatti con il taglio ripetuto con lo stesso punzone (roditura).
+Geometrie complesse possono essere create in stampi composti in cui diversi bordi di taglio lavorano contemporaneamente.
+
+Con gli stampi progressivi vengono eseguite in sequenza diverse operazioni di punzonatura e tranciatura con elementi degli stampi fissati a piastre comuni, mentre la striscia avanza di incrementi esatti. Spesso, la tranciatura e la punzonatura sono tra le numerose fasi di lavorazione eseguite in stampi progressivi che producono parti complesse.
+La produttività è elevata, limitata solo dalla velocità di alimentazione del materiale nella pressa e dalla frequenza dei colpi della pressa (alcune presse operano a diverse centinaia di colpi al minuto). Ne è un esempio la figura \ref{fig:MatrProg}.
+
+Punzoni multipli vengono utilizzati quando devono essere prodotte molte parti o fori, come nella tranciatura di cerchi per la produzione di lattine o di punzonatura di fori per lamiere forate.
+Le velocità di produzione più alte sono ottenute quando la matrice e il punzone sono ricavati sulle superfici di rulli.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempio di matrice progressiva}\label{fig:MatrProg}]
+{\includegraphics[width = 0.5\textwidth]{MatrProgr}}\\
+\subfloat[][\emph{Esempio di tranciatura tramite cuscino in polieuretano}\label{fig:SteelPlatePunch}]
+{\includegraphics[width = 0.5\textwidth]{SteelPlatePunch}}
+\caption{Processi di tranciatura per grandi e piccoli lotti}
+\label{fig:ProcessoTranciatura}
+\end{figure}
+
+Per quantità minori o, ad esempio, poche centinaia di pezzi, il costo dello stampo può essere ridotto se è tollerabile una perdita di materiale maggiore.
+Nella tranciatura con cuscino in gomma, la matrice è semplicemente una piastra in acciaio tagliata a misura (\eng{steel-plate punch} in figura \ref{fig:SteelPlatePunch}) e l'azione di taglio avviene premendo il foglio intorno a questo stampo con un cuscino in gomma. La parte sovrastante della lamiera è piegata e bloccata contro la piastra dal cuscino, e la rottura (\eng{tearing}) si verifica intorno ai bordi della piastra.
+
+Per piccoli lotti, una soluzione economica è la fustella in acciaio. In questo caso, lo "stampo" è costituito da strisce di acciaio inossidabile o in acciaio ad alto tenore di carbonio con bordo inclinato dette fustella (\eng{steel rule} in figura \ref{fig:Fustella}), pressate in fessure in compensato (\eng{plywood}) mediante una piastra in acciaio (\eng{steel backing}).
+
+Celle di punzonatura contengono una o due punzonatrici o centri di punzonatura e un qualche meccanismo di trasferimento. Il carico delle lamiere, il cambio utensile, il trasferimento di parti tra le macchine e lo scarico della parte sono coordinati mediante automazione flessibile.
+
+Il processo di taglio può essere adattato per fili, barre, profili e tubi in preparazione per ulteriori processi. La qualità del taglio è migliorata fornendo supporto per il pezzo da tagliare e anche applicando tensione di compressione (pressione idrostatica) durante il taglio.
+
+C'è stato un rapido sviluppo di metodi di taglio basati su tecniche di saldatura (raggio laser, fascio elettronico, torcia al plasma, arco elettrico o ossitaglio e taglio a getto d'acqua. Combinati con tavole x-y (e talvolta presse a torretta), tali centri di taglio controllati da computer diventano estremamente versatili e produttivi e non richiedono l'uso di stampi.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.3\textwidth]{Fustella}
+\caption{Esempi di \eng{Steel-rule} e fustella}
+\label{fig:Fustella}
+\end{wrapfloat}
+
+\section{Piegatura delle lamiere}
+Molte lamiere vengono piegate. Caratteristica di questo processo è l'allungamento imposto sulla superficie esterna e la compressione sulla superficie interna.
+Per uno specifico spessore della lamiera $T$, le deformazioni di trazione e compressione aumentano al diminuire del raggio di formatura $R$, più precisamente al diminuire del rapporto $R/T$, dove $T$ è lo spessore.
+Affinché il ritorno elastico sia trascurabile e la lamiera mantenga la forma anche tolto il carico, il rapporto $R/T$ deve essere sufficientemente piccolo da portare gran parte della sezione della lamiera a deformarsi plasticamente.
+C'è, come nella piegatura elastica, solo una linea (\textbf{l'asse neutro}) che mantiene la sua lunghezza originale.
+
+Quando si piega con raggi abbastanza grandi, l'asse neutro è al centro. Quando si piega con raggi piccoli, l'asse neutro si sposta verso la parte in compressione, la linea centrale si allunga e la costanza del volume viene preservata dall'assottigliamento della lamiera.
+L'aumento della lunghezza della linea centrale viene di solito preso in considerazione per le pieghe in cui $R < 2T$ assumendo che l'asse neutro sia posizionato ad un terzo dello spessore della lamiera.
+Quando la lamiera è relativamente stretta ($L/T < 8$, dove L è la larghezza di piega), c'è anche una contrazione in larghezza.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{PiegaLam}
+\caption{Parametrizzazione della piega sulle lamiere}
+\label{fig:PiegaLam}
+\end{figure}
+
+Il raggio minimo di piega (il più piccolo raggio di matrice consentito $R$ o, più correttamente, il rapporto minimo tra raggio e spessore $R/T$) può essere definito secondo diversi criteri.
+\pagebreak
+\begin{enumerate}
+\item La buccia d'arancia può essere esteticamente indesiderabile ma non è un difetto poiché può essere risolto scegliendo un materiale a grana fine.
+\item La strizione localizzata provoca un indebolimento strutturale della lamiera piegata.
+La strizione avviene quando l'allungamento della fibra esterna supera l'allungamento uniforme del materiale $e_u$ nella prova di trazione. Nella formula \eqref{eqn:StrizLocal} $R_b$ è il raggio di piega e $h$ lo spessore della lamiera
+\item La frattura rappresenta un limite assoluto. Questa è direttamente correlata alla riduzione dell'area $q$ misurata alla rottura nella prova di trazione. Il raggio minimo di piega consentito può essere stimato per materiali meno duttili dalla \eqref{eqn:LowDuct} e per i materiali duttili, a causa dello spostamento del raggio neutro nelle pieghe strette,
+dalla \eqref{eqn:HighDuct}.
+Di solito un materiale con $q > 0.5$ può essere piegato su se stesso, si parla allora di raggio di piega zero.
+\begin{align}
+R_b &= k \left(\frac{1}{2q}\right)-1 & \text{con } q <0.2 \label{eqn:LowDuct}\\
+R_b &= h\frac{(1-q)^2}{2q-q^2} & \text{con } q >0.2 \label{eqn:HighDuct}
+\end{align}
+\item Con raggi molto piccoli può verificarsi schiacciamento sulla superficie interna e formazione di pieghe.
+\end{enumerate}
+
+La strizione localizzata può essere descritta come:
+\begin{equation}
+e_t = \frac{1}{(2R_b / h) + 1} \leq e_u
+\label{eqn:StrizLocal}
+\end{equation}
+
+Per i materiali il cui comportamento può essere approssimato con legge esponenziale \eqref{eqn:Def-Sforzo}, 
+\begin{equation}
+\sigma = K \epsilon^n
+\label{eqn:Def-Sforzo}
+\end{equation}
+$\epsilon_u = n$ e la deformazione uniforme ingegneristica $e_u$ può essere ottenuta dalla formula \eqref{eqn:AllungamentoUniforme}.
+\begin{equation}
+e_u = \left(\exp(n)\right) - 1
+\label{eqn:AllungamentoUniforme}
+\end{equation}
+
+La relazione è più affidabile con gli acciai; per la maggior parte degli altri materiali, dovrebbe essere utilizzato l'effettiva $e_u$ misurata nella prova di trazione.
+Poiché la deformazione viene redistribuita alle zone adiacenti durante la piega, è generalmente permessa una deformazione un po' più elevata.
+Un collare di bava provoca un aumento di tensione e, se sulla superficie esterna (a trazione), porta a frattura molto prima. Pertanto, se possibile, il collare è orientato verso il punzone, dove il materiale è sottoposto a compressione.
+
+L'anisotropia, di qualsiasi tipo, influenza la piegatura. Un orientamento preferenziale delle fibre produce una maggiore duttilità nella direzione di laminazione, perciò conviene piegare le lamiere con la linea di piega ortogonale alla direzione di laminazione, come è mostrato nelle figure \ref{fig:BendCracked}.
+Un materiale con basso valore di $r$ caratterizzato da tessitura si assottiglia facilmente e quindi può essere piegato con raggi più piccoli di un materiale con alto valore di $r$. Questa è una delle non numerose situazioni in cui convenga avere $r$ piccolo. Ricordando che $r$ è il rapporto tra deformazione nello spessore e rapporto in larghezza nella prova di trazione. La foto \ref{fig:RealCrack} mostra cricche sulla superficie di una lamiera piegata e il restringimento ai bordi.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempio di piega parallela alla laminazione con conseguente fratture della superficie}\label{fig:CrackedBend}]
+{\includegraphics[width = 0.4\textwidth]{CrackedBend}}\quad
+\subfloat[][\emph{Esempio di piega ortogonale alla direzione della laminazione}\label{fig:OKBend}]
+{\includegraphics[width = 0.4\textwidth]{OKBend}}\\
+\subfloat[][\emph{Foto reale di lamiera piegata con fratture}\label{fig:RealCrack}]
+{\includegraphics[width = 0.5\textwidth]{RealCrack}}
+\caption{Generazione di fratture durante la piegatura}
+\label{fig:BendCracked}
+\end{figure}
+
+\subsection{Stato delle tensioni residue}
+Lo stato tensionale è estremamente complesso nella piegatura.
+Partendo dall'asse neutro, il materiale è soggetto a una deformazione crescente fino alle 2 superfici, da una parte in trazione e dall'altra in compressione. Ciò significa che intorno all'asse neutro le deformazioni sono elastiche.
+Quando si toglie la forza usata per piegare, il momento dovuto alla parte di materiale
+deformato solo elasticamente causa il ritorno elastico, e provoca la formazione di una
+distribuzione di tensioni residue. Il ritorno elastico delle lamiere è chiamato \eng{springback}.
+
+In riferimento alla figura \ref{fig:StatoTensioniResidue} (a) mostra una distribuzione triangolare. In campo elastico tale distribuzione è rappresentativa sia dello stato tensionale che di quello deformativo perché c'è proporzionalità tra tensione e deformazione. Nella figura \ref{fig:StatoTensioniResidue} (b) la distribuzione ha una forma diversa. Siccome la deformazione aumenta linearmente allontanandosi dall'asse neutro, quella in figura è sicuramente la distribuzione delle tensioni ed è stato superato lo snervamento in parte dello spessore. Nella figura \ref{fig:StatoTensioniResidue} (c), allo stato tensionale mostrato in \ref{fig:StatoTensioniResidue} (b) è stato sovrapposto lo stato tensionale dovuto allo scarico della forza che come si sa, avviene lungo una semiretta nel piano tensione/deformazione, perciò provoca una distribuzione triangolare. La somma delle 2 è mostrata in \ref{fig:StatoTensioniResidue} (d) e rappresenta la distribuzione risultante di
+tensioni residue.
+Lo \eng{springback} stabilisce un nuovo equilibrio di forze con una distribuzione di tensioni residue
+caratterizzata da tensioni di compressione all'esterno e di trazione sulla superficie interna.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{StatoTensioniResidue}
+\caption{Stato delle tensioni residue}
+\label{fig:StatoTensioniResidue}
+\end{figure}
+
+Lo \eng{springback} recupera elasticamente parte della deformazione totale; in particolare, aumenta il raggio e riduce l'angolo della parte piegata.
+La zona elastica è più ampia per una piega relativamente dolce (grande rapporto $R_b/h$, dove $R_b$ è il raggio di piega e $h$ lo spessore) e per un materiale con un elevato rapporto tra tensione di snervamento $\sigma_{0.2}$ e modulo elastico $E$. Lo \eng{springback} può essere espresso mediante la formula \eqref{eqn:SpringBack};
+\begin{align}
+\frac{R_b}{R_f} &= 1 - 3 \left(\frac{R_b}{h}\frac{\sigma_{0.2}}{E}\right) + 4\left(\frac{R_b}{h}\frac{\sigma_{0.2}}{E}\right)^3
+\label{eqn:SpringBack}\\
+\alpha_f &\left(R_f+\frac{h}{2}\right) = \alpha_b \left(R_b + \frac{h}{2}\right)
+\label{eqn:AngoloSprinback}
+\end{align}
+dove $R_b$ è il raggio della matrice di piegatura e $R_f$ è il raggio ottenuto dopo aver tolto la pressione di formatura.
+Poiché la lunghezza dell'asse neutro non cambia, l'angolo dopo lo \eng{springback}, $\alpha_f$ può essere ottenuto in radianti dalla formula \eqref{eqn:AngoloSprinback} che esprime appunto l'invarianza della lunghezza dell'asse neutro da quando viene applicato il carico alla fase dopo lo scarico.
+Al disegno \ref{fig:SpringBack} vengono rappresentati i parametri.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{SpringBack}
+\caption{Parametri per valutare lo \eng{springback}}
+\label{fig:SpringBack}
+\end{figure}
+
+Diverse tecniche sono utilizzate per combattere lo \eng{springback}, rispettivamente in figura \ref{fig:SolSpringback}:
+\begin{enumerate}
+\item Se è noto lo \eng{springback} per un determinato materiale e se il materiale è di qualità e spessore uniforme, è possibile compensare piegando più del voluto. Questa è la forma di piegatura più semplice, in cui non viene applicata alcuna pressione di compressione nella direzione dello spessore della lamiera, si parla di \textbf{piegatura in aria}.
+\item Negli altri casi la soluzione consiste nel fare in modo che tutto il materiale nella zona di piega venga deformato plasticamente. La zona elastica può essere eliminata alla fine della corsa del punzone con due tecniche.
+	\begin{itemize}
+	\item Innanzitutto, le due estremità della lamiera possono essere bloccate prima che il punzone scenda, in modo che la corsa del punzone provochi lo stiramento della lamiera, causando snervamento a trazione nell'intero spessore della lamiera. Nessuna figura riproduce questa soluzione.
+	\item Nel secondo metodo il naso del punzone è sagomato per indentare la lamiera, in modo che la compressione plastica avvenga in tutto lo spessore.
+	\end{itemize}
+\item Se si utilizza un contro-punzone con una pressione controllata, le tensioni di compressione vengono mantenute nella zona della piega durante l'intero processo. Poiché questo ha anche l'effetto di imporre una pressione idrostatica sulla zona di curvatura, è possibile flettere il materiale oltre i suoi limiti naturali.
+\item I materiali meno duttili possono essere piegati ad una temperatura elevata; poiché la tensione di snervamento è più bassa, anche lo \eng{springback} è minore.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{SolSpringback}
+\caption{Soluzioni migliorative allo \eng{springback}}
+\label{fig:SolSpringback}
+\end{figure}
+
+\subsection{Valutazione della forza di piegatura}
+Una semplice stima della forza di piegatura in piegatura libera a 90 ° può essere ottenuta dalla formula:
+\begin{equation}
+P_b = \frac{wh^2 (TS)}{W_b}
+\end{equation}
+Dove $W_b$ è la larghezza dell'apertura della matrice e $w$ la larghezza della striscia (la lunghezza della linea su cui si effettua la piegatura).
+
+\subsection{Macchinari e tecniche di lavorazione}
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{PressaPiegatrice}
+\caption{Esempio di pressa piegatrice}
+\label{fig:PressaPiegatrice}
+\includegraphics[width = 0.4\textwidth]{UtensiliPiegatura}
+\caption{Varietà di utensili utilizzabili per la piegatura delle lamiere}
+\label{fig:UtensiliPiegatura}
+\end{wrapfloat}
+
+La macchina utilizzabile per la piegatura dipende dalla dimensione, per lo più dalla larghezza della lamiera piegata.
+Le p[resse meccaniche, viste parlando di forgiatura ed estrusione, possono piegare lamiere strette ad alta velocità.
+le presse piegatrici sono presse speciali con supporti molto lunghi. IN queste, semplice utensili vengono utilizzati per realizzare forme complesse piegando ripetutamente una lamiera lunga.
+I costi possono essere ridotti quando una lastra in schiuma di poliuretano sostituisce lo stampo femmina.
+Un esempio di pressa piegatrice è quella della figura \ref{fig:PressaPiegatrice}.
+
+Una grande varietà di forme può essere prodotta con un numero limitato di utensili, come si può vedere dalla figura \ref{fig:UtensiliPiegatura}. 
+La deflessione elastica dell'attrezzatura (che si apre al centro sotto la forza della pressa) provocherebbe variazioni dell'angolo di piega, pertanto gli stampi devono essere realizzati in modo che pieghino di più al centro.
+Questo si ottiene spessorando o, nelle presse moderne, mediante flessione meccanica o idraulica, spesso sulla base di forze di piega calcolate.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{ProcessoPiegatura}
+\caption{Alcune sezioni di utensili per la piegatura}
+\label{fig:PreocessoPiegatura}
+\end{figure}
+
+Le figure \ref{fig:ProcessoTranciatura} mostrano altre operazioni eseguibili su pressa piegatrice. Le figure da d ad f illustrano una sequenza di piegatura.
+In combinazione con alimentatori di lamiera meccanizzati, la pressa è adatta ad essere controllata da computer, compreso un riscontro per rilevare la posizione della lamiera. La compensazione per lo \eng{springback} è fatta con l'aiuto di tabelle o equazioni empiriche.
+Schemi di controllo più sofisticati prendono in considerazione le proprietà del materiale. In un caso, l'angolo di piega viene misurato nella prima corsa; la forza viene quindi rilasciata per ottenere lo \eng{springback} e viene effettuata una seconda corsa di compensazione.
+In altri schemi, la curva elasto-plastica tensione-deformazione è derivata da informazioni ottenute con trasduttori di forza e di spostamento e un algoritmo di controllo calcola l'incremento di piega richiesta.
+
+La piegatura con pressa pannellatrice, mostrata in figura \ref{fig:PressaPannellatrice}, è un metodo alternativo per piegare. Per stimare la forza di piegatura, $W_b$ può essere considerata come $(2R + h)$. La pressa pannellatrice può piegare solo in prossimità dei bordi della lamiera e, a parità di altri fattori, deve applicare una forza maggiore rispetto alla pressa piegatrice. In compenso il posizionamento della lamiera è più preciso e il tempo ciclo è inferiore.
+
+La piegatura con tre rulli impartisce una curvatura uniforme ma regolabile a lamiere, piastre o profili deformando con rulli disposti in modo piramidale. Si tratta di un'importante fase di preparazione per realizzare grandi anelli e strutture saldate. La macchina si chiama \textbf{calandra} e \textbf{calandratura} l’operazione.
+Illustrata in figura \ref{fig:PiegaRulli}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempio di pressa pannellatrice}\label{fig:PressaPannellatrice}]
+{\includegraphics[width = 0.4\textwidth]{PressaPannellatrice}}\quad
+\subfloat[][\emph{Schema di realizzazione della piegatura tramite rulli}
+\label{fig:PiegaRulli}]
+{\includegraphics[width = 0.4\textwidth]{PiegaRulli}}
+\caption{Ulteriori tecniche di piegatura}
+\label{fig:TecPiega}
+\end{figure}
+
+La formatura a rulli è un metodo di produzione molto veloce. La piegatura è ora fatta progressivamente, passando la striscia tra rulli sagomati, a coppie. Prodotto tipici sono le lamiere ondulate e i guard-rail.
+Per molte altre forme, rulli folli sono usati per premere i lati della forma parzialmente deformata.
+In questo modo possono essere formati anche tubi da saldare successivamente, profili che sostituiscono sezioni laminate a caldo o estruse, nonché forme complesse (come i telai per porte).
+
+La curvatura di profili e tubi è un'importante attività produttiva. Il problema della piegatura libera è legato al fatto che le forme più complesse possono distorcersi e accartocciarsi. Risultati migliori sono ottenuti quando la sezione o il tubo sono avvolti attorno ad una forma rigida, come mostrato nelle figure.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Pressaggio di profili complicati}\label{fig:ProfComplex}]
+{\includegraphics[width = 0.2\textwidth]{PiegaAuto1}}\quad
+\subfloat[][\emph{Realizzazione di profili per strisciamento}
+\label{fig:ProfStrisciamento}]
+{\includegraphics[width = 0.2\textwidth]{PiegaAuto2}}\quad
+\subfloat[][\emph{Ottenimento di profili tramite rulli}
+\label{fig:ProfRulli}]
+{\includegraphics[width = 0.4\textwidth]{PiegaAuto3}}
+\caption{Ottenimento di profili di forme decisamente variegata, su macchine automatiche}
+\label{fig:PiegaAuto}
+\end{figure}
+
+L'adeguamento alla forma è garantito dall'avvolgimento sotto trazione, passando attorno al profilo o al tubo un rullo strisciante \ref{fig:PiegaTubi}, un blocco fissato al centro curvatura o da una forma rigida rotante \ref{fig:PiegaTubiFine}.
+Per evitare il collasso dei tubi nella curvatura su raggi stretti, sono disponibili diversi metodi.
+L'interno è supportato con sabbia, con un metallo a basso punto di fusione o, più economicamente, da un mandrino costituito da singole sezioni o il tubo è tirato su un mandrino fisso \ref{fig:PiegaSoffietti}.
+Le piegatrici \ac{CNC} possono essere programmate per realizzare tubi con diverse curve in differenti orientamenti, come richiesto per sistemi idraulici di auto e aerei e scarichi automobilistici.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Piegatura di tubi con deformazione della sezione}\label{fig:PiegaTubi}]
+{\includegraphics[width = 0.3\textwidth]{PiegaTubi}}\quad
+\subfloat[][\emph{Piega dei tubi con supporto interno per evitare il collasso delle pareti}
+\label{fig:PiegaTubiFine}]
+{\includegraphics[width = 0.3\textwidth]{PiegaTubiFine}}\quad
+\subfloat[][\emph{Inserto per realizzare dei tubi a soffietto}
+\label{fig:PiegaSoffietti}]
+{\includegraphics[width = 0.3\textwidth]{PiegaSoffietti}}
+\caption{Tecniche di piegatura dei tubi}
+\label{fig:TecPiegaTubi}
+\end{figure}
+
+\moretodo[inline]{Continuare Lamiere con: \textbf{\eng{Stretch-Forming}}, \textbf{Imbutitura}, \textbf{Forma su pressa}, \textbf{Altre lavorazioni}}
