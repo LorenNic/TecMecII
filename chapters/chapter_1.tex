@@ -855,4 +855,103 @@ Le piegatrici \ac{CNC} possono essere programmate per realizzare tubi con divers
 \label{fig:TecPiegaTubi}
 \end{figure}
 
-\moretodo[inline]{Continuare Lamiere con: \textbf{\eng{Stretch-Forming}}, \textbf{Imbutitura}, \textbf{Forma su pressa}, \textbf{Altre lavorazioni}}
+\section{Stretch Forming}
+Grandi quantità di lamiera sono deformate per realizzare componenti a forma di contenitori più o meno profondi, con una grande varietà di forme. In contrasto con la maggior parte dei componenti in lamiera piegati, sono caratterizzate da curvature in due direzioni (sono forme 3-D). Possono essere prodotte con lo \eng{stretch forming}, con un'imbutitura o con loro combinazioni. Nello \eng{stretch forming} puro la lamiera è completamente bloccata sul suo perimetro e la forma è sviluppata interamente a scapito dello spessore della lamiera. Fisicamente questo può essere ottenuto in diversi modi:
+
+\begin{enumerate}
+\item La lamiera può essere bloccata con un gran numero di morsetti fissi o rotanti.
+Il vantaggio è che solo uno stampo (stampo maschio o punzone di forma) è necessario, ma la produttività è bassa; di conseguenza, tale operazione è più adatta per la produzione di bassi volumi come è tipico dell'industria aeronautica. Un'operazione di questo tipo è mostrata in figura \ref{fig:StretchForming1}.
+Possono essere formate parti molto grandi (pelli di fusoliera, pelli d'ala, scafi per barche).
+Il ritorno elastico può essere sostanziale realizzando forme con curvatura dolce; per risolvere il problema si può lavorare a temperature elevate (a volte sfruttando il \eng{creep} o la formatura superplastica del materiale).
+Anche i profili laminati ed estrusi possono essere lavorati in questo modo.
+\item Per la produzione di massa, per esempio nell'industria automobilistica e degli elettrodomestici, il semilavorato è bloccato con un premi-lamiera mobile indipendente che blocca il foglio con l'ausilio di rompi-grinze; il punzone assieme alla matrice femmina definiscono la forma. Questa tecnica è mostrata in figura \ref{fig:StretchForming2}.
+Un prodotto è realizzato ad ogni corsa della pressa; quindi la produttività è alta ma anche i costi di produzione sono più alti.
+\item Nel processo di stampaggio in rilievo il vincolo è dato dalla lamiera stessa, attraverso i punti di contatto multipli con la matrice. In questo caso di solito la deformazione è localizzata. Un esempio è mostrato in figura \ref{fig:StretchForming3}.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{\eng{Stretch forming} tramite tiranti multipli}\label{fig:StretchForming1}]
+{\includegraphics[width = 0.3\textwidth]{StretchForming1}}\quad
+\subfloat[][\emph{\eng{Stretch forming} per produzioni massive}\label{fig:StretchForming2}]
+{\includegraphics[width = 0.3\textwidth]{StretchForming2}}\quad
+\subfloat[][\emph{\eng{Stretch forming} a deformazione localizzata}\label{fig:StretchForming3}]
+{\includegraphics[width = 0.3\textwidth]{StretchForming3}}
+\caption{Possibilità di \eng{Stretch forming} per l'industria}
+\label{fig:StretchForming}
+\end{figure}
+
+\subsection{Deformabilità nello stretch forming}
+Il primo limite viene raggiunto quando una strizione localizzata diventa visibile, invece il limite ultimo è dato dalla successiva frattura.
+Il limite di formabilità è una proprietà tecnologica, perciò si usano prove di questo tipo per determinarla, in contrapposizione alle prove meccaniche che sono stabilite da normativa. La deformazione limite dipende dal materiale, dalla velocità di deformazione e dall'attrito sulla superficie del punzone.
+I fattori che influenzano la deformazione limite diventano evidenti quando una lamiera bloccata sul perimetro viene allungata da un punzone semisferico, come è mostrato nella figura \ref{fig:TestTecStretch}.
+
+Le variazioni di deformazione localizzate (la distribuzione della deformazione) possono essere rivelate semplicemente applicando una griglia di piccoli cerchi (generalmente di 2-6 mm di diametro) o una griglia di quadrati e cerchi sulla superficie della lamiera, di solito mediante incisione elettrolitica (tecnica di marcatura per materiali conduttori) o una tecnica a base di \eng{fotoresist} (materiale sensibile alla luce), come quelle che si usano in elettronica per la produzione di circuiti stampati. Si ottiene una superficie come quella mostrata in figura \ref{fig:MisuraTestStretch}.
+Durante la deformazione, l'assottigliamento del materiale è accompagnato da una crescita dei cerchi, come richiesto dalla costanza del volume.
+Quando la deformazione è la stessa in tutte le direzioni, come soffiando in un palloncino (deformazione biassiale simmetrica), il cerchio si espande in un cerchio di diametro maggiore.
+Quando la deformazione è diversa in direzioni diverse, il cerchio si distorce in un'ellisse: l'asse maggiore dà la deformazione maggiore e, perpendicolare ad esso, l'asse secondario dà la deformazione minore.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{TestTecStretch}
+\caption{Esempio di test tecnologico per lo \eng{stretch forming}}
+\label{fig:TestTecStretch}
+\includegraphics[width = 0.4\textwidth]{MisuraTestStretch}
+\caption{Griglia di rilevazione di deformazioni localizzate}
+\label{fig:MisuraTestStretch}
+\end{wrapfloat}
+
+Quando una lamiera di un determinato materiale viene allungato sul punzone semisferico, la distribuzione della deformazione dipende da un certo numero di fattori:
+\begin{enumerate}
+\item Nella totale assenza di attrito (che in realtà può essere realizzata solo nell'espansione idraulica), la lamiera si assottiglia gradualmente soprattutto sull'apice, dove infine si verifica la frattura.
+Con un materiale avente un alto valore di n, si può ottenere una cupola più alta prima che la strizione diventi localizzata. Ricordando che nella prova di trazione la strizione avviene a $\epsilon = n$. Nella trazione biassiale simmetrica, la presenza di 2 deformazioni uguali tra loro ortogonali nel piano della lamiera, impedisce la formazione di una strizione localizzata, si ha perciò strizione diffusa.
+\item L'attrito sulla superficie del punzone impedisce il libero assottigliamento sulla sommità e con un attrito crescente la posizione della massima deformazione si allontana dalla sommità. La deformazione diventa più localizzata e la frattura si verifica in condizioni di deformazione piana, dove lamiera e punzone vengono in contatto o in prossimità di tale punto.
+\item In condizioni identiche, una lamiera più spessa si allunga maggiormente, perché la piegatura sovrapposta all'allungamento aumenta la duttilità.
+\item L'entità dell'allungamento aumenta con tutte le variabili del materiale che ritardano la strizione (valore alto di n, trasformazioni) o aumentano la deformazione dopo strizione (valore alto di m). Infatti, si riscontra una buona correlazione empirica tra allungamento totale nella prova di trazione e altezza massima della cupola.
+La distribuzione della deformazione è importante perché determina le proprietà della lamiera allungata
+\end{enumerate}
+
+La deformazione può continuare fino a quando si sviluppa una strizione localizzata in corrispondenza o in prossimità della sommità, in un punto in cui ci sia qualche disomogeneità nel materiale o la lamiera sia originariamente più sottile. Durante l'allungamento su un punzone, l'entità dell'allungamento non raggiunge mai quella ottenuta nell'espansione idraulica senza attrito, ma fintantoché l'attrito è molto basso, la rottura si verifica ancora sulla sommità.
+
+\section{Imbutitura}
+Anche l'imbutitura come lo stretching viene usata per produrre contenitori a partire da una lamiera piana. La differenza tra stretching e imbutitura è sostanziale: nel primo, il semilavorato è bloccato e la profondità è raggiunta a scapito dello spessore della lamiera; in quest'ultimo, al semilavorato è permesso - e persino è incoraggiato - ad entrare nella matrice, e lo spessore è nominalmente invariato.
+Nel caso più semplice di imbutitura pura, un semilavorato circolare del diametro $d_0$ viene convertito in una contenitore a fondo piatto, trascinandolo su una matrice con l'aiuto di un punzone di diametro $D_p$.
+Sia la matrice che il punzone devono avere bordi ben arrotondati, altrimenti il semilavorato potrebbe essere tagliato.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{Imbutitura}
+\caption{Schema di realizzazione dell'imbutitura}
+\label{fig:Imbutitura}
+\end{wrapfloat}\
+
+Il contenitore finito viene estratto dal punzone, ad esempio, lavorando un leggero recesso nella parte inferiore della matrice.
+Dopo che il contenitore è stato spinto attraverso la matrice, il suo bordo superiore si allarga a causa dello \eng{springback}, viene bloccato dalla sporgenza durante la corsa di ritorno del punzone e la sporgenza stacca il contenitore. Nel punzone spesso è presente un foro centrale per impedire la formazione di una depressione e pertanto aiuta il distacco.
+
+\subsection{Imbutitura senza premi-lamiera}
+Quando la porzione di lamiera sulla matrice scorre verso il foro nella matrice può dare luogo a pieghe chiamate grinze. La formazione di pieghe può essere evitata quando la lamiera è sufficientemente rigida. Questo si verifica sempre con imbutiture poco profonde, quando il rapporto di imbutitura \eqref{eqn:RappImbutitura}, dove $d_0$ è il diametro iniziale della lamiera e $D_p$ il diametro del punzone.
+\begin{equation}
+d_0/D_p <1.2 \label{eqn:RappImbutitura}
+\end{equation}
+
+Lamiere con spessore elevato rispetto al diametro iniziale consentono un rapporto di imbutitura maggiore; la formazione di pieghe dipende anche dal profilo della matrice, che determina la compressione circonferenziale. Il profilo più favorevole è la matrice a trattrice.
+Il grafico \ref{fig:LimitiImbutitura} confronta le prestazioni di 3 diversi profili della matrice di imbutitura, troncoconico, cilindrico raccordato e a trattrice, mostrati a destra. La parte inferiore del grafico, identificata come \eng{good} rappresenta le imbutiture eseguibili senza formazione di grinze, la parte superiore (\eng{wrinkling}) dice quali imbutiture darebbero luogo alla formazione di grinze.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{LimitiImbutitura}
+\caption{Grafico coi limiti di imbutitura in funzione di un parametro geometrico}
+\label{fig:LimitiImbutitura}
+\includegraphics[width = \textwidth]{ProcImbutitura}
+\caption{Sequenza degli eventi durante la corsa del punzone}
+\label{fig:ProcImbutitura}
+\end{figure}
+
+Le figure \ref{fig:ProcImbutitura} mostrano la progressione di un'imbutitura in una matrice trattrice.
+L'equazione \eqref{eqn:LimImbutitura} indica una condizione che deve essere rispettata per non produrre grinze.
+
+\begin{equation}
+D_0 - D_p < 5T
+\label{eqn:LimImbutitura}
+\end{equation}
+
+
+\moretodo[inline]{Continuare Lamiere con: \textbf{Imbutitura}, \textbf{Forma su pressa}, \textbf{Altre lavorazioni}}
