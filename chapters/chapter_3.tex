@@ -316,7 +316,94 @@ La porosità può essere utile per diversi obbiettivi:
 \end{description}
 
 \subsection{Compattazione a caldo}
-Le polveri metalliche si conformano in modo che la porosità può essere ridotte a zero.
+Il processo prevede compattazione e sinterizzazione simultaneamente.
+Le particelle si muovono e talvolta vengono deformate, portando all' annullamento della porosità.
+
+\subsubsection{HIP: Hot Idrostatic Pressing}
+Vengono inserite le polveri all'interno metallico deformabile, in questo modo possono essere già inizialmente  prive di aria.
+Il processo prevede che il recipiente venga messo all'interno di un forno e successivamente in una camera pressurizzata.
+
+I prodotti ottenuti tramite questo processo hanno costo più alto in genere, ma sono di qualità nettamente superiore rispetto ai normali sinterizzati.
+
+Con questo metodo possono essere lavorati degli oggetti presisnterizzati al $92 \div 95\%$ per eliminare la porosità residua con polvere ceramica o con metallo tenero.
+Per successive lavorazioni si utilizza un involucro metallico che resiste alle alte temperature. Le proprietà meccaniche possono essere superiori a quasi tutte le altre lavorazioni viste fin ora.
+
+Questa tecnica viene utilizzata per realizzare oggetti con le superleghe e leghe ad alta entropia.
+
+Un ulteriore tecnica di sinterizzazione è quella della deposizione a spruzzo, secondo cui vengono realizzate le polveri attraverso atomizzazione. Poi vengono depositate su un supporto specifico e poi sinterizzate nelle modalità più opportune.
+Per esempio questa tecnica viene utilizzata per rivestimenti in lega ad alta entropia.
+
+\section{Prodotti sinterizzati}
+La sinterizzazione è competitiva per componenti strutturali perché non si spreca materiale e si evitano fasi intermedie del processo produttivo.
+Nelle superleghe si evita la segregazione degli alliganti.
+Alla tabella \ref{tab:MaterialiSint} vengono riportati quali materiali vengono lavorati tramite sinterizzazione.
+
+Tra i prodotti sinterizzati troviamo:
+\begin{itemize}
+\item Supporti autolubrificanti
+\item Realizzazione di strumenti chirurgici
+\item Alcuni materiali che possono essere lavorati solamente tramite sinterizzazione.
+\item Materiali magnetici teneri, difficili da lavorare alle macchine utensili: magneti permanenti.
+\item Nelle leghe rese resistenti mediante dispersione un ossido stabile previene la migrazione verso i bordi e lo scorrimento.
+\item Utensili in acciaio rapido
+\item Carburi cementati per utensili.
+\end{itemize}
 
 
-\moretodo[inline]{Continuare con: \textbf{Compattazione a caldo}, \textbf{Prodotti sinterizzati}, \textbf{Elettroformatura}}
+Alla tabella \ref{tab:ProdottiSint} vengono confrontate le tecniche di sinterizzazione in termini di prodotti realizzabili, tempo ciclo e altre variabili di processo.
+\begin{table}
+\centering
+\caption{Principali materiali impiegati nei processi di sinterizzazione}
+\label{tab:MaterialiSint}
+\includegraphics[width = 0.5\textwidth]{MaterialiSint}
+\caption{Confronto tra le lavorazioni possibili in sinterizzazione: A indica valori migliori, E quelli peggiori}
+\label{tab:ProdottiSint}
+\includegraphics[width = \textwidth]{ProdottiSint}
+\end{table}
+
+Mentre alla tabella \ref{tab:FormeSint} vengono rappresentate quali siano le forme ottenibili tramite sinterizzazione.
+In generale sono problematiche le forme in cui lo stampo non sia più estraibile dalla geometria una volta raggiunto il prodotto in verde.
+\begin{table}
+\centering
+\caption{Forme geometriche ottenibili tramite sinterizzazione, in giallo le forme che non sono realizzabili tramite sinterizzazione}
+\label{tab:FormeSint}
+\includegraphics[width = \textwidth]{FormeSint}
+\end{table}
+
+\subsection{Potenzialità della sinterizzazione}
+Sicuramente sarebbe meglio evitare gli spigoli altrimenti la frizione della polvere sugli stampi rischia di compromettere la durata degli stessi.
+In più, sebbene la polvere la si possa trasportare abbastanza facilmente, considerandola quasi come un fluido non si comporta sicuramente come acqua.
+Per cui non è possibile spingere un fluido a base di polveri attraverso stampi con geometrie troppo fine.
+
+Sin considerano allora degli \textbf{Angoli di sforno} per poter garantire la separazione del compattato e il punzone o stampo.
+In più visto che la pressatura è abbastanza critica come lavorazione, è opportuno fare questa considerazione:
+\begin{align}
+\begin{cases}
+h/d = 2 &\text{con compattazione a singolo punzone}\\
+h/d = 4 &\text{con compattazione a più punzoni}
+\end{cases}
+\end{align}
+Dove:\\
+\begin{tabular}{cl}
+$h$ & altezza massima del prodotto\\
+$d$ & larghezza massima del prodotto
+\end{tabular}\\
+
+In generale non sono possibili fori trasversali, almeno nella sinterizzazione standard. Eventualmente con pressature complesse si può pensare di realizzarli.
+La complessità in pianta di un oggetto realizzato per sinterizzazione può essere sostanziale, basta realizzare il sistema punzoni matrici opportunamente.
+Si possono compattare più oggetti separatamente, "assemblarli", per poi sinterizzarli assieme come prodotto finito. 
+Così si possono eliminare successivi processi di giunzione.
+
+Sinterizzati con spessori elevati sono sconsigliati perché la struttura interna tende a collassare.
+
+\subsection{Elettroformatura}
+Attraverso un bagno elettrolitico in cui l'anodo cede cationi al catodo.
+Utile per realizzare forme più complesse di quelle realizzabili tramite sinterizzazione. Si rende necessario che lo stampo di forma sia il negativo di quello che si vuole ottenere.
+Un esempio è quello della fogura \ref{fig:Elettroformatura}.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{Elettroformatura}
+\caption{Esempio di processo di elettroformatura}
+\label{fig:Elettroformatura}
+\end{figure}
