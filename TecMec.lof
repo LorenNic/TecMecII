@@ -76,6 +76,7 @@
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Processi di produzione in sinterizzazione\relax }}{38}{figure.caption.51}%
 \setforeignlanguage {italian}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Principali modalità di atomizzazione e realizzazione delle fibre\relax }}{40}{figure.caption.52}%
 \addvspace {10pt}
 \setforeignlanguage {italian}
@@ -196,5 +197,137 @@
 \contentsline {figure}{\numberline {12.10}{\ignorespaces Principali tecniche di saldatura a freddo\relax }}{104}{figure.caption.122}%
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {12.11}{\ignorespaces Realizzazione per saldatura a diffusione di profili utilizzati in aeronautica\relax }}{105}{figure.caption.123}%
+=======
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Principali modalità di atomizzazione e realizzazione delle fibre\relax }}{36}{figure.caption.47}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Parametri da considerare durante la compattazione della polvere e compattazione a freddo\relax }}{38}{figure.caption.49}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Esempio di pressatura a freddo di un oggetto particolarmente complicato\relax }}{39}{figure.caption.52}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Pressatura idrostatica a sacco bagnato e asciutta\relax }}{40}{figure.caption.53}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Esempio di \foreignlanguage {english}{Injection Molding}\relax }}{40}{figure.caption.54}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Caratteristiche meccaniche raggiunte dal prodotto in verde durante la sinterizzazione dopo diverso tempo e sequenza del processo\relax }}{41}{figure.caption.56}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Taglio Ortogonale\relax }}{46}{figure.caption.60}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Scomposizione delle forze per il taglio ortogonale\relax }}{48}{figure.caption.61}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Andamenti delle forze per il taglio ortogonale\relax }}{49}{figure.caption.65}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Tipologia di forze prementi sulla faccia dell'utensile\relax }}{50}{figure.caption.66}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Taglio ortogonale reale\relax }}{51}{figure.caption.67}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Esempi di rompi-truciolo\relax }}{53}{figure.caption.68}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Il taglio obliquo\relax }}{54}{figure.caption.69}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Esempio di utensile per tornitura\relax }}{55}{figure.caption.70}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Temperature durante le lavorazioni ad asportazione\relax }}{57}{figure.caption.72}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Analisi termica dell'asportazione di truciolo\relax }}{57}{figure.caption.71}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Alcune punte da trapano per diverse forature\relax }}{58}{figure.caption.73}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Varie tipologie di punte da trapano\relax }}{59}{figure.caption.74}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Velocità consigliate di trapanatura\relax }}{60}{figure.caption.75}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Alcuni esempi di trapani e dettaglio punta alesatrice\relax }}{61}{figure.caption.76}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Esempio di fresatrice orizzontale\relax }}{62}{figure.caption.78}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Fresatura in opposizione e concordanza\relax }}{63}{figure.caption.79}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Esempio di fresa verticale\relax }}{63}{figure.caption.80}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Schematizzazione della fresatura a codolo\relax }}{64}{figure.caption.81}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Esempio di frese a testa sferica\relax }}{64}{figure.caption.82}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Breve descrizione delle seghe industriali\relax }}{66}{figure.caption.84}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Brocciatura\relax }}{67}{figure.caption.85}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Utensili per filettature\relax }}{67}{figure.caption.86}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Riepilogo lavorazioni per asportazione di truciolo\relax }}{68}{figure.caption.87}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Indicazioni sulla produttività delle specifiche lavorazioni per asportazione di truciolo\relax }}{68}{figure.caption.88}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Alcuni utensili per la produzione di ingranaggi\relax }}{69}{figure.caption.89}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Relazione tra durezza del materiale lavorato, velocità della lavorazione e avanzamento dell'utensile.\relax }}{72}{figure.caption.90}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Prima velocità per materiali non ferrosi\relax }}{73}{figure.caption.91}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Parametri modificatori per lavorazioni diverse da quelle di riferimento (tornitura in sgrossatura)\relax }}{74}{figure.caption.92}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Specifiche durezza dei materiali\relax }}{75}{figure.caption.93}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Esempi di programmazione per macchine CNC\relax }}{76}{figure.caption.94}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Esempio di Macchina CNC\relax }}{77}{figure.caption.95}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Rappresentazione della funzione \eqref {eqn:TaylorComp}\relax }}{79}{figure.caption.96}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Principali lavorazioni abrasive\relax }}{81}{figure.caption.97}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Casistiche in cui si può trovare la particella tagliente\relax }}{81}{figure.caption.98}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Tabella delle energie specifiche di lavorazione per diversi materiali\relax }}{82}{figure.caption.99}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Descrizione della sigla per le mole\relax }}{83}{figure.caption.100}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Classificazione lavorazioni non convenzionali\relax }}{89}{figure.caption.109}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Modalità di attacco chimico\relax }}{90}{figure.caption.110}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Risultati ottenibili con le lavorazioni chimiche\relax }}{91}{figure.caption.111}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Schema generale delle lavorazioni elettrochimiche\relax }}{91}{figure.caption.113}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Possibilità dell'elettroerosione\relax }}{93}{figure.caption.114}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Schema funzionamento tubo catodico\relax }}{94}{figure.caption.115}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Esempi di taglio laser\relax }}{94}{figure.caption.116}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Altre lavorazioni non convenzionali\relax }}{95}{figure.caption.117}%
+\addvspace {10pt}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Fissaggi\relax }}{99}{figure.caption.119}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Tipologie di rivetti\relax }}{100}{figure.caption.120}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Rivettatura cieca\relax }}{100}{figure.caption.121}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Considerazione sulla corretta rivettatura\relax }}{101}{figure.caption.122}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Fissaggi meccanici di graffettatura, aggraffatura e \foreignlanguage {english}{snap-fit}\relax }}{101}{figure.caption.123}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Alcuni esempi di fissaggio per deformazione plastica\relax }}{102}{figure.caption.124}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Processo di ribattitura\relax }}{102}{figure.caption.124}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Ulteriori metodi di fissaggio meccanico utilizzati\relax }}{102}{figure.caption.124}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Saldature allo stato solido col dettaglio delle lavorazioni a freddo\relax }}{103}{figure.caption.125}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Principali tecniche di saldatura a freddo\relax }}{105}{figure.caption.126}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Realizzazione per saldatura a diffusione di profili utilizzati in aeronautica\relax }}{106}{figure.caption.127}%
+>>>>>>> main
 \addvspace {10pt}
 \addvspace {10pt}
