@@ -953,5 +953,111 @@ D_0 - D_p < 5T
 \label{eqn:LimImbutitura}
 \end{equation}
 
+\subsection{Imbutitura con premi-lamiera}
+Quando la lamiera è relativamente sottile e il rapporto di imbutitura è oltre i limiti indicati
+precedentemente, la flangia deve essere vincolata con un premi-lamiera, come si vede nella 
+figura a sinistra. Il premi-lamiera deve esercitare pressione sufficiente per prevenire le pieghe, ma una pressione eccessiva limiterebbe il libero movimento del materiale e 
+causerebbe fratture nella parete del contenitore. 
+Per produrre un contenitore senza difetti, la pressione del premi-lamiera può essere presa, 
+come prima approssimazione, pari al $1.5\%$ della tensione di snervamento del materiale.
+Le foto \ref{fig:Imbutiti} mostrano la lamiera prima dell'imbutitura e 3 imbutiti. Nel caso (b) la pressione del premi-lamiera è insufficiente, in (c) è ottimale, in (d) è eccessiva. Nella figura (c) si vede anche la formazione delle orecchie, dovute all'anisotropia planare del materiale.
 
-\moretodo[inline]{Continuare Lamiere con: \textbf{Imbutitura}, \textbf{Forma su pressa}, \textbf{Altre lavorazioni}}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Imbutiti}
+\caption{Casi di imbutiti con diverse pressioni del premi-lamiera}
+\label{fig:Imbutiti}
+\end{figure}
+
+\subsection{Valutazione delle forze applicate}
+Quando il premi-lamiera applica la pressione ottimale, la forza di imbutitura aumenta mentre 
+la flangia parzialmente imbutita incrudisce; al diminuire del diametro della flangia, anche la
+forza diminuisce fino a quando il bordo ispessito della lamiera viene stirato formando la 
+gobba che si vede a destra nella linea A del grafico \ref{fig:ForzeImbutitura}.
+Una pressione eccessiva causa una frattura precoce (linea B, grafico \ref{fig:ForzeImbutitura}).
+Una pressione troppo bassa consente la formazione di grinze (linea C grafico \ref{fig:ForzeImbutitura}) e, se le grinze non  possono essere stirate, non si riesce a raggiungere la fine dell'imbutitura.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+
+\end{wrapfloat}
+
+Una stima molto approssimativa della forza di imbutitura può essere ottenuta dalla formula \eqref{eqn:ForzeImbutitura}.
+\begin{equation}
+P_d = \pi D_p h (TS) \left(\frac{d_0}{D_p} - 0.7\right)
+\label{eqn:ForzeImbutitura}
+\end{equation}
+$\pi$ $D_p$ $h$ è un'area, data dalla circonferenza sotto il punzone per lo spessore della lamiera. La forza dipende dalla resistenza meccanica del materiale della lamiera, espressa dalla tensione massima a rottura $TS$, moltiplicata per un fattore geometrico. A parità di diametro del punzone, la forza aumenta con il diametro iniziale della lamiera. Quando la forza di imbutitura supera la forza che la parete del contenitore può sostenere, si ha una frattura.
+
+\subsection{Limite di imbutibilità}
+C'è un limite alla deformazione raggiungibile, espresso come rapporto di imbutitura $d_0/D_p$.
+Il diametro massimo del cerchio che si può imbutire in condizioni ideali è espresso come il rapporto limite di imbutitura (\ac{LDR}).
+Siamo interessati che il rapporto limite di imbutitura sia il più alto possibile. Cerchiamo di 
+capire quali fattori ne condizionino il valore.
+
+\begin{enumerate}
+\item Un alto valore di $n$ (sensibilità all'incrudimento) rafforza la parete della contenitore ma aumenta anche la forza di trazione, quindi è abbastanza neutrale; un leggero miglioramento nella \ac{LDR} è spesso riscontrato con n più alto perché la forza massima è necessaria in un momento successivo.
+\item Un alto valore di $m$ (sensibilità alla velocità di deformazione) rafforza una strizione incipiente nella parete, mentre influenza appena la forza di imbutitura, quindi è leggermente positivo nel suo effetto.
+\item La variabile del materiale più importante è $r$. Un materiale con valore alto di $r$ si deforma 
+riducendo molto la larghezza e poco lo spessore.
+Ciò aiuta il semilavorato a ridurre progressivamente il diametro e quindi è un fattore positivo. 
+La parete di contenitori parzialmente imbutiti è in condizioni di trazione biassiale, situazione in cui un materiale con $r$ alto è più resistente, grazie alla tendenza ad assottigliarsi poco; la flangia invece è sottoposta a trazione radiale e compressione circonferenziale. Il risultato è che l'\ac{LDR} aumenta con l'aumento del valore di $\bar{r}$, come mostra il grafico \ref{fig:LDR}.
+Dal grafico si vede che un \ac{LDR} di $2.0$ permette una profondità di circa $0,8 D_p$, mentre con un \ac{LDR} di $3.0$ si può arrivare a una profondità superiore a $2,0 D_p$.
+\item Raggi di raccordo piccoli sul punzone e sulla matrice impongono una forte deformazione 
+di piega e quindi aumenta la forza di imbutitura senza modificare la resistenza della parete, 
+quindi, diminuiscono l'\ac{LDR}. Tuttavia, raggi molto grandi lascerebbero gran parte della lamiera non supportata e potrebbero formarsi grinze tra punzone e matrice.
+Quindi i raggi sono ottimizzati, di solito entro i limiti di $R > 4h$ per lamiere spesse ($> 5 mm$) e 
+$R > 8h$ per quelle sottili ($<1 mm$).
+Nel grafico \ref{fig:Assottigliamento} si vede che se il raggio di raccordo sul punzone arriva a 25 mm l'assottigliamento aumenta molto, con forte indebolimento della lamiera
+\item L'attrito tra premi-lamiera, matrice e flangia fa aumentare la forza di imbutitura e quindi è 
+dannoso. Lo sforzo di attrito può essere ridotto riducendo la pressione del premi-lamiera, ma 
+un'eccessiva riduzione porta alla formazione di grinze. Pertanto, deve essere applicato un 
+buon lubrificante che riduca l'attrito e quindi la forza di attrito.
+\item Nell'imbutitura di una lamiera relativamente sottile, di rapporto $d_0/h$ superiore a $50$, la forza 
+di attrito diventa una porzione importante della forza totale; di conseguenza, l'\ac{LDR} diminuisce con un aumento del rapporto $d_0/h$
+\item . L'attrito sul punzone è utile perché trasferisce la forza di trazione dalla lamiera al punzone, perché la lamiera scivola meno sul punzone. Quindi un punzone ruvido, o un semilavorato lubrificato solo sulla flangia, dà un \ac{LDR} superiore.
+Non esiste ancora uno standard internazionale per la determinazione del \ac{LDR} e solo i dati ottenuti in condizioni identiche sono comparabili
+\end{enumerate}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Per i casi della figura \ref{fig:Imbutiti} si evidenziano le forze applicate dal punzone}\label{fig:ForzeImbutitura}]
+{\includegraphics[width = 0.5\textwidth]{ForzeImbutitura}}\\
+\subfloat[][\emph{Valore \ac{LDR} in funzione di $\bar{r}$}\label{fig:LDR}]
+{\includegraphics[width = 0.4\textwidth]{LDR}}\quad
+\subfloat[][\emph{Assottigliamento della lamiera a partire dal centro dello sviluppo fino alla superficie laterale}\label{fig:Assottigliamento}]
+{\includegraphics[width = 0.4\textwidth]{Assottigliamento}}
+\caption{Parametri caratteristici dell'imbutitura}
+\label{fig:ParamImbutitura}
+\end{figure}
+
+Un materiale con anisotropia planare mostra proprietà diverse nelle direzioni di laminazione, trasversale a $45\unit{\degree}$ ($r_0 \neq r_{90} \neq r_{45}$).
+Ciò porta alla formazione delle orecchie, una variazione periodica dell'altezza della parete del contenitore; le orecchie dipendono dalla simmetria cristallina e si verificano in coppia (4, 6 o 8).
+La frangia si ispessisce meno nelle direzioni in cui $r$ è maggiore, perciò le orecchie si formano in queste direzioni.
+
+Contenitori di profondità maggiore di quella consentita dal \ac{LDR} possono essere realizzati deformando ulteriormente dopo la prima imbutitura.
+
+\begin{enumerate}
+\item L'ulteriore imbutitura lascia lo spessore della parete sostanzialmente invariato. Nelle 
+figure \ref{fig:PiuImbutitura} (a) e (b) sono mostrati 2 esempi di imbutitura doppia. 
+\item 2. L'\eng{ironing} o stiratura lascia il diametro interno praticamente invariato e raggiunge una maggiore profondità riducendo lo spessore della parete. È
+evidente che l'\eng{ironing} è simile alla trafilatura di un tubo su un mandrino.
+\item Un fenomeno fondamentale, finora non menzionato, è che un materiale lavorato a freddo presenta una maggiore duttilità quando la direzione di deformazione è invertita in operazioni successive; questo viene sfruttato nell'imbutitura inversa.
+L'imbutitura multipla è ampiamente utilizzata per contenitori alimentari, tappi per penne stilografiche, alloggiamenti per filtri olio, pistoni per ammortizzatori, ecc\dots
+L'\eng{ironing} viene utilizzato nella produzione di massa di lattine e cartucce di munizioni imbutite e stirate.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{PiuImbutitura}
+\caption{Processi per imbutire oltre il limite \ac{LDR}}
+\label{fig:PiuImbutitura}
+\includegraphics[width = \textwidth]{ImbutituraQuadrata}
+\caption{Esempio di imbutitura su punzone rettangolare}
+\label{fig:ImbutituraQuadrata}
+\end{figure}
+
+Nell'imbutitura di contenitori quadrati o rettangolari \ref{fig:ImbutituraQuadrata} il grado di difficoltà aumenta con il crescente rapporto tra profondità e raggio dell'angolo; gli oggetti verdi in figura, chiamati rompi-grinze, ostacolano lo scorrimento della lamiera nelle zone in cui tende a scorrere maggiormente, per ridurre la differenza di scorrimento tra zone d'angolo e zone rettilinee.
+Un punzone con una sommità curva o semisferica impone un diverso stato di deformazione.
+
+
+\moretodo[inline]{Continuare Lamiere con: \textbf{Forma su pressa}, \textbf{Altre lavorazioni}}
