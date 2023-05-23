@@ -1059,5 +1059,183 @@ L'\eng{ironing} viene utilizzato nella produzione di massa di lattine e cartucce
 Nell'imbutitura di contenitori quadrati o rettangolari \ref{fig:ImbutituraQuadrata} il grado di difficoltà aumenta con il crescente rapporto tra profondità e raggio dell'angolo; gli oggetti verdi in figura, chiamati rompi-grinze, ostacolano lo scorrimento della lamiera nelle zone in cui tende a scorrere maggiormente, per ridurre la differenza di scorrimento tra zone d'angolo e zone rettilinee.
 Un punzone con una sommità curva o semisferica impone un diverso stato di deformazione.
 
+\section{Stiro-imbutitura}
+In molte applicazioni pratiche, soprattutto nella produzione di parti di telai automobilistici, il processo di imbutitura non è né puro stretching né imbutitura pura.
+La lamiera non è completamente bloccata (quindi non è puro stretching) né è libera di scorrere (quindi non è imbutitura pura).
+Invece, le forme complesse vengono sviluppate controllando lo scorrimento della lamiera, ritardandola, ove necessario, con i rompi-grinze inseriti nelle superfici della matrice e del premi-lamiera.
 
-\moretodo[inline]{Continuare Lamiere con: \textbf{Forma su pressa}, \textbf{Altre lavorazioni}}
+Per regolare il processo, viene applicato un lubrificante e viene specificata la rugosità e la tessitura della superficie della lamiera (vengono utilizzate spesso lamiere con finitura casuale).
+In alcuni casi, la pressione del premi-lamiera viene variata in modo programmato durante la corsa o il premi-lamiera è sottoposto a un carico pulsante.
+Nei sistemi più avanzati il premi-lamiera viene azionato da diversi cilindri idraulici programmabili autonomamente in modo che la forza ritardante possa essere controllata localmente.
+
+La forma del prodotto è spesso rappresentata da una superficie "\textbf{sculturata}", cioè una superficie non rappresentabile analiticamente, cioè tramite formule, in modo semplice.
+L'applicazione del CAD/CAM a tali forme ha notevolmente ridotto il tempo e gli sforzi coinvolti nella progettazione e analisi di componenti in lamiera e nella programmazione di macchine utensili \ac{CNC} per la realizzazione di stampi.
+Le curvature possono essere dolci e non simmetriche, causando problemi di \eng{springback} e distorsione dopo il distacco dalla matrice, in particolare con materiali con alto rapporto $\sigma_{0.2}/E$, e la modellazione al computer può aiutare a definire una forma di matrice che lo compensi.
+In altri casi, la formatura si avvicina ai limiti del materiale e la frattura si può facilmente verificare in assenza di controlli stretti. La modellazione al computer può consentire l'analisi dell'effetto delle variabili di processo.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{LimitiStiroimbutitura}
+\caption{Limiti indicativi per la stiro-imbutitura}
+\label{fig:Stiroimbutitura}
+\end{figure}
+
+\subsection{Tailored Blanks}
+Recentemente si è cominciato a saldare tra loro varie lamiere caratterizzate da spessore o composizione differenti, in modo che risultino resistenti solo dove serve.
+Le lamiere così ottenute consentono riduzioni della massa e del numero di componenti.
+In pratica, mentre la normale sequenza di operazioni nella lavorazione di lamiere è data da taglio, deformazione e saldatura, con le \eng{tailored blanks} la procedura diventa taglio, saldatura e deformazione plastica. La saldatura di lamiere piane è più rapida e affidabile, per contro sono necessarie presse più grandi e costose per deformare un insieme di lamiere saldate tra loro.
+
+\section{Formatura su pressa}
+Ci sono molti processi non facilmente classificabili ma che condividono alcune caratteristiche con i processi già discussi.
+Specifici processi di imbutitura sono stati progettati per offrire una maggiore profondità, oppure per realizzare forme più complesse, per ridurre i costi di produzione o una combinazione di queste caratteristiche.
+
+\subsection{Formatura con stampo in gomma}
+Si sostituisce uno stampo con un cuscino in gomma e la lamiera si conforma al punzone, in figura \ref{fig:FormaturaSuPressa} (spesso realizzato in resina o in lega di zinco). Non c'è bisogno di costose coppie di stampi in acciaio e la presenza di tensioni di compressione e attrito sulla superficie del punzone contribuiscono a ottenere imbutiture più profonde e forme altrimenti difficili da realizzare (ad esempio parti coniche, in figura \ref{fig:FormaturaSuPressa1}).
+
+\begin{figure}
+\centering
+\subfloat[][\emph{un esempio di formatura con cuscino di poliuretano senza stampo specifico e con possibilità di realizzare sottosquadri}\label{fig:FormaturaSuPressa}]
+{\includegraphics[width = 0.4\textwidth]{FormaturaSuPressa}}\quad
+\subfloat[][\emph{Altra lavorazione di formatura su pressa}\label{fig:FormaturaSuPressa1}]
+{\includegraphics[width = 0.4\textwidth]{FormaturaSuPressa1}}
+\caption{Esempi di formatura su pressa in diverse applicazioni}
+\label{fig:FormSuPressa}
+\end{figure}
+
+\subsection{Idroformatura}
+Si sostituisce il cuscino in gomma con un fluido contenuto con un diaframma di gomma. La pressione idraulica viene programmata per tutta la corsa, spesso con \ac{CNC}, per spingere la lamiera sul punzone e quindi ottenere parti di grande profondità e complessità.
+In alternativa, la cavità della matrice è sigillata con guarnizioni e la lamiera è deformata direttamente dal fluido, quindi l'attrito viene annullato e il materiale si incrudisce uniformemente. La lamiera precurvata può quindi essere formata intorno alla matrice.
+Alla figura \ref{fig:Idroformatura} sono riportati i due metodi.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Idroformatura}
+\caption{Esempi di processi di idroformatura}
+\label{fig:Idroformatura}
+\end{figure}
+
+\subsection{Flangiatura, Aggraffatura, Formatura di colli}
+Alcuni esempi di piegatura complessa, combinata con compressione e/o stretching, si incontrano nella lavorazione di bordi di semilavorati, di fori, tubi e parti imbutite.
+
+\begin{enumerate}
+\item La flangiatura di un semilavorato, mostrata in figura \ref{fig:Flangiatura} a (e la flangiatura per contrazione di una lamiera, mostrata in b) mette il bordo esterno in compressione. È simile a un'imbutitura poco profonda e non è richiesta grande duttilità, ma possono verificarsi pieghe.
+\item La flangiatura di un foro e la flangiatura per allungamento di una lamiera impongono forti deformazioni di trazione sul bordo.
+Se sono presenti bave sul bordo tagliato o se il materiale della lamiera contiene inclusioni o altri difetti, la rottura si verifica con una deformazione molto più bassa di quanto ci si sarebbe aspettati dall'allungamento a trazione misurato in assenza di bave.
+Nei casi critici, per aumentare la duttilità del materiale può diventare necessaria la
+sbavatura, la rasatura o anche l'alesatura del foro.
+\item Forti deformazioni di trazione sono imposte anche nell'espansione o nella flangiatura delle
+estremità di un tubo (figura c) o di un recipiente imbutito.
+Al contrario, formare il collo di un tubo o di un contenitore (figura \ref{fig:Flangiatura} d) impone pressioni di compressione; la riduzione che può essere effettuata in un'unica operazione è limitata solo dal collasso assiale del tubo o dalla formazione di pieghe interne.
+La formatura del collo è un passo importante nella realizzazione di cartucce e cilindri
+soggetti a pressione.
+\item L'aggraffatura è un importante processo di assemblaggio. Una parte in precedenza flangiata è unita ad un'altra parte mediante deformazione continua, come nell'unione del coperchio interno ed esterno del portabagagli, del cofano o degli sportelli delle automobili.
+Esempi di flangiatura di lamiere e di estremità di un tubo si incontrano nella formazione di
+doppie cuciture per sigillare scatolette per alimenti e lattine di bevande, come mostrato nella
+sequenza in figura \ref{fig:AggraffaturaLamiere}. In alla \ref{fig:FormaturaLamiera} invece si vede l'esecuzione di un'arricciatura, usata per motivi
+estetici e per evitare che bordi taglienti di lamiere possano ferire.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempi di flangiatura}\label{fig:Flangiatura}]
+{\includegraphics[width = 0.3\textwidth]{Flangiatura}}\quad
+\subfloat[][\emph{Formature dei bordi delle lamiere}\label{fig:FormaturaLamiera}]
+{\includegraphics[width = 0.3\textwidth]{FormaturaLamiere}}\quad
+\subfloat[][\emph{Processo di aggraffatura delle lamiere}\label{fig:AggraffaturaLamiere}]
+{\includegraphics[width = 0.3\textwidth]{AggraffaturaLamiera}}
+\end{figure}
+
+\subsection{Formatura su pressa per tubi espansione idraulica}
+La deformazione a trazione è tipica del rigonfiamento di tubi, contenitori e prodotti simili,
+utilizzando spine in schiuma poliuretanica o pressione idraulica.
+La tecnica rappresenta anche il primo passo nella fabbricazione di soffietti metallici; il tubo pregonfiato forma il soffietto quando è compresso assialmente. La compressione di un soffietto metallico è mostrato nel passaggio dalla figura \ref{fig:PressaTubi}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{PressaTubi}
+\caption{Pressatura dei tubi per dare forme particolari come i tubi a soffietto}
+\label{fig:PressaTubi}
+\end{figure}
+
+In un gruppo sempre più importante di processi, tubi senza saldatura o saldati vengono ulteriormente deformati da fluido ad alta pressione. I processi si basano sulla constatazione che deformazioni molto grandi sono possibili se le sollecitazioni assiali di compressione vengono applicate simultaneamente alla pressione di espansione, come si vede in figura \ref{fig:PressaTubi} c.
+Il tubo, vincolato in una matrice apribile, è compresso tra due punzoni mentre un fluido pressurizzato viene inserito all'interno. La compressione alle stremità permette di ottenere espansioni maggiori.
+Originariamente il processo è stato applicato a parti come giunzioni in rame a T.
+
+Recentemente la tecnica è divenuta processo di produzione di massa, principalmente nel
+settore automobilistico, sostituendo la saldatura nella realizzazione di assemblaggi.
+Il tubo, piegato per avere la forma generale del prodotto finale, viene collocato in una matrice
+apribile ed è espanso nella cavità della matrice. L'assottigliamento viene arrestato nel
+momento del contatto con la parete della cavità mentre l'ulteriore sviluppo della forma
+avviene a scapito della riduzione localizzata dello spessore.
+Una migliore distribuzione dello spessore viene ottenuta se l'espansione viene condotta
+inizialmente a bassa pressione mentre i tappi terminali vengono premuti in modo da rendere
+il flusso di materiale in uno stato combinato di tensione di tensocompressione. La pressione viene quindi aumentata per riempire i dettagli. Se necessario, a questo punto possono anche essere punzonati dei fori.
+Un Esempio è quello della figura \ref{fig:PressaTubi1}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{PressaTubi1}
+\caption{Realizzazione di tubi per formatura, utilizzata per la realizzazione dei sistemi di scarico automobilistici}
+\label{fig:PressaTubi1}
+\end{figure}
+
+\todo[inline]{Aggiungere le restanti tecniche di formatura}
+
+\section{Potenzialità delle lavorazioni a freddo}
+I processi di lavorazione della lamiera sono molto versatili, ma devono essere riconosciute alcune limitazioni sulle forme ottenibili.
+Le dimensioni spaziano in un'ampia gamma, dai componenti elettronici in miniatura a parti laterali della carrozzeria di auto da 4 m di lunghezza e pelli di ali per i Boeing 747 da 25 m di lunghezza lavorate con la pallinatura.
+Le tolleranze possono essere molto strette e molti processi realizzano parti \eng{net-shape}.
+La progettazione dei componenti deve tener conto di specifiche limitazioni.
+
+Nella tranciatura, il materiale di scarto rappresenta perdita di materiale. La larghezza minima
+dello scarto è limitata dal pericolo di tirare il materiale nella luce tra punzone e matrice ed è
+tipicamente $w = 2h$, ma può essere ridotta a $w = h$ con un'alta pressione del premi-lamiera e
+una lamiera più spessa e più rigida.
+I diametri dei fori possono essere raramente inferiori allo spessore della lamiera e devono
+essere almeno $2h$ con i materiali più duri. La forma delle parti dovrebbe consentire un
+\eng{nesting} con poco scarto o anche senza.
+L'utilizzo del materiale può essere ottimizzato mediante un appropriato layout e \eng{nesting} delle
+parti, un'arte che è notevolmente aiutata da programmi informatici. La produttività è
+ulteriormente aumentata e le perdite di materiale vengono ridotte con la sovrapposizione di
+più strisce di parti da una striscia più larga.
+Passando alla piegatura, il raggio minimo delle parti piegate è determinato dall'esigenza di
+evitare la frattura o, se l'aspetto o la finitura lo richiedono, dalla comparsa della strizione.
+Il raggio massimo è raggiunto quando non c'è deformazione plastica. Lo \eng{springback}
+aumenta con l'aumento del rapporto $R_b/h$ e la progettazione del processo deve prevedere
+la compensazione.
+Se la piegatura è combinata con l'allungamento, sono possibili rapporti di $R_b/h$ molto grandi,
+a condizione che l'attrito sia abbastanza basso per assicurare lo scorrimento sullo stampo.
+
+Le parti formate per stiramento subiscono assottigliamento. Questo in realtà è un vantaggio
+quando il materiale incrudisce, e l'assottigliamento è un mezzo importante per aumentare
+la resistenza all'ammaccatura di un componente. Lo scorrimento sulla superficie del
+punzone e quindi l'incrudimento possono essere favoriti evitando caratteristiche
+geometriche che ostacolino lo scorrimento e con l'applicazione di un lubrificante efficace nel
+processo. Uno stiramento maggiore può essere raggiunto con un progetto che imponga
+sollecitazioni trasversali.
+Le più semplici forme imbutite (recipienti cilindrici piatti) con un raggio del fondo compreso
+tra 5 e 10 volte lo spessore sono le più favorevoli. Pareti più sottili sono facilmente ottenute
+stirando. Recipienti a gradini possono essere facilmente realizzati con imbutiture multiple.
+Le forme coniche sono più difficili; un recipiente a gradini può essere trasformato in un cono,
+ma si vedranno le linee prodotte dallo stampo. Occorre considerare processi alternativi
+come l'idroformatura e la tornitura in lastra. Forme più complesse richiedono una
+successione di operazioni, i maggiori costi di produzione possono essere giustificati se più
+componenti possono essere sostituiti con uno solo.
+
+Parti di forma rettangolare o irregolare possono essere imbutite o sottoposte a imbutitura-stiratura. In generale, angoli stretti e dettagli locali profondi rendono difficile la produzione, ma non impossibile, come esemplificato da coppe dell'olio motori e molti altri componenti delle carrozzerie d'auto. Modifiche minori (e funzionalmente insignificanti) della forma del pezzo (tipicamente, raggi di curvatura più ampi) spesso forniscono le soluzioni più economiche per i problemi di produzione. La modellazione del flusso di metallo è già in grado di aiutare nel fare la prima valutazione sulla fattibilità di produzione di una parte.
+La varietà di forme può essere ulteriormente ampliata se le limitazioni usuali sono meno stringenti. Un buon esempio è il vassoio a più compartimenti per la cena in cui le pieghe non sono solo consentite ma anche incoraggiate. Questo fornisce la rigidezza necessaria, facilitando anche imbutiture profonde che supererebbero la formabilità delle lamiere in lega dura di alluminio.
+
+\begin{table}
+\centering
+\caption{Potenzialità delle lavorazioni a freddo, A indica capacità ottima, E la peggiore}
+\label{tab:ConfrontoFreddo}
+\includegraphics[width = \textwidth]{ConfrontoFreddo}
+\end{table}
+
+\begin{table}
+\centering
+\caption{Possibili forme ottenibili per deformazione a freddo}\label{tab:PossibiliFreddo}
+\includegraphics[width = \textwidth]{PossibiliFreddo}
+\end{table}
+
+\moretodo[inline]{Continuare Lamiere con: \textbf{Altre lavorazioni}}
