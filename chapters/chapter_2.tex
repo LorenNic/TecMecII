@@ -683,8 +683,352 @@ temperature.
 \item[Rimozione del truciolo] Utilizzando dei sistemi ad alta
 pressione si possono sfruttare gli utilizzi precedenti mentre 
 si spostano i trucioli dalla zona i lavorazione.
+\end{description}ù
+
+I principali metodi per l'applicazione dei fluidi da taglio sono:
+\begin{itemize}
+\item Oliatore manuale o in pasta,
+\item Sistemi ad alta pressione,
+\item Attraverso gli utensili,
+\item Mediante ugelli e sistemi di ricircolo e filtraggio,
+\item Applicazioni a nebbia.
+\end{itemize}
+
+I fluidi da taglio hanno dei problemi in termini di smaltimento!
+Per cui spesso si lavora a secco o se ne usa il meno possibile.
+
+\subsection{L'usura degli utensili}
+\textbf{Premessa}: quando si parla di processi a deformazione si considera maggiormente come causa dell'usura pressione e forza.
+In genere l'usura arriva a 100000 pezzi prodotti, rendendolo un aspetto secondario nella scelta della lavorazione.
+Per l'asportazione di truciolo si hanno utensili che presentano una vita molto più breve. Si va dai 10 minuti, a qualche ora.
+Ovviamente ciò implica molti fermi macchina che si rendono evidenti sulla finitura superficiale.
+L'usura dipende dal materiale dell'utensile che può avere diverse specifiche forme.
+
+\begin{definition}{Usura}
+perdita di materiale da parte dell'utensile. Può essere
+\begin{description}
+\item[Progressiva] dovuta allo strisciamento tra materiale e utensile.
+\item[Istantanea] dovuta a distacchi improvvisi di materiale per diversi motivi quali: distacco del tagliente di riporto, vibrazioni ecc\dots
+\end{description}
+\end{definition}
+
+\begin{description}
+\item[Usura del dorso] si manifesta sul dorso dell'utensile dovuto allo strisciamento tra utensile e lavorato.
+\end{description}
+L'effetto è quello di perdere il controllo sulle tolleranze ottenute nella lavorazione, peggiorando di fatto la finitura.
+Consumando il tagliente, automaticamente, aumentano le forze necessarie per separare il materiale.
+
+I parametri di riferimento sono:\\
+\begin{tabular}{cl}
+$V_B$ & valore medio dell'estensione delle striature sul dorso dell'utensile\\
+$V_{B_{max}}$ & massima estensione delle striature dovute all'utensile.\\
+\end{tabular}\\
+Vengono identificati come in figura \ref{fig:StriaturaUsura}.
+La variazione di questi parametri dipende fortemente dalla velocità: più alta è la velocità di taglio, più bassa è la durata dell'utensile.
+Si può vedere alla figura \ref{fig:DurataUsura}.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{StriatureUsura}
+\caption{Titpiche striature dovute all'usura}
+\label{fig:StriaturaUsura}
+\includegraphics[width = 0.4\textwidth]{DurataUsura}
+\caption{Velocità di generazione delle striatura, indice dell'usura dell'utensile. Vale che $v_1 < v_2 < v_3$}
+\label{fig:DurataUsura}
+\end{wrapfloat}
+
+\eng{Depth of cut line} ovvero l'usura dentale.
+La zona dell'utensile che viene a contatto con la superficie del lavorato si consuma più velocemente per la possibilità della presenza di ossidi sulla superficie.
+
+\subsubsection{Usura della faccia}
+Le alte temperature possono formare delle \textbf{craterizzazioni} sulla faccia del dorso dovuta ad abrasioni e strisciamenti dei trucioli.
+Non è critica come l'usura del dorso. Si definisce:
+\begin{equation}
+KT := \text{caratterizzazione del cratere che si forma sulla faccia}
+\end{equation}
+La misurazione è riportata alla figura \ref{fig:Craterizzazione}.
+Può essere un problema più per le finiture che per le sgrossature.
+
+L'arrotondamento del naso dell'utensile è una forma di usura. Va considerato sopratutto in termini di finitura superficiale, in quanto si vedrà, essere caratterizzante per la finitura superficiale.
+Le forme di usura dipendono dal materiale dell'utensile.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Craterizzazione}
+\caption{Caratterizzazione della craterizzazione sulla faccia dell'utensile}
+\label{fig:Craterizzazione}
+\end{figure}
+
+In genere è difficile misurare lo stato di usura di un utensile nell'ambito industriale.
+Dunque ci si basa sulla previsione dell'usura.
+Oppure si valutano operazioni di finitura, in cui al peggioramento della lavorazione si valuta l'usura.
+Analogamente per la sgrossatura in finzione del materiale asportato.
+
+\subsubsection{Previsione della durata dell'utensile}
+La previsione della durata è critica: se si coordina correttamente la durata dell'utensile con la durata della lavorazione, si può evitare di interrompere la lavorazione. Ciò si vedrebbe sulla superficie del lavorato.
+Come parametri da considerare per la previsione troviamo:
+\begin{itemize}
+\item L'usura cresce con la distanza percorsa dall'utensile
+\item La durata cala con la velocità di taglio:
+\begin{equation}
+\text{Se } V = cost. \Rightarrow d = cost. \times t
+\end{equation}
+\item La velocità d'usura cresce con la temperatura.
+\item La temperatura cresce con la velocità di taglio.
+\end{itemize}
+
+Allora nel tempo si è sviluppata la \textbf{Formula di Taylor}:
+\begin{equation}
+V \times t^n = C \label{eqn:FormulaTaylor}
+\end{equation}
+Dove:\\
+\begin{tabular}{cl}
+$n$ & dipende dal materiale dell'utensile\\
+$C$ & dipende dal materiale del lavorato
+\end{tabular}
+All'epoca di Taylor non esistevano tutti i materiali per utensili sono in uso oggi. Dunque le relazioni non vanno sempre bene e, alle volte, sono troppo semplicistiche rispetto al metodo di usura per materiali moderni.
+Anche la tecnologia abbordo macchina era completamente diversa per cui utensili usati oggi hanno, in generale, durata maggiore.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{GraficoTaylor}
+\caption{Grafici della formula \eqref{eqn:FormulaTaylor} per diversi materiali}
+\label{fig:GraficoTaylor}
+\end{wrapfloat}
+
+Giusto per dare un'idea degli ordini di grandezza ecco alcuni esempi di parametri:
+\begin{align}
+\begin{cases}
+\text{HSS: } &n = 0.1 \div 0.25\\
+\text{Carburi} &n = 0.25 \div 0.4\\
+\text{Ceramici} &n = 0.4 \div 0.7  
+\end{cases}
+\end{align}
+Dalla formula \eqref{eqn:FormulaTaylor} si osserva che all' aumentare di $n$ la vita dell'utensile cala in maniera meno critica.
+
+Lo \eng{stiching} modifica la velocità di usura aumentandone la durata per via della sorta di protezione della faccia di spoglia superiore.
+Aumentando le temperature d'esercizio migliora la vita (grazie ai materiali che mantengono durezza elevata ad alta temperatura) per via del fatto che il materiale lavorato risulterà rammollito.
+
+Allora si è sviluppata una formula alternativa della formula di Taylor che si adatta meglio ai tempi moderni.
+\begin{equation}
+t = \frac{K}{v^{1/n}} \Rightarrow t = \frac{K}{v^{1/n_1} f^{1/n_2} w^{1/n_3}} \label{eqn:TaylorModerno}
+\end{equation}
+In cui di solito vale che $n_1 < n_2 < n_3$ che per un acciaio rapido vale;
+$n_1 = 0.1, \, n_2 = 0.18, \, n_3 = 0.45$
+Per cui si può osservare che dalla formula \eqref{eqn:TaylorModerno} la durata dell'utensile cala all'aumentare della velocità con un fattore 10.
+Infatti, $\frac{1}{n_1} = 10, \, \frac{1}{n_2} = 5.5, \, \frac{1}{n_3} = 2.2$
+Allora conviene modificare, come parametri in base alla loro influenza, proprio $w$ e $f$ perché la durata del utensile risulta meno sensibile a questi.
+
+Ci sono dei casi che non sono prevedibili tramite le formule di Taylor \eqref{eqn:FormulaTaylor} e \eqref{eqn:TaylorModerno}:
+\begin{itemize}
+\item Rottura per schianto dell'utensile se di materiale molto fragile;
+\item Il comportamento statistico del materiale andrebbe considerato.
+\end{itemize}
+
+Alcune soluzioni migliorative possono essere:
+\begin{itemize}
+\item Addizione tra l'utensile e materiale radioattivo, che attraverso la misura delle radiazioni è possibile stimare quanto si sia consumato.
+\item Misurazione della coppia resistente per valutare l'usura. Ciò è valido solamente se la lavorazione è sempre uguale.
+\end{itemize}
+
+\subsection{Qualità della superficie prodotta}
+\begin{quote}
+Come si può misurare la qualità della superficie?
+\end{quote}
+
+\begin{itemize}
+\item Rugosità superficiale
+\item Tolleranze geometriche
+\item Tolleranze dimensionali
+\item Trasformazioni indesiderate del materiale
+\item Tensioni residue sia di compressione che di trazione 
+\item Formazione di cricche
+\end{itemize}
+
+\subsubsection{Rugosità superficiale}
+In condizioni ideali la rugosità del materiale dovrebbe essere 0.
+Picchi e avvallamenti nel materiale sono misurabili tramite $R_t$ ovviamente si presentano.
+Allora:
+\begin{equation}
+R_t = \frac{f^2}{8R}
+\end{equation}
+Con $R$ è il raggio di raccordi del naso dell'utensile.
+In più:
+\begin{equation}
+R_a \approx \frac{f^2}{32R}
+\end{equation}
+Le situazioni che in generale peggiorano la rugosità superficiale sono ad esempio: la rugosità stessa del materiale di partenza, tagliente di riporto ed eventuali distaccamenti, tolleranze nella geometria dell'utensile, strappi per rottura del truciolo, cricche trasversali, vibrazioni, usura utensile.
+Per la finitura, l'usura dell'utensile viene decretata da quando la finitura non raggiunge le caratteristiche richieste.
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{FinituraSuperficiale}
+\caption{Indicazioni di velocità di taglio e avanzamento in funzione della durezza del materiale lavorato e di diversi utensili}
+\label{fig:FinituraSuperficiale}
+\end{wrapfloat}
+
+\begin{example}{Esempio di valutazione dell'avanzamento}
+Considerando di lavorare un acciaio automatico con utensile in carburo di tungsteno, usando il grafico \ref{fig:FinituraSuperficiale} per raggiungere un livello di rugosità $R_a = 1.6\unit{\um}$ e con una profondità di passata $w = 3.8\unit{\mm}$.
+\begin{align*}
+f &= \frac{0.5\unit{\mm}}{2} \: \text{In finitura si ipotizza di dimezzare l'avanzamento}\\
+R_a &\approx \frac{f^2}{32R} \Rightarrow R = \frac{f^2}{32 R_a}\\
+R &= 0.78\unit{\mm} \rightarrow R_{real} = 1\unit{\mm}
+\end{align*}
+Scegliendo un utensile con raggio di raccordo più grande si migliora la rugosità.
+\end{example}
+
+\subsection{Lavorabilità}
+La lavorabilità è un concetto che convoglia diversi parametri che sono emersi nelle trattazioni precedenti.
+In generale si dice che un materiale quando:
+\begin{itemize}
+\item Quanto facilmente si possono ottenere componenti a basso costo
+\item Basse forze,
+\item Basso costo di lavorazione.
+\end{itemize}
+
+In generale si definiscono delle \textbf{scale di lavorabilità} per cui vengono fatte delle prove tecnologiche per confrontare i diversi materiali.
+Ad esempio:
+\begin{itemize}
+\item Si considera una lavorazione di riferimento: la tornitura,
+\item L'utensile deve durare 60 minuti prima che raggiunga determinati valori di $WB$ o $WB_{max}$.
+\item Si valuta quale materiale può essere lavorato a più alta velocità.
+\end{itemize}
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{AcciaCarbonio}
+\caption{Caratteristiche meccaniche utili alla lavorabilità per la lavorabilità in asportazione}
+\label{fig:AcciaiCarbonio}
+\end{wrapfloat}
+
+Se si impone la velocità di taglio e si vuole valutare la lavorabilità allora si va a valutare il consumo dell'utensile.
+Come si può vedere esistono diverse prove tecnologiche.
+
+I materiali fragili o con punto di fusione basso vengono considerati dei materiali con buona lavorabilità.
+
+In generale meglio che il materiale del lavorato non sia chimicamente reattivo, così da non reagire col materiale.
+
+Materiali con particelle dure sono considerati meno lavorabili, per via del fatto che generano urti contro i taglienti per cui si rischia distacchi dell'utensile.
+Materiali altamente termoconduttivi sono preferiti in modo da smaltire il calore accumulato sull'utensile.
+
+Alcune soluzioni migliorative prevedono di aumentare la temperatura davanti all'utensile in modo da rendere il materiale del lavorato più cedevole.
+Di certo si aumenta la probabilità di diffusione sull'utensile.
+
+Ora si vedrà una disamina dei vari materiali maggiormente lavorati per asportazione di truciolo.
+
+\subsubsection{Acciai al carbonio}
+Hanno un'ampia gamma di durezze possibili. Si possono trovare allo stato ricotto, lavorati a freddo o induriti per precipitazione per soluzione solida.
+
+\subsubsection{Acciai automatici}
+Sono acciai contenenti due elementi che ne aumentano la lavorabilità:
+\begin{description}
+\item[Pb] Punto di fusione basso, evita che si formi lo sticking e proteggere l'utensile
+\item[S] i solfuri di manganese, in forma globulare favorisce la rottura del truciolo.
 \end{description}
 
+\subsubsection{Acciai legati}
+La resistenza meccanica aumenta rispetto ai precedenti, provocando usura accelerata dell'utensile.
+Potrebbe essere possibile una ricottura per aumentare la lavorabilità.
+Spesso ottenuti per sinterizzazione per cui la porosità può causare urti dell'utensile col materiale. Si può ignorare questo effetto nel caso la densità sia superiore al $90\%$ rispetto a quella vera.
+
+\subsubsection{Acciai inossidabili}
+Sono caratterizzati da scarsa lavorabilità in particolare gli austenitici e martensitici.
+
+\subsubsection{Ghise}
+Sono abbastanza lavorabili per via delle lamelle di grafite fragili delle ghise grigie. Per le altre la lavorabilità è abbastanza buona.
+
+\subsubsection{Zinco e Magnesio}
+Da prestare attenzione al punto di fusione abbastanza basso. Sono molto rigidi per cui godono di una buona lavorabilità.
+Il magnesio alle alte temperature può bruciare.
+
+\subsubsection{Alluminio}
+Più lavorabile se incruditi per abbassare la lavorabilità anche in caso di invecchiamenti e \ac{TT}.
+
+\subsubsection{Rame}
+Come per l'alluminio anche il rame deve essere trattato per abbassare la duttilità altrimenti tende ad impastare l'utensile.
+
+\subsubsection{Nichel e superleghe}
+Ottime resistenze meccaniche anche ad alte temperature, per cui queste leghe sono particolarmente difficili da lavorare anche per asportazione.
+
+\subsubsection{Titanio}
+Si tratta di un materiale particolarmente fragile, per cui ben lavorabile per asportazione di truciolo.
+
+\subsection{Materiali per utensili}
+L'evoluzione dei materiali ha portato ad una migliore resa di materiali adatti per utensili. Anche le macchine hanno visto una forte evoluzione che porta a sfruttare al meglio le proprietà dei nuovi materiali.
+
+Ricordando che:
+\begin{description}
+\item[Resilienza] è la capacità del materiale di assorbire istantaneamente energia meccanica prima che il materiale giunga a rottura.
+\item[Tenacità] è la capacità del materiale a resistere sollecitazioni meccaniche nel tempo.
+\end{description}
+Dovrebbe essere che l'utensile sia più duro del materiale da lavorare.
+In più si cercano dei materiali che offrano maggiore resistenza, maggiore durata e minore deformazione plastica dell'utensile.
+Anche la resistenza agli shock meccanici è molto apprezzata.
+Sempre di questo passo, si ricerca una certa resistenza agli shock termici nei casi in cui l'utensile non è costantemente immerso nel materiale da lavorare. Anche se il materiale può offrire alta conducibilità termica viene apprezzato, in modo da smaltire il calore accumulato sulle facce dello stesso.
+Nei casi in cui ci sia adesione tra utensile-lavorato è necessario:
+\begin{itemize}
+\item bisogna evitare la saldatura tra i due e che eventualmente ci sia diffusione.
+\item Si può favorire l'adesione per garantire una sorta di protezione delle facce.
+\end{itemize}
+In generale si osserva che alcuni materiali che resistono ad alta temperatura presentano comunque una bassa resilienza ad alta temperatura.
+
+Ora si avrà una disamina dei principali materiali usati per tale scopo.
+
+\subsubsection{Acciai Ipereutettoidici}
+Si favorisce la formazione della fase martensitica nell'acciaio.
+Offrono un primo rammollimento già a $250\unit{\celsius}$
+Per cui vengono utilizzati per lavorare materiali particolarmente teneri a bassa velocità.
+In generale possono avere $\alpha>>0$ e si possono riaffilare.
+\subsubsection{Acciai HSS}
+Possono essere con matrici a base di \textbf{carburi di molibdeno} o \textbf{carburi di tungsteno}.
+Come temperatura limite di lavorazione si attesta attorno a $550\unit{\celsius}$.
+Sono ottenuti per deformazione plastica a caldo e poi \ac{TT} e in fine la rettifica per affilarli.
+Offrono una buona resilienza e possono essere riaffilati.
+I \ac{TT} servono per ottenere ossidazione di $Fe_3O_4$ e nitruri (più apprezzati) o carburi di titanio.
+Si fanno per ottenere una durezza da 2 o 6 volte più grande.
+\subsubsection{Acciai per colata}
+Carburi vengono ottenuti per colata. 
+La matrice è in genere di cobalto che conferisce particolare durezza.
+Ka resilienza inizia a calare perché il materiale è molto più fragile rispetto agli HSS.
+Sono riafilabili e vengono fissati meccanicamente al gambo della macchina.
+\subsubsection{Carburi cementati}
+Sono ottenuti per sinterizzazione e normati da ISO.
+In genere vengono realizzati realizzati inserti.
+Non sono riaffilabili e vengono fissati tramite brasatura. Alcuni strati hanno lo scopo di rafforzare i legami tra gli strati. Oltre a garantire le proprietà di durezza.
+\subsubsection{Ceramici}
+Sono materiali ceramici legati con carburo metallico come allumina usato per monotagliente di finitura.
+Sono ottenuti per sinterizzazione.
+\subsubsection{CBN}
+Il nitruro cubico di boro è un materiale sintetico, il secondo più duro dopo il diamante.
+Viene sfruttato per tagliare le leghe di acciaio anche le più dure.
+Viene prodotto tramite alta pressione e alta temperatura.
+Di solito si realizzano piccoli taglienti che vengono legati ad un'utensile di carburo per poi essere legato al gambo.
+Non è riaffilabile.
+\subsubsection{Diamante policristallino}
+Siccome nei diamanti naturali sono presenti delle impurità. Allora si sono sviluppati questi sintetici perché siano più prevedibili e meno costosi.
+Vengono usati per lavorare leghe di alluminio e altre leghe non ferrose.
+Come per i precedenti vengono usati come piccoli taglienti applicati su utensili di carburo.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{MaterialiUtensili}
+\caption{Range di caratteristiche dei principali materiali per utensili}
+\label{fig:MaterialiUtensili}
+\end{figure}
+
+\subsection{Morfologia degli utensili}
+Gli acciai rapidi hanno resilienza tale da permettere la realizzazione di utensili monoblocco. Inoltre il costo rimane basso.
+Già coi carburi si possono realizzare degli inserti per via del fatto che costano di più e sono più fragili.
+Con gli inserti non raffilabili si girano i vertici in modo da consumarli in tutti i senti.
+I taglienti con angolo di spoglia grande dovranno essere raccordati per garantire un usura uniforme.
+Per gli inserti costosi o molto fragili vengono realizzate delle unghie applicate all'inserto tramite brasatura.
+
+\begin{table}
+\centering
+\caption{Confronto tra le morfologie degli utensili e i loro costo}
+\label{tab:ConfrontoUtensili}
+\includegraphics[width = \textwidth]{Utensili}
+\end{table}
+
+\moretodo[inline]{Aggiungere: Portautensili e altri argomenti più secondari}
+
+\chapter{Tornitura}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Capitoli già realizzati									    	%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
