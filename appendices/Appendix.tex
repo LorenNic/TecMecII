@@ -1,5 +1,50 @@
 %!TEX root = ../Report.tex
 
 %==============================================================================================================================================
-\chapter{Appendix A}
-\label{app:sus}
+\chapter{Esempio applicativo sulle macchine utensili}
+\label{exe:EsempioApplicativo}
+
+\begin{example}{Esempio Applicativo}
+Si vuole allargare un foro in un getto in acciaio con un utensile in carburo. Il diametro iniziale è $D_i = 130\unit{\mm}$ a $D_f = 138\unit{mm}$. Si vuole suggerire velocità di taglio e avanzamento, profondità e potenza necessaria.
+
+%\subsection*{Soluzione}
+Da manuale \eqref{fig:Rel_VelTempDur} a pagina \pageref{fig:Rel_VelTempDur}, \eqref{fig:FattoriAltreLav} a pagina \pageref{fig:FattoriAltreLav} e \eqref{fig:RendimentiEsercizio}  a pagina \pageref{fig:RendimentiEsercizio} si ottengono: 
+\begin{itemize}
+\item $UTS$ del materiale: in questo caso $UTS = 485\unit{\MPa}$.
+\item da cui si ricava $HB = 3*485*9.8=150\unit{\kg/\mm^2}$.
+\end{itemize}
+Allora possiamo stimare;
+\begin{itemize}
+\item Profondità di passata: $w = (138-130)/2 = 4\unit{\mm}$,
+\item Dal grafico otteniamo: $v_s = 1.8\unit{\m/\s}$ che può essere aumentata del 20\% per via dell'utensile usa-e-getta al carburo da cui: $v_s = 1.8 * 1.2 = 2.16\unit{\m/\s}$
+\end{itemize}
+Siccome stiamo trattando una tornitura di interni:
+\begin{itemize}
+\item avanzamento: $f_s = 0.5\unit{\mm}$
+\item siccome $Z_f = 1$ allora $f = 0.5\unit{\mm}$
+\item Area trasversale truciolo: $A = f*w = 0.5*4 = 2\unit{\mm^2}$
+\item Volume asportato: $V_t = A * v_s = 4320\unit{\mm^3/\s}$
+\end{itemize}
+Per calcolare la potenza:
+\begin{itemize}
+\item Dalla tabella: $E_1 = 2.1\unit{\W\s/\mm^2}$
+\item Energia spesa: $E = E_1 * h^{-a}= 2.59\unit{\W\s/\mm^2}$
+\item Da cui la potenza: $P = \frac{2.59 * 4320}{0.7} = 16\unit{\kW}$
+\item la forza di taglio: $P_c = \frac{15956}{2.16} = 7.4\unit{\kN}$
+\end{itemize}
+\end{example}
+
+\chapter{Esempio applicativo sulle lavorazioni abrasive}
+\label{exe:EsempioAbrasioni}
+
+Si vuole migliorare il livello di finitura di un blocco di acciaio in superficie piana tramite mola a tazza con diametro di $d_m = 150\unit{\mm}$. Si userà l'avanzamento di traslazione.
+
+Il materiale in lavorazione H13 con durezza $55\unit{HRC}$
+con area $A = 50 \times 100 \unit{\mm^2}$.
+Con velocità $V = 1500\unit{\m/\min}$, $f_v = 0.05\unit{\mm}$, $f_l = 30\unit{\m/\min}$\todo{Aggiungere dati}
+\subsubsection*{Soluzione}
+\begin{align*}
+\text{Corsa totate: } &100 + 150 = 250\unit{\mm}\\
+\text{la velocità superficiale: } &D = \pi \\
+\end{align*}
+\todo{Completare l'esercizio}

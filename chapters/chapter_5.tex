@@ -110,7 +110,18 @@ Grazie ai fluidi si abbassa di molto l'energia specifica per la rettifica la qua
 Altro aspetto per cui si limita l'utilizzo dei fluidi da taglio è legato al loro smaltimento. Essendo fluidi particolari non è semplice smaltirli una volta volta consumati.
 
 \subsection{Lavorazioni di rettifica}
-\missingfigure{Aggiungere le figure delle lavorazioni di rettifica}
+\begin{figure}
+\centering
+\subfloat[][\emph{Rettifica orizzontale e cilindrica}\label{fig:Rettifica1}]
+{\includegraphics[width = 0.3\textwidth]{Rettifica1}}\quad
+\subfloat[][\emph{Rettifica senza centri e rettifica interna}\label{fig:Rettifica2}]
+{\includegraphics[width = 0.3\textwidth]{Rettifica2}}\quad
+\subfloat[][\emph{Rettifica al lapitello e di forma}
+\label{fig:Rettifica3}]
+{\includegraphics[width = 0.3\textwidth]{Rettifica3}}
+\caption{Esempi di rettifica}
+\label{fig:Rettifica}
+\end{figure}
 
 La lavorazione al lapitello, consiste in una macchina con un portapezzo magnetico in cui la mola ha una traslazione invece di una rotazione
 
@@ -120,7 +131,7 @@ Ovviamente il tutto dipende allo specifico prodotto da lavorare.
 
 \subsubsection{Obbiettivi della rettifica}
 \begin{description}
-\item[Rettifica di precisione]: migliora le tolleranze e finitura superficiale\todo{Aggiungere i dettagli}
+\item[Rettifica di precisione]: migliora le tolleranze e finitura superficiale.
 \item[Rettifica di sgrossatura]: I grani usurati vengono espulsi, la velocità è più alta e l'energia specifica più bassa. Indubbiamente si sta aumentando lo spessore di truciolo indeformato.
 Si usa per eliminare alimentazione e materozze dai getti e la bava dai forgiati.
 \item[\eng{Creep-feed}] Con una sola passata, grande spessore di truciolo indeformato, piccolo avanzamento per giro.
@@ -131,20 +142,11 @@ Aumentando lo spessore indeformato dunque si abbassa l'energie specifica impiega
 Una buona finitura non garantisce qualità superficiale elevata.
 La qualità della superficie aumenta con mole tenere, frequenti ravvivature e abbondante lubrificazione.
 
-\subsubsection*{Esempio}
-Si vuole migliorare il livello di finitura di un blocco di acciaio in superficie piana tramite mola a tazza con diametro di $d_m = 150\unit{\mm}$. Si userà l'avanzamento di traslazione.
+\subsubsection{Esempio}
+Un esempio applicativo dei parametri utili alla realizzazione di una corretta rettifica è riportato all'appendice \ref{exe:EsempioAbrasioni} a pagina \pageref{exe:EsempioAbrasioni}.
 
-Il materiale in lavorazione H13 con durezza $55\unit{HRC}$
-con area $A = 50 \times 100 \unit{\mm^2}$.
-Con velocità $V = 1500\unit{\m/\min}$, $f_v = 0.05\unit{\mm}$, $f_l = 30\unit{\m/\min}$\todo{Aggiungere dati}
-\subsubsection*{Soluzione}
-\begin{align*}
-\text{Corsa totate} & 100 + 150 = 250\unit{\mm}\\
-\text{la velocità superficiale : } D = \pi \\
-\end{align*}
-\todo{Completare l'esercizio}
 
-\subsubsection{Nastri e carte vetrate}
+\subsection{Nastri e carte vetrate}
 particelle abrasive attaccate a carta o stoffa, sono utilizzate per operazioni di finitura a bassa velocità.
 Usando colle e  supporti più forti è possibile aumentare la velocità, arrivando fino a sostituire l'asportazione di truciolo più comune.
 In particolare per i nastri non è raro il fatto di trovare dei macchinari che presentano delle ruote non continue, ovvero delle ruote a settori.
@@ -157,41 +159,73 @@ anche in questo caso si possono sfruttare i fluidi da taglio per abbassare la te
 
 Un'ulteriore tipologia di utensile sono i fili. Vengono incollate sul filo le particelle taglienti che messo in movimento permette l'asportazione di materiale. Ciò taglia il materiale.
 
-\subsubsection{Levigatura}
-Si presenta un utensile con dei settori abrasivi. I quali hanno anche un ulteriore movimento in senso radiale. L'operazione viene utilizzato per migliorare ulteriormente la finitura di fori in particolare.
+\subsection{Levigatura}
+Si presenta un utensile, \ref{fig:Levigatura}, con dei settori abrasivi. I quali hanno anche un ulteriore movimento in senso radiale. L'operazione viene utilizzato per migliorare ulteriormente la finitura di fori in particolare.
 
 L'utensile deve essere messo in pressione affinché i taglienti aderiscano alla superficie del foro da lavorare.
 
-Il livello di finitura è superiore alle precedenti perché si tratta  di un'operazione di superabrasione. Risulta costosa e lunga. le differenze si possono vedere in figura.
-\missingfigure{Confronto abrasivi e superabrasivi}
+Il livello di finitura è superiore alle precedenti perché si tratta  di un'operazione di superabrasione. Risulta costosa e lunga. le differenze si possono vedere in figura \ref{fig:LevigatutaFine}.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Esempio di utensili per levigature di cilindri interni}\label{fig:Levigatura}]
+{\includegraphics[width = 0.4\textwidth]{Levigatura}}\quad
+\subfloat[][\emph{Finitura superficiale ottenuta con superabrasivi e abrasivi convenzionali}\label{fig:LevigatutaFine}]
+{\includegraphics[width = 0.4\textwidth]{LevigaturaFine}}
+\caption{Considerazioni sulla levigatura}
+\label{fig:Levi}
+\end{figure}
+
 
 \section{Abrasione non legata}
 \subsection{Lappatura}
 Tramite una soluzione oleosa abrasiva posta tra il pezzo da lavorare e una superficie che è il negativo del pezzo da ottenere.
-\missingfigure{lappatura}
 Tramite movimento planetario, rotazione del supporto più la rotazione dei singoli contenitori applicanti una certa pressione al pezzo in lavorazione, si ottiene il livello di finitura desiderato.
+Alla figura \ref{fig:Lappatura} vengono mostrati lo schema di funzionamento e un macchinario per la lappatura.
 Viene spesso usata per realizzare oggettistica tridimensionale come possono essere le lenti.
 
-\missingfigure{Utensile ad ultrasuoni}
-
-Lavorazione particolarmente adatta per amteriali fragili.
+L'abrasione ad ultrasuoni è una lavorazione particolarmente adatta per materiali fragili.
+Vedi figura \ref{fig:AbrasioneUltrasuoni}.
 
 \subsection{Burattatura}
 Si tratta di un'operazione che viene eseguita sia a secco che a liquido.
-Vengono messi in un contenitore vibrante contenente: dei buratti e i pezzi da sbavere. la vibrazione mette in movimento relativo i buratti e pezzi che verranno puliti da trucioli residui e altre sbavature.
-\missingfigure{Burattatura}
+Vengono messi in un contenitore vibrante contenente: dei buratti e i pezzi da sbavare. la vibrazione mette in movimento relativo i buratti e pezzi che verranno puliti da trucioli residui e altre sbavature.
+In figura \ref{fig:Burattatura}.
 Si tratta di una lavorazione molto apprezzata per la capacità di pulire dei pezzi. Ciò è dato dal fatto che i buratti possono avere forme e dimensioni variegate in base alla geometria del pezzo da pulire.
 
 \subsection{Sabbiatura}
 Si tratta di un'operazione che viene spesso usata per rimuovere film superficiali o per sbavare come già visto.
 Vengono scagliate delle particelle abrasive sul pezzo da ripulire
 
+\begin{figure}
+\centering
+\subfloat[][\emph{Processo di lappatura}\label{fig:Lappatura}]
+{\includegraphics[width = 0.3\textwidth]{Lappatura}}\quad
+\subfloat[][\emph{Abrasione ad ultrasuoni}\label{fig:AbrasioneUltrasuoni}]
+{\includegraphics[width = 0.3\textwidth]{AbrasioneUltrasuoni}}\quad
+\subfloat[][\emph{Esempio di burattatura}\label{fig:Burattatura}]
+{\includegraphics[width = 0.3\textwidth]{Burattatura}}
+\caption{Lavorazioni abrasive non legate}
+\label{fig:NonLegate}
+\end{figure}
+
+
+\begin{table}
+\centering
+\caption{Confronto delle lavorazioni abrasive a confronto con altre lavorazioni ad asportazione. 'A' indica un parametro ottimale, 'E' il peggiore}
+\label{tab:ProcessiAbrasivi}
+\includegraphics[width = 0.8\textwidth]{ProcessiAbrasivi}
+\caption{Forme lavorabili per abrasione}
+\label{fig:FormeAbrasione}
+\includegraphics[width = 0.8\textwidth]{FormeAbrasione}
+\end{table}
+
+
 \section{Considerazioni finali}
-\missingtable{Tabella di confronto lavorazioni}
 L'asportazione di truciolo si apprezzano per tutti i materiali mentre quelle di tipo abrasivo solo per materiali duri.
 Mentre l'asportazione di truciolo permette la realizzazione di praticamente tutte le forme possibili, a parte quelle in cui l'apertura di ingresso sia più piccola dell'utensile. Mentre le abrasive non vedono tutti questo campo.
 In termini di dimensioni l'asportazione di truciolo non ha limiti. L'unica problematica da tenere a mente è la flessione degli utensili o dei pezzi in lavorazione.
-\missingfigure{Grafico limiti geometrici per lavorazione}
+
 
 \subsection{Aspetti progettuali}
 Punti da tenere presente durante la progettazione:
@@ -205,8 +239,10 @@ Punti da tenere presente durante la progettazione:
 \item Caratteristiche di forma angolate rispetto alla normale direzione di funzionamento della macchina dovrebbero essere evitate.
 \item Fori ciechi su facce opposte andrebbero evitati.
 \item Caratteristiche di forma angolate rispetto alla superficie deflettono l'utensile e richiedono un'operazione separata.
-\item Tapanatura, fresatura ed altre operazioni producono bave.
-\item La sbavatura è molto costosa.\todo{\\Completare elenco}
+\item Trapanatura, fresatura ed altre operazioni producono bave.
+\item La sbavatura è molto costosa e lo spessore della bava determina la modalità di rimozione.
+\item La possibilità di raggiungere una determinata accuratezza dipende dalla dimensione del componente.
+\item Le macchine devono essere estremamente rigide, con mandrini e guide precisi.
+\item Anche gli afferraggi devono essere precisi e la forza applicata tale da non provocare distorsioni.
+\item La temperatura deve essere controllata. 
 \end{itemize}
-
-\moretodo[inline]{Completare e sistemare il capitolo}

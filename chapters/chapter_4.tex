@@ -101,6 +101,7 @@ t_c = \frac{\overbrace{v_c}^{\text{velocità di taglio}}}{\underbrace{V_t}_{\tex
 Si ricorda che la velocità di asportazione è data dalla velocità di taglio per la sezione trasversale del truciolo: spessore indeformato e profondità di passata.
 
 \subsection{Esempio applicativo}
+Un esempio applicativo per il calcolo dei parametri utili per una lavorazione in asportazione di truciolo è riportato all'appendice \ref{exe:EsempioApplicativo} a pagina \pageref{exe:EsempioApplicativo}.
 
 \begin{figure}
 \centering
@@ -108,36 +109,6 @@ Si ricorda che la velocità di asportazione è data dalla velocità di taglio pe
 \caption{Specifiche durezza dei materiali}
 \label{fig:RendimentiEsercizio}
 \end{figure}
-
-\begin{example}{Esempio applicativo}
-Si vuole allargare un foro in un getto in acciaio con un utensile in carburo. Il diametro iniziale è $D_i = 130\unit{\mm}$ a $D_f = 138\unit{mm}$. Si vuole suggerire velocità di taglio e avanzamento, profondità e potenza necessaria.
-
-%\subsection*{Soluzione}
-Da manuale \eqref{fig:Rel_VelTempDur}, \eqref{fig:FattoriAltreLav} e \eqref{fig:RendimentiEsercizio} si ottengono: 
-\begin{itemize}
-\item $UTS$ del materiale: in questo caso $UTS = 485\unit{\MPa}$.
-\item da cui si ricava $HB = 3*485*9.8=150\unit{\kg/\mm^2}$.
-\end{itemize}
-Allora possiamo stimare;
-\begin{itemize}
-\item Profondità di passata: $w = (138-130)/2 = 4\unit{\mm}$,
-\item Dal grafico otteniamo: $v_s = 1.8\unit{\m/\s}$ che può essere aumentata del 20\% per via dell'utensile usa-e-getta al carburo da cui: $v_s = 1.8 * 1.2 = 2.16\unit{\m/\s}$
-\end{itemize}
-Siccome stiamo trattando una tornitura di interni:
-\begin{itemize}
-\item avanzamento: $f_s = 0.5\unit{\mm}$
-\item siccome $Z_f = 1$ allora $f = 0.5\unit{\mm}$
-\item Area trasversale truciolo: $A = f*w = 0.5*4 = 2\unit{\mm^2}$
-\item Volume asportato: $V_t = A * v_s = 4320\unit{\mm^3/\s}$
-\end{itemize}
-Per calcolare la potenza:
-\begin{itemize}
-\item Dalla tabella: $E_1 = 2.1\unit{\W\s/\mm^2}$
-\item Energia spesa: $E = E_1 * h^{-a}= 2.59\unit{\W\s/\mm^2}$
-\item Da cui la potenza: $P = \frac{2.59 * 4320}{0.7} = 16\unit{\kW}$
-\item la forza di taglio: $P_c = \frac{15956}{2.16} = 7.4\unit{\kN}$
-\end{itemize}
-\end{example}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Macchine Utensili											       %
