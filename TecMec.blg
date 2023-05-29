@@ -4,9 +4,7 @@ The top-level auxiliary file: TecMec.aux
 A level-1 auxiliary file: prefrontmatter/titlepage.aux
 A level-1 auxiliary file: prefrontmatter/colophon.aux
 A level-1 auxiliary file: prefrontmatter/versioning.aux
-A level-1 auxiliary file: frontmatter/abstract.aux
 A level-1 auxiliary file: frontmatter/intro.aux
-A level-1 auxiliary file: frontmatter/acknowledgements.aux
 A level-1 auxiliary file: chapters/chapter_1.aux
 A level-1 auxiliary file: chapters/chapter_3.aux
 A level-1 auxiliary file: chapters/chapter_2.aux
@@ -14,13 +12,15 @@ A level-1 auxiliary file: chapters/chapter_4.aux
 A level-1 auxiliary file: chapters/chapter_5.aux
 A level-1 auxiliary file: chapters/chapter_6.aux
 A level-1 auxiliary file: chapters/chapter_7.aux
+A level-1 auxiliary file: chapters/chapter_8.aux
+A level-1 auxiliary file: appendices/Appendix.aux
 A level-1 auxiliary file: appendices/Acronyms.aux
 I found no \citation commands---while reading file TecMec.aux
 I found no \bibdata command---while reading file TecMec.aux
 I found no \bibstyle command---while reading file TecMec.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            97 strings with 824 characters,
+            97 strings with 813 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

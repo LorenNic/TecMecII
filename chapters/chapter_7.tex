@@ -33,7 +33,7 @@ In genere perché:
 \end{enumerate}
 
 \begin{description}
-\item[\eng{arc welding}] Si sfrutta un arco elettrico per portare il materiale apportato a fusione.
+\item[\eng{Arc Welding}] Si sfrutta un arco elettrico per portare il materiale apportato a fusione.
 \item[\eng{Resistence Welding}] la modalità non è diversa dalla precedente ma si sfrutta la legge di Ohm per scaldare il materiale.
 \item[Brasatura] Si apporta del materiale bassofondente per legare i componenti.
 \item[Bullonatura] Si sfruttano dei componenti meccanici per mantenere uniti più pezzi.
@@ -240,17 +240,49 @@ Si evita di utilizzare delle giunzioni rivettate che avrebbero un costo molto el
 \subsection{Saldature a caldo}
 Si rifanno direttamente alle lavorazioni per deformazione plastica a caldo già viste in precedenza.
 Risulta essere la più antica forma di saldatura per materiali ferrosi.
-C'è stata un'evoluzione nella tecnica di di tali la\todo{\\Aggiungi}
+C'è stata un'evoluzione nella tecnica di \emph{saldoforgiatura}.
+I pezzi caldi e preformati vengono forgiati insieme per provocare la fuoriuscita di ossidi, scorie e contaminanti.
 
 Fondamentalmente si può praticamente tutte le tecniche di riscaldamento, L'importante è la successiva pressione da dare ai materiali.
 Con questo tipo di saldatura, in trazione si rompe il materiale base non il giunto.
+Le figure \ref{fig:SaldaturaACaldo} rappresentano alcune delle modalità con cui scaldare il materiale per poi applicare la pressione al fine di rompere gli strati superficiali e separare il fuso da impurità.
+
+La differenza con le saldature allo stato fuso è che in questo caso, sebbene si scaldi il materiale, non lo si porta a fusione,
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Saldatura a caldo semplice}\label{fig:SaldaturaACaldo1}]
+{\includegraphics[width = 0.3\textwidth]{SaldaturaACaldo1}}\quad
+\subfloat[][\emph{Saldatura a caldo tramite riscaldamento a induzione}\label{fig:SaldaturaACaldo2}]
+{\includegraphics[width = 0.3\textwidth]{SaldaturaACaldo2}}\quad
+\subfloat[][\emph{Saldatura a caldo con riscaldamento a resistenza}\label{fig:SaldaturaACaldo3}]
+{\includegraphics[width = 0.3\textwidth]{SaldaturaACaldo3}}
+\caption{Principali modalità di saldature a caldo}
+\label{fig:SaldaturaACaldo}
+\end{figure}
+
+Eventualmente il riscaldamento può essere realizzato tramite torce a gas. 
+Altre tecniche di saldatura possono essere realizzate tramite laminazione a caldo. Il processo è del tutto analogo alle lavorazioni a caldo per deformazione plastica.
 
 \subsection{Saldatura a frizione}
 Si tratta di una tecnica con cui scaldiamo gli elementi da giuntare.
-\missingfigure{Saldatura per frizione}
-L'attrito determina il riscaldamento dell'interfaccia in più la pressione simultanea andrà a giuntare i due pezzi. Si forma un colletto di bava
-\missingfigure{Processo di saldatura per attrito}
-Si presenta un piccolo errore nella figura perché si dovrebbe mettere in rotazione, premere poco.
+Una parte è tenuta saldamente ferma mentre l'altra viene messa in rotazione con l'applicazione simultanea della pressione assiale. In genere viene utilizzata per giuntare dei pezzi per figure rotazionali.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Schema della saldatura per frizione}\label{fig:SaldaturaFrizione}]
+{\includegraphics[width = 0.3\textwidth]{SaldaturaFrizione}}\quad
+\subfloat[][\emph{Processo di giunzione per frizione}\label{fig:ProcessoFrizione}]
+{\includegraphics[width = 0.6\textwidth]{ProcessoFrizione}}\\
+\subfloat[][\emph{Risultati per la saldatura a frizione}\label{fig:RisultatiFrizione}]
+{\includegraphics[width = \textwidth]{RisultatiFrizione}}
+\caption{Saldatura allo stato solido per frizione}
+\label{fig:Frizione}
+\end{figure}
+
+L'attrito determina il riscaldamento dell'interfaccia in più la pressione simultanea andrà a giuntare i due pezzi. Si forma un colletto di bava come si vede dalle figure \ref{fig:ProcessoFrizione}.
+
+Si presenta un piccolo errore nella figura \ref{fig:ProcessoFrizione} perché si dovrebbe mettere in rotazione, premere poco.
 Poi fermare la rotazione, aumentare la forza in cui si genera anche la bava. 
 Per poi finire finché la zona pastosa non si raffredda.
 
@@ -259,43 +291,80 @@ Si tratta di una tecnica che si è sviluppata per la saldatura di teste per lami
 Risulta interessante per via del fatto che la macchina necessaria per il raggiungimento dello scopo basta una fresa a controllo numerico.
 
 L'utensile ruota, scalda il materiale delle due lamiere avvicinate, percorre un qualsiasi percorso di saldatura come se fosse una fresa. 
+Alla figura \ref{fig:FRW} se ne vede un esempio.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.6\textwidth]{FRW}
+\caption{Esempio di \eng{Friction stir welding}}
+\label{fig:FRW}
+\end{figure}
 
 \section{Saldature a fusione}
 Vengono definite come le uniche tecniche vere e proprie di fusione.
 Si tratta delle tecniche di saldature più ampio ed utilizzato in ambito meccanico.
 
-Si parla di saldatura eterogena se si apporta un terzo materiale per effettuare la saldatura, altrimenti omogenea.
+Si parla di saldatura eterogenea se si apporta un terzo materiale per effettuare la saldatura, altrimenti omogenea.
 
 Le principali categorie di saldatura sono:
 \begin{description}
 \item[Saldatura a resistenza]
 \item[Saldatura arco elettrico]
-\item[\dots]\todo{\\aggiungere}
+\item[Saldature per fasci ad alta energia]
+\item[Saldatura ad alta temperatura]
 \end{description}
 
 Le velocità di raffreddamento sono alte, superiori a quelle della fonderia in stampo permanente. Dunque si possono ottenere delle zone che restano amorfe, oppure si hanno degli effetti di ingrossamento del grano per via del ciclo termico imposto tramite la saldatura.
 Il grado di disomogeneità cresce passando dai metalli puri alle leghe multi fase e dipende anche dalla concentrazione di energia.
 
-Un'aspetto importante durante una saldatura è \textbf{l'intensità di energia}: ovvero un parametro energia/area.
+Un aspetto importante durante una saldatura è \textbf{l'intensità di energia}: ovvero un parametro energia/area.
 Con un'elevata intensità di energia si ottiene una saldatura profonda. Avendo una zona termicamente alterata è particolarmente stretta: per via del calore che ha meno tempo di diffondersi.
 Inoltre, si hanno minori cambiamenti nella struttura metallurgica e minori sollecitazioni sul cordone di saldatura durante il raffreddamento.
 Si riscontra anche una maggiore produttività.
-Riuscire ad avere un'elevata intensità di energia ha parecchi benefit in termini di riuscita della saldatura.
-\missingfigure{cordone saldatura profondo}
-Al contrario si ha un cordone di saldatura particolarmente fino e disteso
-\missingfigure{cordone di saldatura fino}
+Riuscire ad avere un'elevata intensità di energia ha parecchi benefit in termini di riuscita della saldatura. Infatti alta energia con una velocità adeguata di saldatura porta a cordoni di saldatura migliori come quelli \ref{fig:DeepWeld}.
+Al contrario si ha un cordone di saldatura particolarmente fino e disteso come in figura \ref{fig:ThinWeld}.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Cordone di saldatura profondo e ben eseguito}\label{fig:DeepWeld}]
+{\includegraphics[width = 0.4\textwidth]{DeepWeld}}\quad
+\subfloat[][\emph{Cordone di saldatura fino e superficiale}\label{fig:ThinWeld}]
+{\includegraphics[width = 0.4\textwidth]{ThinWeld}}
+\caption{Possibilità delle saldature}
+\label{fig:Weld}
+\end{figure}
 
 Considerando dei materiali monofasici: si suppone di giuntare due lembi dello stesso metallo puro con stesso materiale d'apporto.
 In parte fondono anche i lembi.
 Il materiale base adiacente alla zona fusa cambia proprietà.
-\missingfigure{Caratteristica saldatura}
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.7\textwidth]{CarattWeld}
+\caption{Andamento della temperatura nella prossimità del cordone di saldatura}
+\label{fig:CarattWeld}
+\includegraphics[width = 0.7\textwidth]{ZTA}
+\caption{Particolare sulla \ac{ZTA} in termini di caratteristiche meccaniche e temperature trasmesse}
+\label{fig:ZTA}
+\end{figure}
+
 Se il materiale era incrudito c'è il rischio di ricristallizzazione e la dimensione dei grani e la dimensione dei grani cresce con la permanenza ad alta temperatura.
 Se il materiale era ricotto i grani crescono di dimensioni.
 In ogni caso ci sono grani grandi al bordo della zona fusa.
-\missingfigure{Dimensione intergranulare nella ZTA}
-La pozza di saldatura: ovvero dove si concentra la maggior parte dell'intensità di energia avrà una ben specifica forma.
-In generale se si avesse solo un punto di saldatura questo avrebbe una pozza di forma circolare.
-Aumentando la velocità di traslazione della fonte di energia si avrà una forma della pozza prima ellittica e poi maggiormente allungata all'aumentare della velocità.
+Alla figura \ref{fig:ZTA} viene riportato il particolare della \ac{ZTA}.
+La \textbf{pozza di saldatura}: ovvero dove si concentra la maggior parte dell'intensità di energia avrà una ben specifica forma.
+In generale se si avesse solo un punto di saldatura questo avrebbe una pozza di forma circolare, \ref{fig:CircleWeld}.
+Aumentando la velocità di traslazione della fonte di energia si avrà una forma della pozza prima ellittica e poi maggiormente allungata all'aumentare della velocità, \ref{fig:ElipticalWeld}.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Bassa velocità di spostamento}\label{fig:CircleWeld}]
+{\includegraphics[width = 0.4\textwidth]{CircleWeld}}\quad
+\subfloat[][\emph{Alta velocità di spostamento}\label{fig:ElipticalWeld}]
+{\includegraphics[width = 0.4\textwidth]{ElipticalWeld}}
+\caption{Tipologie di grani in funzione della velocità di movimento della saldatura}
+\label{fig:VelWeld}
+\end{figure}
 
 Altri parametri che permettono di stimare la velocità di saldatura sono:
 \begin{itemize}
@@ -307,8 +376,8 @@ Altri parametri che permettono di stimare la velocità di saldatura sono:
 
 \subsection{Caratteristiche del giunto}
 Passando da due materiali monofasici a delle leghe.
-In corrispondenza del conrdone di saldatura si avranno delle dendriti colonnari particolarmente lunghe e fine per via dell'alta velocitùà di raffreddamento.
-Tra la temperatura di Liquidus ($T_L$) e quella di Solidus ($T_S$)si ha una zona pastosa.
+In corrispondenza del cordone di saldatura si avranno delle dendriti colonnari particolarmente lunghe e fine per via dell'alta velocità di raffreddamento.
+Tra la temperatura di Liquidus ($T_L$) e quella di Solidus ($T_S$) si ha una zona pastosa.
 Elementi basso fondenti segregano ai bordi della zona fusa.
 
 Oltre alle leghe, altra situazione comune è quella dei sistemi a più fasi.
@@ -316,24 +385,47 @@ I materiali a composizione eutettica non danno particolari problemi. L'unico pun
 I problemi durante la solidificazione si presentano soprattutto nella \ac{ZTA}.
 Infatti, nello specifico degli acciai, la diversa velocità di raffreddamento da delle trasformazioni formando martensite e per temperature più basse la bainite.
 La martensite è particolarmente problematica perché oltre alla fragilità da dei problemi di tensioni residue nella \ac{ZTA}.
-Per quanto riguarda la trasformazione delle fasi: l'eventuale materiale d'apporto si è supposto che avesse la stessa composizione del materiale base. IN generale questo non è vero: il materiale d'apporto non è quasi mai lo stesso materiale, ciò per evitare che ci siano delle trasformazione di cricche e trasformazione di fasi.
+Per quanto riguarda la trasformazione delle fasi: l'eventuale materiale d'apporto si è supposto che avesse la stessa composizione del materiale base. In generale questo non è vero: il materiale d'apporto non è quasi mai lo stesso materiale, ciò per evitare che ci siano delle trasformazione di cricche e trasformazione di fasi.
 Si evitano le cricche ma si complica di più lo studio del comportamento della saldatura. In più, non si ha un equilibrio per via del fatto che non si sta raffreddando omogeneamente.
 Le soluzioni solide in genere non danno problemi.
 Gli eutettici tendono ad essere fragili, ma hanno buone qualità quando le due fasi sono duttili.
 Composti intermetallici sono da evitare per via della loro fragilità.
-Se la differenza tra le temperature di fusione è alta allora si parla di brasatura.
+Se la differenza tra le temperature di fusione è alta allora si parla di \textbf{brasatura}.
 Perciò si parla di saldatura quando le due temperature di fusione sono abbastanza vicine.
 
-\missingfigure{Grafico intervalli di durezza}
-Il grafi dimostra quanto una saldatura a caldo possa influenzare la durezza del materiale base. Perciò per le applicazioni critiche si cerca di evitare l'utilizzo delle saldature. Dunque, è un aspetto da tenere bene a mente durante il processo produttivo.
+\begin{figure}
+\centering
+\includegraphics[width = 0.7\textwidth]{IntervalliDurezza}
+\caption{Intervalli di durezza in prossimità del cordone di saldatura}
+\label{fig:IntervalliDurezza}
+\end{figure}
+
+Il grafico \ref{fig:IntervalliDurezza} dimostra quanto una saldatura a caldo possa influenzare la durezza del materiale base. Perciò per le applicazioni critiche si cerca di evitare l'utilizzo delle saldature. Dunque, è un aspetto da tenere bene a mente durante il processo produttivo.
 
 \subsection{Difetti e qualità della saldatura a fusione}
 Nella realizzazione della saldatura a fusione possono verificarsi dei difetti.
-Si farà riferimento ad una saldatura\todo{\\aggiungi}
-\missingfigure{Confronto 3 saldature}
+Si farà riferimento ad una saldatura per fusione con materiale d'apporto.
+La temperatura di fusione determina, insieme al calore specifico e al calore latente di fusione, la quantità di calore richiesto per la fusione.
+\begin{figure}
+\centering
+\includegraphics[width = 0.8\textwidth]{CordoniSaldatura}
+\caption{Cordoni di saldatura a confronto: (a) ben eseguito, (b) mancanza di fusione e penetrazione detto \eng{underfill}, (c) Saldatura eccessiva detta \eng{overfill}}
+\label{fig:CordoniSaldatura}
+\end{figure}
+In riferimento alla figura \ref{fig:CordoniSaldatura} si hanno tre possibili cordoni di saldatura.
+Il primo sarebbe il caso ideale, per cui calore apportato e quantità di materiale d'apporto sono ben ottimizzati.
 Quando l'apporto di calore è insufficiente: perché ci si muove troppo rapidamente o per altri motivi, si forma un \eng{underfill} per cui si formano dei riempimenti non completi di materiale d'apporto ed eventualmente delle mancanze di fusione per cui non si ha un mescolamento dei due materiali.
-Altro caso è quello dell'\eng{Overfill}: si ha un eccesso di materiale d'apporto. Ciò è dovuto alla troppo bassa velocità di traslazione in confronto all'energia specifica donata al materiale.
-\missingfigure{confronto altri errori}
+Altro caso è quello dell'\eng{overfill}: si ha un eccesso di materiale d'apporto. Ciò è dovuto alla troppo bassa velocità di traslazione in confronto all'energia specifica donata al materiale.
+\begin{figure}
+\centering
+\subfloat[][\emph{Errori di discontinuità in saldatura}\label{fig:WeldError1}]
+{\includegraphics[width = \textwidth]{WeldError1}}\\
+\subfloat[][\emph{Errori di saldatura per incompleta fusione}\label{fig:WeldError2}]
+{\includegraphics[width = \textwidth]{WeldError2}}
+\caption{Errori di saldatura che possono compromettere le performance della giunzione}
+\label{fig:WeldErrors}
+\end{figure}
+
 Anche la posizione dove apportare il materiale è cruciale, infatti si possono avere delle mancanze locali di materiale: per cui la saldatura ha un risultato pessimo anche se eseguita a regola d'arte.
 Come per le saldature a freddo, anche per queste giunzione è opportuno preparare correttamente i due materiali da saldare. Perciò è opportuno rimuovere, in varie forme, i contaminanti sugli strati superficiali sui materiali base.
 le reazioni chimiche indesiderate sono evitate isolando la zona del fuso col vuoto, con un'atmosfera protettiva o con delle scorie che si formano in superficie al cordone di saldatura. Per tale scopo si aggiungono dei materiali che legano con le impurità e le portano in superficie.
