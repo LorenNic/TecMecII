@@ -186,7 +186,6 @@
 \contentsline {subsubsection}{\numberline {13.3.4.1}Friction Stir Welding}{130}{subsubsection.13.3.4.1}%
 \contentsline {section}{\numberline {13.4}Saldature a fusione}{130}{section.13.4}%
 \contentsline {subsection}{\numberline {13.4.1}Caratteristiche del giunto}{131}{subsection.13.4.1}%
-<<<<<<< Updated upstream
 \contentsline {subsection}{\numberline {13.4.2}Difetti e qualità della saldatura a fusione}{133}{subsection.13.4.2}%
 \contentsline {subsection}{\numberline {13.4.3}Intensità di energia}{135}{subsection.13.4.3}%
 \contentsline {paragraph}{Cannello ossiacetilenico}{135}{section*.159}%
@@ -217,44 +216,17 @@
 \contentsline {section}{\numberline {13.9}Saldature chimiche}{142}{section.13.9}%
 \contentsline {subsection}{\numberline {13.9.1}Saldatura con cannello ossiacetilenico}{142}{subsection.13.9.1}%
 \contentsline {subsection}{\numberline {13.9.2}Saldatura alla termite}{143}{subsection.13.9.2}%
-\contentsline {part}{\partnumberline {VI}Tecniche di produzione additive}{144}{part.6}%
-\contentsline {chapter}{\chapternumberline {14}Tecniche di produzione additive}{145}{chapter.14}%
-\contentsline {appendix}{\chapternumberline {A}Esempio applicativo sulle macchine utensili}{146}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Esempio applicativo sulle lavorazioni abrasive}{147}{appendix.B}%
-\contentsline {appendix}{\chapternumberline {C}Acronimi}{148}{appendix.C}%
-=======
-\contentsline {subsection}{\numberline {13.4.2}Difetti e qualità della saldatura a fusione}{132}{subsection.13.4.2}%
-\contentsline {subsection}{\numberline {13.4.3}Intensità di energia}{133}{subsection.13.4.3}%
-\contentsline {paragraph}{Cannello ossiacetilenico}{133}{section*.156}%
-\contentsline {paragraph}{Saldatura ad arco}{133}{section*.157}%
-\contentsline {paragraph}{Fascio laser o elettronico}{133}{section*.158}%
-\contentsline {section}{\numberline {13.5}La saldabilità}{134}{section.13.5}%
-\contentsline {paragraph}{Acciai ferritici}{134}{section*.159}%
-\contentsline {paragraph}{Lamiere rivestite}{134}{section*.160}%
-\contentsline {paragraph}{Acciai inossidabili}{134}{section*.161}%
-\contentsline {paragraph}{Zinco}{134}{section*.162}%
-\contentsline {paragraph}{Alluminio e magnesio}{134}{section*.163}%
-\contentsline {paragraph}{Leghe a base di rame}{134}{section*.164}%
-\contentsline {paragraph}{Nichel}{134}{section*.165}%
-\contentsline {paragraph}{Leghe di titanio e refrattarie}{134}{section*.166}%
-\contentsline {section}{\numberline {13.6}Saldatura a resistenza}{134}{section.13.6}%
-\contentsline {subsection}{\numberline {13.6.1}Saldatura su rilievo}{135}{subsection.13.6.1}%
-\contentsline {subsection}{\numberline {13.6.2}Saldatura a scintillio}{136}{subsection.13.6.2}%
-\contentsline {section}{\numberline {13.7}Saldature ad arco}{136}{section.13.7}%
-\contentsline {subsection}{\numberline {13.7.1}Saldatura ad arco con elettrodo permanente}{137}{subsection.13.7.1}%
-\contentsline {subsection}{\numberline {13.7.2}Saldatura ad arco al plasma}{137}{subsection.13.7.2}%
-\contentsline {subsection}{\numberline {13.7.3}Saldatura ad arco con elettrodo consumabile}{138}{subsection.13.7.3}%
-\contentsline {subsection}{\numberline {13.7.4}Saldatura ad arco con elettrodo rivestito}{139}{subsection.13.7.4}%
-\contentsline {subsection}{\numberline {13.7.5}Saldatura ad arco con fondente intubato}{139}{subsection.13.7.5}%
-\contentsline {subsection}{\numberline {13.7.6}Saldatura ad arco sommerso}{139}{subsection.13.7.6}%
-\contentsline {subsection}{\numberline {13.7.7}Saldatura ad arco con elettroscoria}{140}{subsection.13.7.7}%
-\contentsline {subsection}{\numberline {13.7.8}Saldatura ad arco a perno}{140}{subsection.13.7.8}%
-\contentsline {section}{\numberline {13.8}Automazione delle saldatura}{140}{section.13.8}%
-\contentsline {section}{\numberline {13.9}Saldature chimiche}{141}{section.13.9}%
-\contentsline {subsection}{\numberline {13.9.1}Saldatura con cannello ossiacetilenico}{141}{subsection.13.9.1}%
-\contentsline {subsection}{\numberline {13.9.2}Saldatura alla termite}{141}{subsection.13.9.2}%
-\contentsline {section}{\numberline {13.10}Brasatura}{142}{section.13.10}%
-\contentsline {part}{\partnumberline {VI}Tecniche di produzione additive}{143}{part.6}%
-\contentsline {chapter}{\chapternumberline {14}Tecniche di produzione additive}{144}{chapter.14}%
-\contentsline {appendix}{\chapternumberline {A}Acronimi}{145}{appendix.A}%
->>>>>>> Stashed changes
+\contentsline {section}{\numberline {13.10}Brasatura}{143}{section.13.10}%
+\contentsline {subsection}{\numberline {13.10.1}Brasatura ad alta temperatura}{144}{subsection.13.10.1}%
+\contentsline {subsection}{\numberline {13.10.2}Brasatura a bassa temperatura}{145}{subsection.13.10.2}%
+\contentsline {section}{\numberline {13.11}Giunzioni Adesive}{145}{section.13.11}%
+\contentsline {subsection}{\numberline {13.11.1}Adesivi strutturali}{145}{subsection.13.11.1}%
+\contentsline {subsection}{\numberline {13.11.2}Impiego degli adesivi}{145}{subsection.13.11.2}%
+\contentsline {paragraph}{Termoindurenti}{145}{section*.186}%
+\contentsline {paragraph}{Nastri e film termoindurenti}{145}{section*.187}%
+\contentsline {paragraph}{adesivi anaerobici}{146}{section*.188}%
+\contentsline {part}{\partnumberline {VI}Tecniche di produzione additive}{148}{part.6}%
+\contentsline {chapter}{\chapternumberline {14}Tecniche di produzione additive}{149}{chapter.14}%
+\contentsline {appendix}{\chapternumberline {A}Esempio applicativo sulle macchine utensili}{150}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Esempio applicativo sulle lavorazioni abrasive}{151}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}Acronimi}{152}{appendix.C}%

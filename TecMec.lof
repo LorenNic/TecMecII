@@ -254,7 +254,6 @@
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {13.14}{\ignorespaces Esempio di \foreignlanguage {english}{Friction stir welding}\relax }}{130}{figure.caption.152}%
 \setforeignlanguage {italian}
-<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {13.15}{\ignorespaces Possibilità delle saldature\relax }}{131}{figure.caption.153}%
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {13.16}{\ignorespaces Andamento della temperatura nella prossimità del cordone di saldatura\relax }}{132}{figure.caption.154}%
@@ -268,12 +267,18 @@
 \contentsline {figure}{\numberline {13.20}{\ignorespaces Cordoni di saldatura a confronto: (a) ben eseguito, (b) mancanza di fusione e penetrazione detto \foreignlanguage {english}{underfill}, (c) Saldatura eccessiva detta \foreignlanguage {english}{overfill}\relax }}{133}{figure.caption.157}%
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {13.21}{\ignorespaces Errori di saldatura che possono compromettere le performance della giunzione\relax }}{134}{figure.caption.158}%
-\addvspace {10pt}
-\addvspace {10pt}
-=======
-\contentsline {figure}{\numberline {13.11}{\ignorespaces Realizzazione per saldatura a diffusione di profili utilizzati in aeronautica\relax }}{129}{figure.caption.151}%
 \setforeignlanguage {italian}
-\contentsline {figure}{\numberline {13.12}{\ignorespaces Resistenza meccanica e di taglio della brasatura ad argento\relax }}{142}{figure.caption.178}%
->>>>>>> Stashed changes
+\contentsline {figure}{\numberline {13.22}{\ignorespaces Resistenza meccanica e di taglio della brasatura ad argento\relax }}{144}{figure.caption.181}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {13.23}{\ignorespaces Indice di bagnabilità\relax }}{144}{figure.caption.182}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {13.24}{\ignorespaces Esempi di brasatura e saldobrasatura\relax }}{144}{figure.caption.183}%
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {13.25}{\ignorespaces Diagrammi di resistenza meccanica di alcuni collanti, la descrizione dei collanti è riportato alla figura successiva \ref {fig:DesCollanti}\relax }}{147}{figure.caption.185}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {13.26}{\ignorespaces Descrizione dei collanti dei grafici precedenti\relax }}{147}{figure.caption.185}%
+\addvspace {10pt}
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
