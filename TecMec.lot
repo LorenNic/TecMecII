@@ -144,6 +144,7 @@
 \setforeignlanguage {italian}
 \setforeignlanguage {italian}
 \setforeignlanguage {italian}
+<<<<<<< Updated upstream
 \setforeignlanguage {italian}
 \setforeignlanguage {italian}
 \setforeignlanguage {italian}
@@ -155,5 +156,7 @@
 \setforeignlanguage {italian}
 \addvspace {10pt}
 \addvspace {10pt}
+=======
+>>>>>>> Stashed changes
 \addvspace {10pt}
 \addvspace {10pt}

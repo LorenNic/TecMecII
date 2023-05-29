@@ -254,6 +254,7 @@
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {13.14}{\ignorespaces Esempio di \foreignlanguage {english}{Friction stir welding}\relax }}{130}{figure.caption.152}%
 \setforeignlanguage {italian}
+<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {13.15}{\ignorespaces Possibilità delle saldature\relax }}{131}{figure.caption.153}%
 \setforeignlanguage {italian}
 \contentsline {figure}{\numberline {13.16}{\ignorespaces Andamento della temperatura nella prossimità del cordone di saldatura\relax }}{132}{figure.caption.154}%
@@ -269,5 +270,10 @@
 \contentsline {figure}{\numberline {13.21}{\ignorespaces Errori di saldatura che possono compromettere le performance della giunzione\relax }}{134}{figure.caption.158}%
 \addvspace {10pt}
 \addvspace {10pt}
+=======
+\contentsline {figure}{\numberline {13.11}{\ignorespaces Realizzazione per saldatura a diffusione di profili utilizzati in aeronautica\relax }}{129}{figure.caption.151}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {13.12}{\ignorespaces Resistenza meccanica e di taglio della brasatura ad argento\relax }}{142}{figure.caption.178}%
+>>>>>>> Stashed changes
 \addvspace {10pt}
 \addvspace {10pt}
