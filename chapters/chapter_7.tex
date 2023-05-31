@@ -1,3 +1,5 @@
+%!TEX root = ../TecMec.tex
+
 \chapter{Tecniche di giunzione}\label{chp:Giunzione}
 Prevede di unire più componenti meccanici ne caso in cui non sia possibili ottenere un prodotto finito solo tramite le lavorazioni convenzionali e non convenzionali.
 Le principali tecniche sono:
@@ -668,8 +670,14 @@ In pratica l'elettrodo stesso diventa il materiale d'apporto.
 
 \subsection{Saldatura ad arco con elettrodo consumabile}
 L'elettrodo è un metallo conduttore che deve consumarsi per divenire il materiale d'apporto.
-La tecnica si definisce come \textbf{GMAW} o \textbf{MIG}. 
+La tecnica si definisce come \ac{GMAW} o \textbf{MIG}. 
 Anche qui si sfrutta un gas protettivo.
+I principali gas protettivi utilizzati sono:
+\begin{description}
+\item[Argon] adatto a tutti i materiali;
+\item[Elio] maggiore potenziale di ionizzazione e dunque maggiore generazione di calore;
+\item[$CO_2$] Per acciai al carbonio.
+\end{description}
 
 L'elettrodo è collegato al terminale positivo e la densità di corrente determina la modalità di trasferimento del metallo.
 Ciò si vuole perché è l'elettrodo che deve cedere degli ioni per depositarsi sul materiale base. In generale si trova un cordone di saldatura peggiore dei precedenti.
@@ -680,39 +688,65 @@ A densità intermedia si ha un trasferimento globulare, sono possibili solo sald
 Mentre a densità elevate si ha un deposito per spray ed è possibile saldare in qualsiasi direzione perché le gocce sono molto piccole e non risentono della gravità. Tra l'altro è la tecnica che dà la migliore finitura al cordone.
 La corrente utilizzata è a impulsi.
 Questa saldatura permette di saldare anche lunghe distanze per via del fatto che l'elettrodo è disponibile sul mercato in rocchetti.
-in più il processo può essere automatizzato.
+In più il processo può essere semi-automatizzato: dove l'operatore determina il percorso della pistola e parametri di processo oppure automatizzato.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{GMAW}
+\caption{Shcema di funzionamento della saldatura \ac{GMAW}}
+\label{fig:GMAW}
+\end{figure}
 
 Un aspetto a cui prestare particolare attenzione è il fatto che queste tecniche vengono eseguite al chiuso. Ciò per evitare che venti possano spostare i gas protettivi lasciando scoperto il cordone di saldatura.
 
 \subsection{Saldatura ad arco con elettrodo rivestito}
-Si tratta di una tecnica \textbf{SMAW}. In questo caso l'elettrodo è ricoperto da un materiale protettivo che permetterà la formazione delle scorie.
+Si tratta di una tecnica \ac{SMAW}. In questo caso l'elettrodo è ricoperto da un materiale protettivo che permetterà la formazione delle scorie.
+Rappresentata alla figura \ref{SMAW}.
 Ciò è un problema perché tale tecnica è eseguita manualmente per il fatto che le bacchette hanno una lunghezza piuttosto limitata e spesso è necessario interrompere la lavorazione.
 Come vantaggio il fatto che essendo il protettivo già sul fondente, non è necessario l'utilizzo di gas protettivi e può essere eseguita in ambienti aperti.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{SMAW}
+\caption{Particolare dell'elettrodo rivestito nella \ac{SMAW}}
+\label{fig:SMAW}
+\end{figure}
 
 Se scelto in maniera ottimale, il protettivo dell'elettrodo, può migliorare la situazione in termini di saldatura.
 
 Le bacchette sono realizzate in quel modo perché il protettivo è un materiale particolarmente fragile, per cui non sarebbe possibile realizzare supporti più lunghi.
 Si tratta di una saldatura piuttosto lenta per via della sua natura.
 
-In passato per a la tecnica più utilizzata in assoluto.
+In passato era la tecnica più utilizzata in assoluto.
 
 \subsection{Saldatura ad arco con fondente intubato}
-Trattasi della tecnica \textbf{FCAW}.
+Trattasi della tecnica \ac{FCAW}.
 Il vantaggio di avere il protettivo intubato è quello di avere una qualità migliore e più profondo. Il materiale d'apporto si presenta come piattina cava contenente il protettivo.
 
-\missingfigure{Saldatura FCAW}
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{FCAW}
+\caption{Schema di funzionamento della saldatura \ac{FCAW}}
+\label{fig:FCAW}
+\end{figure}
 
 \subsection{Saldatura ad arco sommerso}
-Indicata \textbf{SAW}.
+Indicata \ac{SAW}.
 Si tratta di una tecnica particolarmente utilizzata in campo automatico.
 In questo caso non elettrodo e fondente non sono più inclusi in un unico corpo bensì sono organi separati.
 Questa saldatura può essere usata solamente su superfici orizzontali.
 
-\missingfigure{saldatura SAW}
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{SAW}
+\caption{Schema di realizzazione della saldatura \ac{SAW}}
+\label{fig:SAW}
+\end{figure}
+
 
 \subsection{Saldatura ad arco con elettroscoria}
-La sigla è \textbf{ESW}.
-In questo caso la saldatura deve essere realizzata in verticale.
+La sigla è \ac{ESW}.
+In questo caso la saldatura deve essere realizzata in verticale, \ref{fig:ESW}.
 Si usa per produrre giunti di grosso spessore.
 Il filo dell'elettrodo è all'interno di una pozza di scoria fusa.
 L'arco viene spento dalla scoria e il calore è fornito dalla resistenza elettrica della scoria.
@@ -721,16 +755,21 @@ Pattini di rame trattengono fuso e scoria.
 I pattini di rame raffreddati ad acqua chiudono lo spazio tra le parti da saldare per evitare che il fuso e la scoria fuoriescano.
 La testa di saldatura viene sollevata mentre il deposito di saldatura si accumula.
 
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{ESW}
+\caption{Realizzazione di una saldatura per elettro scoria, detta \ac{ESW}}
+\label{fig:ESW}
+\end{figure}
+
 \subsection{Saldatura ad arco a perno}
-Sigla \textbf{SWP}.
-In questo caso non si ha la necessità di un vero e prorprio materiale d'apporto, saranno i componenti da giuntare ad essere l'apporto.
+Sigla \ac{SW}, \ref{fig:SW}.
+In questo caso non si ha la necessità di un vero e proprio materiale d'apporto, saranno i componenti da giuntare ad essere l'apporto.
 Si tratta di una saldatura autogena.
 Nella saldatura a perni l'arco elettrico è mantenuto tra la sporgenza di un pezzo e la superficie dell'altro.
-Dopo fusione i 2 pezzo vengono schiacciati uno contro l'altro.
-Un anello ceramico concentra l'argo, protegge dall'ossidazione e contiene il fuso.
-Il diametro \todo{\\Aggiungi}
-
-\missingfigure{SWP}
+Dopo fusione i 2 pezzi vengono schiacciati l'uno contro l'altro.
+Un anello ceramico concentra l'arco, protegge dall'ossidazione e contiene il fuso.
+Il diametro del perno viene scelto in modo che il giunto sia nel perno e non sulla lamiera.
 
 L'anello ceramico svolge varie funzioni:
 \begin{itemize}
@@ -739,11 +778,20 @@ L'anello ceramico svolge varie funzioni:
 \item Contiene il fuso.
 \end{itemize}
 
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{SW}
+\caption{Processo di realizzazione della saldatura a perno, \ac{SW}}
+\label{fig:SW}
+\end{figure}
+
 \section{Automazione delle saldatura}
 L'obbiettivo è quello di saldare il più possibile in maniera automatica.
-Si per evitare l'impiego di operatori, sia per ottenere delle saldature a qualità migliori.
-Il controllo del processo è sempre più spesso automatico. La forma degli impulsi elettrici è controllata da dispositivi elettronici.
-I valori ottimali di corrente velocità di spostamento e velocità di avanzamento degli elettrodi vengono impostati e controllati tramite una macchina \ac{CNC}.
+Si per evitare l'impiego di operatori, sia per ottenere delle saldature a qualità migliori, sia per contenere i costi.
+
+I valori ottimali di corrente, velocità di spostamento, velocità di avanzamento degli elettrodi vengono impostati e controllati.
+Vengono introdotti controlli alla \ac{CNC} e adattivi che usano sensori di temperatura non a contatto, se
+
 La cianfrinatura o viessol è una particolare lavorazione che serve a preparare i lembi prima che subiscano il
 \todo[inline]{Da rivedere dalle slide}
 \begin{itemize}
@@ -756,7 +804,7 @@ Si nota dalla figura \todo{\\Aggiungi ref} che le successive passate vìdovrebbe
 \section{Saldature chimiche}
 \subsection{Saldatura con cannello ossiacetilenico}
 Si usa l'acetilene perché il gas che fonde a temperatura più alta.
-Però la temperatura massima che siraggiunge con questa tecnica, arriva fino a $3400\unit{\celsius}$. Si usa in ambito artigianale, per delle riparazione e, in particolare, per tutti quegli ambienti dove non è presente la corrente elettrica.
+Però la temperatura massima che si raggiunge con questa tecnica, arriva fino a $3400\unit{\celsius}$. Si usa in ambito artigianale, per delle riparazione e, in particolare, per tutti quegli ambienti dove non è presente la corrente elettrica.
 
 Per realizzare tale saldatura sono necessarie due bombole una con l'acetilene e l'altra con l'ossigeno.
 La fiamma che si ottiene si divide in 3 zone ben definite.

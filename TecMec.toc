@@ -2,8 +2,8 @@
 \contentsline {chapter}{Prefazione}{i}{chapter*.3}%
 \contentsline {chapter}{Indice}{ii}{section*.4}%
 \contentsline {chapter}{Elenco delle figure}{vii}{section*.6}%
-\contentsline {chapter}{Elenco delle tabelle}{xi}{section*.10}%
-\contentsline {chapter}{Todo list}{xii}{section*.11}%
+\contentsline {chapter}{Elenco delle tabelle}{xi}{section*.16}%
+\contentsline {chapter}{Todo list}{xii}{section*.17}%
 \contentsline {part}{\partnumberline {I}Lavorazioni su Lamiere}{1}{part.1}%
 \contentsline {chapter}{\chapternumberline {1}Introduzione}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Proprietà meccaniche sulla deformabilità}{2}{section.1.1}%
@@ -59,18 +59,18 @@
 \contentsline {section}{\numberline {3.1}La lavorazione}{43}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Produzione delle polveri}{44}{subsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.1.1}Caratterizzazione delle polveri}{45}{subsubsection.3.1.1.1}%
-\contentsline {paragraph}{Particelle sferoidali}{45}{section*.64}%
+\contentsline {paragraph}{Particelle sferoidali}{45}{section*.70}%
 \contentsline {subsection}{\numberline {3.1.2}Preparazione delle polveri}{46}{subsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.2.1}Miscelazione}{47}{subsubsection.3.1.2.1}%
 \contentsline {subsection}{\numberline {3.1.3}La compattazione}{47}{subsection.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.1.3.1}Come compattare?}{47}{subsubsection.3.1.3.1}%
-\contentsline {paragraph}{Pressatura a freddo}{47}{section*.66}%
-\contentsline {paragraph}{Pressatura idrostatica}{47}{section*.67}%
+\contentsline {paragraph}{Pressatura a freddo}{47}{section*.72}%
+\contentsline {paragraph}{Pressatura idrostatica}{47}{section*.73}%
 \contentsline {subsubsection}{\numberline {3.1.3.2}Stampaggio ad iniezione}{49}{subsubsection.3.1.3.2}%
-\contentsline {paragraph}{Stampaggio di precisione}{50}{section*.71}%
+\contentsline {paragraph}{Stampaggio di precisione}{50}{section*.77}%
 \contentsline {subsection}{\numberline {3.1.4}Sinterizzazione}{50}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Finiture e trattamenti termici}{51}{subsection.3.1.5}%
-\contentsline {paragraph}{Coniatura}{51}{section*.73}%
+\contentsline {paragraph}{Coniatura}{51}{section*.79}%
 \contentsline {subsubsection}{\numberline {3.1.5.1}Ricompattazione e risinterizzazione}{51}{subsubsection.3.1.5.1}%
 \contentsline {subsubsection}{\numberline {3.1.5.2}La porosità fa comodo:}{52}{subsubsection.3.1.5.2}%
 \contentsline {subsection}{\numberline {3.1.6}Compattazione a caldo}{52}{subsection.3.1.6}%
@@ -157,7 +157,7 @@
 \contentsline {part}{\partnumberline {IV}Lavorazioni non convenzionali}{111}{part.4}%
 \contentsline {chapter}{\chapternumberline {12}Lavorazioni non convenzionali}{112}{chapter.12}%
 \contentsline {section}{\numberline {12.1}Lavorazioni chimiche}{113}{section.12.1}%
-\contentsline {paragraph}{Tranciatura chimica}{113}{section*.135}%
+\contentsline {paragraph}{Tranciatura chimica}{113}{section*.141}%
 \contentsline {section}{\numberline {12.2}Lavorazioni elettrochimiche}{113}{section.12.2}%
 \contentsline {subsection}{\numberline {12.2.1}Elettroerosione}{115}{subsection.12.2.1}%
 \contentsline {subsection}{\numberline {12.2.2}Elettroerosione a tuffo}{115}{subsection.12.2.2}%
@@ -189,15 +189,15 @@
 \contentsline {subsection}{\numberline {16.1.1}Difetti e qualità della saldatura a fusione}{134}{subsection.16.1.1}%
 \contentsline {subsection}{\numberline {16.1.2}Intensità di energia}{137}{subsection.16.1.2}%
 \contentsline {section}{\numberline {16.2}La saldabilità}{137}{section.16.2}%
-\contentsline {paragraph}{Acciai ferritici}{137}{section*.161}%
-\contentsline {paragraph}{Lamiere rivestite}{137}{section*.162}%
-\contentsline {paragraph}{Acciai inossidabili}{138}{section*.163}%
-\contentsline {paragraph}{Ghise}{138}{section*.164}%
-\contentsline {paragraph}{Zinco}{138}{section*.165}%
-\contentsline {paragraph}{Alluminio e magnesio}{138}{section*.166}%
-\contentsline {paragraph}{Leghe a base di rame}{138}{section*.167}%
-\contentsline {paragraph}{Nichel}{138}{section*.168}%
-\contentsline {paragraph}{Leghe di titanio e refrattarie}{138}{section*.169}%
+\contentsline {paragraph}{Acciai ferritici}{137}{section*.167}%
+\contentsline {paragraph}{Lamiere rivestite}{137}{section*.168}%
+\contentsline {paragraph}{Acciai inossidabili}{138}{section*.169}%
+\contentsline {paragraph}{Ghise}{138}{section*.170}%
+\contentsline {paragraph}{Zinco}{138}{section*.171}%
+\contentsline {paragraph}{Alluminio e magnesio}{138}{section*.172}%
+\contentsline {paragraph}{Leghe a base di rame}{138}{section*.173}%
+\contentsline {paragraph}{Nichel}{138}{section*.174}%
+\contentsline {paragraph}{Leghe di titanio e refrattarie}{138}{section*.175}%
 \contentsline {section}{\numberline {16.3}Saldatura a resistenza}{138}{section.16.3}%
 \contentsline {subsection}{\numberline {16.3.1}Saldatura su rilievo}{138}{subsection.16.3.1}%
 \contentsline {subsection}{\numberline {16.3.2}Saldatura a scintillio}{141}{subsection.16.3.2}%
@@ -206,30 +206,30 @@
 \contentsline {subsection}{\numberline {16.4.2}Saldatura ad arco al plasma}{143}{subsection.16.4.2}%
 \contentsline {subsection}{\numberline {16.4.3}Saldatura ad arco con elettrodo consumabile}{144}{subsection.16.4.3}%
 \contentsline {subsection}{\numberline {16.4.4}Saldatura ad arco con elettrodo rivestito}{144}{subsection.16.4.4}%
-\contentsline {subsection}{\numberline {16.4.5}Saldatura ad arco con fondente intubato}{144}{subsection.16.4.5}%
+\contentsline {subsection}{\numberline {16.4.5}Saldatura ad arco con fondente intubato}{145}{subsection.16.4.5}%
 \contentsline {subsection}{\numberline {16.4.6}Saldatura ad arco sommerso}{145}{subsection.16.4.6}%
 \contentsline {subsection}{\numberline {16.4.7}Saldatura ad arco con elettroscoria}{145}{subsection.16.4.7}%
-\contentsline {subsection}{\numberline {16.4.8}Saldatura ad arco a perno}{145}{subsection.16.4.8}%
-\contentsline {section}{\numberline {16.5}Automazione delle saldatura}{146}{section.16.5}%
-\contentsline {section}{\numberline {16.6}Saldature chimiche}{146}{section.16.6}%
-\contentsline {subsection}{\numberline {16.6.1}Saldatura con cannello ossiacetilenico}{146}{subsection.16.6.1}%
-\contentsline {subsection}{\numberline {16.6.2}Saldatura alla termite}{147}{subsection.16.6.2}%
-\contentsline {chapter}{\chapternumberline {17}Brasatura}{148}{chapter.17}%
-\contentsline {subsection}{\numberline {17.0.1}Brasatura ad alta temperatura}{149}{subsection.17.0.1}%
-\contentsline {subsection}{\numberline {17.0.2}Brasatura a bassa temperatura}{149}{subsection.17.0.2}%
-\contentsline {chapter}{\chapternumberline {18}Giunzioni Adesive}{151}{chapter.18}%
-\contentsline {subsection}{\numberline {18.0.1}Adesivi strutturali}{151}{subsection.18.0.1}%
-\contentsline {subsection}{\numberline {18.0.2}Impiego degli adesivi}{151}{subsection.18.0.2}%
-\contentsline {paragraph}{Termoindurenti}{151}{section*.191}%
-\contentsline {paragraph}{Nastri e film termoindurenti}{151}{section*.192}%
-\contentsline {paragraph}{adesivi anaerobici}{152}{section*.193}%
-\contentsline {chapter}{\chapternumberline {19}Potenzialità di processo e aspetti progettuali}{154}{chapter.19}%
-\contentsline {subsection}{\numberline {19.0.1}Considerazioni sulla tipologia di sollecitazione delle giunzioni}{154}{subsection.19.0.1}%
-\contentsline {paragraph}{Clivaggio}{154}{section*.198}%
-\contentsline {paragraph}{Pelatura}{154}{section*.199}%
-\contentsline {subsection}{\numberline {19.0.2}Potenzialità del giunto}{156}{subsection.19.0.2}%
-\contentsline {part}{\partnumberline {VI}Tecniche di produzione additive}{159}{part.6}%
-\contentsline {chapter}{\chapternumberline {20}Tecniche di produzione additive}{160}{chapter.20}%
-\contentsline {appendix}{\chapternumberline {A}Esempio applicativo sulle macchine utensili}{161}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Esempio applicativo sulle lavorazioni abrasive}{162}{appendix.B}%
-\contentsline {appendix}{\chapternumberline {C}Acronimi}{163}{appendix.C}%
+\contentsline {subsection}{\numberline {16.4.8}Saldatura ad arco a perno}{146}{subsection.16.4.8}%
+\contentsline {section}{\numberline {16.5}Automazione delle saldatura}{147}{section.16.5}%
+\contentsline {section}{\numberline {16.6}Saldature chimiche}{147}{section.16.6}%
+\contentsline {subsection}{\numberline {16.6.1}Saldatura con cannello ossiacetilenico}{147}{subsection.16.6.1}%
+\contentsline {subsection}{\numberline {16.6.2}Saldatura alla termite}{148}{subsection.16.6.2}%
+\contentsline {chapter}{\chapternumberline {17}Brasatura}{149}{chapter.17}%
+\contentsline {subsection}{\numberline {17.0.1}Brasatura ad alta temperatura}{150}{subsection.17.0.1}%
+\contentsline {subsection}{\numberline {17.0.2}Brasatura a bassa temperatura}{150}{subsection.17.0.2}%
+\contentsline {chapter}{\chapternumberline {18}Giunzioni Adesive}{152}{chapter.18}%
+\contentsline {subsection}{\numberline {18.0.1}Adesivi strutturali}{152}{subsection.18.0.1}%
+\contentsline {subsection}{\numberline {18.0.2}Impiego degli adesivi}{152}{subsection.18.0.2}%
+\contentsline {paragraph}{Termoindurenti}{152}{section*.202}%
+\contentsline {paragraph}{Nastri e film termoindurenti}{152}{section*.203}%
+\contentsline {paragraph}{adesivi anaerobici}{153}{section*.204}%
+\contentsline {chapter}{\chapternumberline {19}Potenzialità di processo e aspetti progettuali}{155}{chapter.19}%
+\contentsline {subsection}{\numberline {19.0.1}Considerazioni sulla tipologia di sollecitazione delle giunzioni}{155}{subsection.19.0.1}%
+\contentsline {paragraph}{Clivaggio}{155}{section*.209}%
+\contentsline {paragraph}{Pelatura}{155}{section*.210}%
+\contentsline {subsection}{\numberline {19.0.2}Potenzialità del giunto}{157}{subsection.19.0.2}%
+\contentsline {part}{\partnumberline {VI}Tecniche di produzione additive}{160}{part.6}%
+\contentsline {chapter}{\chapternumberline {20}Tecniche di produzione additive}{161}{chapter.20}%
+\contentsline {appendix}{\chapternumberline {A}Esempio applicativo sulle macchine utensili}{162}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Esempio applicativo sulle lavorazioni abrasive}{163}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}Acronimi}{164}{appendix.C}%
