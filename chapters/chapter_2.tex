@@ -1026,13 +1026,93 @@ Per gli inserti costosi o molto fragili vengono realizzate delle unghie applicat
 \includegraphics[width = \textwidth]{Utensili}
 \end{table}
 
-\moretodo[inline]{Aggiungere: Portautensili e altri argomenti più secondari}
+\subsection{Portautensili e elementi di serraggio}
+Il problema di serraggio deve essere fatto in modo che eviti delle vibrazioni che porterebbero a rottura gli utensili.
+Ormai grazie alle ai centri \ac{FMS}, che predispongono un proprio magazzino utensili, i portautensili vengono realizzati in modo che siano intercambiabili sul mandrino.
+Spesso il cambio utensile viene realizzato tramite un opportuno leveraggio che sposta gli utensili dal magazzino al mandrino.
+Alcuni portautensili possono essere predisposti per garantire la fornitura di fluido da taglio in pressione alle cavità dell'utensile.
+
+Forme geometriche snelle sono preferite per limitare le vibrazioni e la facilità d'innesto nella macchina.
+In più si evita la flessione di tutto il sistema.
+
+\subsection{Lavorazioni}
+Le principali lavorazioni ad asportazione di truciolo sono classificate in base alla quantità di utensili taglienti che contemporaneamente sono immersi nel materiale.
+Il grafico \ref{fig:LavAsp} mostra le varie classificazioni.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{LavAsp}
+\caption{Suddivisione delle principali lavorazioni in asportazione di truciolo}
+\label{fig:LavAsp}
+\end{figure}
+
+Fanno eccezione le lavorazioni di forma in cui i taglienti sono plurimi ma non rientrano nella classificazione dei taglienti plurimi. Si dicono di forma per l'appunto.
+La figura \ref{fig:ShapeTool} riporta degli esempi di utensili di forma.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{ShapeTool}
+\caption{Alcuni esempi di utensili di forma}
+\label{fig:ShapeTool}
+\end{figure}
 
 \chapter{Tornitura}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Capitoli già realizzati									    	%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{ToolAngles}
+\caption{Schematizzazione degli angoli per un'utensile da tornitura}
+\label{fig:ToolAngles}
+\end{wrapfloat}
+
+Si sfrutta un'utensile monotagliente ma la qualità sta nella bravura del operatore.
+Di fatto è la prima rappresentazione applicativa di taglio obliquo.
+Gli angoli di riferimento sono dipendenti dall'inclinazione del utensile rispetto al pezzo in lavorazione, come si vede dalla figura \ref{fig:ToolAngles}.
+Esiste una norma che definisce nel dettaglio gli angoli di riferimento.
+Nella rettifica si sfrutta un disco rotante piuttosto che far ruotare il pezzo.
+Ciò per dire che il mandrino può mettere in rotazione sia il pezzo che eventuali utensili.
+
+\section{Tornitura cilindrica}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{Turning}
+\caption{Specifiche di un tornio classico}
+\label{fig:Turning}
+\end{figure}
+Data la varietà di lavorazioni fattibili con la tornitura, è possibile che i torni presentino ulteriori supporti, dette mezzelune, per impedire la flessione dei lavorati particolarmente lunghi o cedevoli.
+In più anche la presenza della contropunta permette di mantenere in asse il pezzo, però resta il limite della flessione imposta dall'utensile stesso.
+
+Di seguito vengono riportate ulteriori lavorazioni possibili al tornio.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{OtherTurning}
+\caption{Ulteriori lavorazioni ottenibili tramite tornitura}
+\label{fig:OtherTurning}
+\end{figure}
+
+Nello specifico:
+\begin{description}
+\item[Barenatura] viene usata per allargare dei fori, finire interiormente i fori o se ne modifica la forma.
+Il tema è l'utensile: essendo che deve entrare profondamente nel foro questo può essere molto lungo, cioè può essere sottoposto a flessione. Risultando in una finitura peggiore.
+\item[Troncatura] Nel caso si voglia separare una parte di materiale in tornitura, l'utensile presenterà più taglienti.
+In più si presenta un'ulteriore problema: la velocità angolare di taglio cambia in funzione del raggio a cui si sta lavorando, infatti:
+\begin{equation}
+v_c = \omega \cdot r \Rightarrow Se r \rightarrow 0 \: v_c \rightarrow 0
+\end{equation}
+Quando ci si avvicina all'asse di rotazione la qualità superficiale peggiora.
+\item[Lavorazioni di forma] Siccome la forza applicata è considerevole si preferisce tenere uno sbalzo limitato.
+\item[Limatura e piallatura] Realizzano delle superfici piane, non c'è un moto di rotazione ma di traslazione. In questo caso l'utensile è a sbalzo che può essere problematica.
+Cambia solo il moto relativo ma non il risultato.
+\end{description}
+
+In generale è da evitare troppi fissaggi per il fatto che possono introdurre distorsioni nel lavorato.
+
+\section{Altre tipologie di torni}
+\begin{description}
+\item[Torni automatici] È una macchina automatica in grado di eseguire in modo molto rapido la stessa operazione. è sparita perché mancante di versatilità: dunque sostituiti con i centri di lavoro \ac{CNC}.
+\item[Torni per viti] Vengono usati per realizzare forme parecchio complicate, anche se ormai la viteria viene realizzata per deformazione plastica a meno di filettature a diverse specifiche.
+\item[Torni svizzeri] Hanno deflessioni molto piccole per garantire toleranze molto piccole $\approx 2.5\unit{\um}$. Ciò è possibile grazie a utensili posti su più assi e regolati molto accuratamente.
+\end{description}
+
 \chapter{Lavorazioni al trapano}\label{chp:LavTrapano}
 È una macchina utensile molto diffusa.
 In realtà realizza una sola lavorazione: crea dei fori.
