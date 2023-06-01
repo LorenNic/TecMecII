@@ -624,8 +624,7 @@ La torcia per la saldatura \ac{GTAW} è raffigurata in \ref{fig:GTAW}.
 \begin{figure}
 \centering
 \includegraphics[width = 0.4\textwidth]{GTAW}
-\caption{Esempio di torcia per saldatura \ac{GTAW}}
-\label{fig:GTAW}
+\emph{Esempio di torcia per saldatura \ac{GTAW}}\label{fig:GTAW}
 \end{figure}
 
 In generale il catodo è l'elettrodo, soprattutto se di tungsteno, mentre si preferisce invertire la polarità quando il materiale base è alluminio o magnesio.
@@ -650,6 +649,8 @@ Inizialmente il plasma non viene avviato tra elettrodo e il materiale base, bens
 {\includegraphics[width = 0.4\textwidth]{PAW}}\quad
 \subfloat[][\emph{Confronto di temperature raggiunte tra (a) GTAW che arriva fino a $10000\unit{\K}$, (b) PAW che arriva fino a $24000 \div 14000\unit{\K}$}\label{fig:GTAW_PAW}]
 {\includegraphics[width = 0.4\textwidth]{GTAW_PAW}}
+\caption{Saldature \ac{PAW} e poi un confronto tra le temperature raggiunte dalle tecniche di saldatura}
+\label{fig:SaldaturePermanenti}
 \end{figure}
 
 A bassa densità di corrente la zona fusa è simile a quella ottenuta nella saldatura ad arco convenzionale.
@@ -670,7 +671,7 @@ In pratica l'elettrodo stesso diventa il materiale d'apporto.
 
 \subsection{Saldatura ad arco con elettrodo consumabile}
 L'elettrodo è un metallo conduttore che deve consumarsi per divenire il materiale d'apporto.
-La tecnica si definisce come \ac{GMAW} o \textbf{MIG}. 
+La tecnica si definisce come \ac{GMAW} o \textbf{MIG}, \ref{fig:GMAW}. 
 Anche qui si sfrutta un gas protettivo.
 I principali gas protettivi utilizzati sono:
 \begin{description}
@@ -693,24 +694,17 @@ In più il processo può essere semi-automatizzato: dove l'operatore determina i
 \begin{figure}
 \centering
 \includegraphics[width = 0.4\textwidth]{GMAW}
-\caption{Shcema di funzionamento della saldatura \ac{GMAW}}
+\caption{Schema di funzionamento della saldatura \ac{GMAW}}
 \label{fig:GMAW}
 \end{figure}
 
 Un aspetto a cui prestare particolare attenzione è il fatto che queste tecniche vengono eseguite al chiuso. Ciò per evitare che venti possano spostare i gas protettivi lasciando scoperto il cordone di saldatura.
 
 \subsection{Saldatura ad arco con elettrodo rivestito}
-Si tratta di una tecnica \ac{SMAW}. In questo caso l'elettrodo è ricoperto da un materiale protettivo che permetterà la formazione delle scorie.
+Si tratta di una tecnica \ac{SMAW}, \ref{fig:SMAW}. In questo caso l'elettrodo è ricoperto da un materiale protettivo che permetterà la formazione delle scorie.
 Rappresentata alla figura \ref{SMAW}.
 Ciò è un problema perché tale tecnica è eseguita manualmente per il fatto che le bacchette hanno una lunghezza piuttosto limitata e spesso è necessario interrompere la lavorazione.
 Come vantaggio il fatto che essendo il protettivo già sul fondente, non è necessario l'utilizzo di gas protettivi e può essere eseguita in ambienti aperti.
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{SMAW}
-\caption{Particolare dell'elettrodo rivestito nella \ac{SMAW}}
-\label{fig:SMAW}
-\end{figure}
 
 Se scelto in maniera ottimale, il protettivo dell'elettrodo, può migliorare la situazione in termini di saldatura.
 
@@ -720,28 +714,14 @@ Si tratta di una saldatura piuttosto lenta per via della sua natura.
 In passato era la tecnica più utilizzata in assoluto.
 
 \subsection{Saldatura ad arco con fondente intubato}
-Trattasi della tecnica \ac{FCAW}.
+Trattasi della tecnica \ac{FCAW}, \ref{fig:FCAW}.
 Il vantaggio di avere il protettivo intubato è quello di avere una qualità migliore e più profondo. Il materiale d'apporto si presenta come piattina cava contenente il protettivo.
 
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{FCAW}
-\caption{Schema di funzionamento della saldatura \ac{FCAW}}
-\label{fig:FCAW}
-\end{figure}
-
 \subsection{Saldatura ad arco sommerso}
-Indicata \ac{SAW}.
+Indicata \ac{SAW}, \ref{fig:SAW}.
 Si tratta di una tecnica particolarmente utilizzata in campo automatico.
 In questo caso non elettrodo e fondente non sono più inclusi in un unico corpo bensì sono organi separati.
 Questa saldatura può essere usata solamente su superfici orizzontali.
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{SAW}
-\caption{Schema di realizzazione della saldatura \ac{SAW}}
-\label{fig:SAW}
-\end{figure}
 
 
 \subsection{Saldatura ad arco con elettroscoria}
@@ -754,13 +734,6 @@ Pattini di rame trattengono fuso e scoria.
 
 I pattini di rame raffreddati ad acqua chiudono lo spazio tra le parti da saldare per evitare che il fuso e la scoria fuoriescano.
 La testa di saldatura viene sollevata mentre il deposito di saldatura si accumula.
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{ESW}
-\caption{Realizzazione di una saldatura per elettro scoria, detta \ac{ESW}}
-\label{fig:ESW}
-\end{figure}
 
 \subsection{Saldatura ad arco a perno}
 Sigla \ac{SW}, \ref{fig:SW}.
@@ -780,57 +753,130 @@ L'anello ceramico svolge varie funzioni:
 
 \begin{figure}
 \centering
-\includegraphics[width = 0.4\textwidth]{SW}
-\caption{Processo di realizzazione della saldatura a perno, \ac{SW}}
-\label{fig:SW}
+\subfloat[][\emph{Particolare dell'elettrodo rivestito nella \ac{SMAW}}\label{fig:SMAW}]
+{\includegraphics[width = 0.4\textwidth]{SMAW}}\:
+\subfloat[][\emph{Schema di funzionamento della saldatura \ac{FCAW}}\label{fig:FCAW}]
+{\includegraphics[width = 0.4\textwidth]{FCAW}}\\
+\subfloat[][\emph{Schema di realizzazione della saldatura \ac{SAW}}\label{fig:SAW}]
+{\includegraphics[width = 0.4\textwidth]{SAW}}\:
+\subfloat[][\emph{Realizzazione di una saldatura per elettro scoria, detta \ac{ESW}}\label{fig:ESW}]
+{\includegraphics[width = 0.4\textwidth]{ESW}}\\
+\subfloat[][\emph{Processo di realizzazione della saldatura a perno, \ac{SW}}\label{fig:SW}]
+{\includegraphics[width = 0.6\textwidth]{SW}}\:
+\caption{Tecniche di saldature ad arco}
+\label{fig:ArcWeld}
 \end{figure}
 
 \section{Automazione delle saldatura}
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.4\textwidth]{Cianfrinature}
+\caption{Esempi di preparazione dei metalli base da saldare tramite cianfrinature}
+\label{fig:Cianfrinature}
+\end{wrapfloat}
+
 L'obbiettivo è quello di saldare il più possibile in maniera automatica.
 Si per evitare l'impiego di operatori, sia per ottenere delle saldature a qualità migliori, sia per contenere i costi.
 
 I valori ottimali di corrente, velocità di spostamento, velocità di avanzamento degli elettrodi vengono impostati e controllati.
-Vengono introdotti controlli alla \ac{CNC} e adattivi che usano sensori di temperatura non a contatto, se
+Vengono introdotti controlli alla \ac{CNC} e adattivi che usano sensori di temperatura non a contatto, sensori di distanza elettrodo-pezzo ecc\dots
 
-La cianfrinatura o viessol è una particolare lavorazione che serve a preparare i lembi prima che subiscano il
-\todo[inline]{Da rivedere dalle slide}
+L'operazione può essere automatizzata facilmente nel caso di percorsi elementari.
+Il mantenimento dell'arco è difficile nel caso di operazioni manuali.
+
+La cianfrinatura o bisello; \ref{fig:Cianfrinature}, è una particolare lavorazione che serve a preparare i lembi prima che subiscano il processo di saldatura.
+I vantaggi di questa operazione sono:
 \begin{itemize}
-\item facilitare la \todo{\\aggiungi}
+\item facilitare la saldatura;
+\item assicurare una buona penetrazione del bagno fuso;
+\item creare un buon posizionamento del giunto saldato;
+\item Pulire i lembi da eventuali scorie presenti.
 \end{itemize}
+La preparazione della giunzione e il suo posizionamento accurato dovrebbero consentire alla torcia di seguire un percorso predeterminato.
+Quando non è possibile, bisogna pensare a un sistema ad inseguimento: rotella o sonda davanti alla torcia, sensori per rilevare le variazioni di corrente al variare della distanza scanalatura-torcia.
+
+I sistemi laser operano mediante triangolazione e sono usati anche per pianificare e programmare la sequenza di saldatura, posizionare l'elettrodo durante la lavorazione, fermarla e ispezionare il risultato.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{SequenzaSaldature}
+\caption{Dimostrazione della sequenza di passate per saldature plurime}
+\label{fig:Sequenzasaldatura}
+\end{figure}
 
 In alcuni casi viene eseguita in passate successive.
-Si nota dalla figura \todo{\\Aggiungi ref} che le successive passate vìdovrebbero essere esguite alternativamente tra 
+Si nota dalla figura \ref{fig:Sequenzasaldatura} che le successive passate dovrebbero essere eseguite alternativamente tra faccia superiore e faccia inferiore.
 
 \section{Saldature chimiche}
 \subsection{Saldatura con cannello ossiacetilenico}
 Si usa l'acetilene perché il gas che fonde a temperatura più alta.
 Però la temperatura massima che si raggiunge con questa tecnica, arriva fino a $3400\unit{\celsius}$. Si usa in ambito artigianale, per delle riparazione e, in particolare, per tutti quegli ambienti dove non è presente la corrente elettrica.
 
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{CannelloOssiAcetilenico}
+\caption{Esempio di cannello ossiacetilenico}
+\label{fig:CannelloOssiAcetilenico}
+\end{figure}
+
 Per realizzare tale saldatura sono necessarie due bombole una con l'acetilene e l'altra con l'ossigeno.
-La fiamma che si ottiene si divide in 3 zone ben definite.
-\begin{enumerate}
-\item Prima combustione nella zona interna, genera 1/3 del calore.
-\todo{\\Aggiungi la reazione chimica}
-\item I prodotti della reazione determinano la seconda zona riducente.
-\todo{\\Aggiungi le formule chimiche}
-\item Terza zona di combusione.
-\end{enumerate}
+La fiamme che si possono ottenere sono 3 tipi, \ref{fig:Flames}:
+\begin{description}
+\item[Fiamma neutra, \ref{fig:NeutralFlame}] Ottenuta dalla combustione di uguali parti di ossigeno e acetilene. Si suddivide in tre parti a diversa temperatura:
+	\begin{itemize}
+	\item Cono interno $3040 \div 3300\unit{\celsius}$;
+	\item Cono intermedio $\approx 2100\unit{\celsius}$;
+	\item Cono esterno $\approx 1260\unit{\celsius}$.
+	\end{itemize}
+\item[Fiamma ossidante, \ref{fig:OxidizingFlame}] composta da due coni: cono interno e sviluppo esterno particolarmente piccolo e rastremato.
+\item[Fiamma riducente, \ref{fig:ReducingFlame}] Composta da tre coni: cono interno luminoso, strato di acetilene, sviluppo blu.
+\end{description}
 
 Il fatto che la reazione sia riducente permette di utilizzare tale tecnica in particolare con gli acciai al carbonio.
-La versatilità del controllo manuale, la possibilità di avere fiamma neutra, ossidante o riducente, la possibilità di \moretodo{\\aggiungi}
+La versatilità del controllo manuale, la possibilità di avere fiamma neutra, ossidante o riducente, la possibilità di lavorare su materiali molto diversi.
 
-\missingfigure{Cannello e confronto qualità}
-
-\missingfigure{Tipi di fiamme}
+\begin{figure}
+\centering
+\subfloat[][\emph{Fiamma neutra}\label{fig:NeutralFlame}]
+{\includegraphics[width = 0.3\textwidth]{NeutralFlame}}\quad
+\subfloat[][\emph{Fiamma ossidante}\label{fig:OxidizingFlame}]
+{\includegraphics[width = 0.3\textwidth]{OxidizingFlame}}\quad
+\subfloat[][\emph{Fiamma riducente}\label{fig:ReducingFlame}]
+{\includegraphics[width = 0.3\textwidth]{ReducingFlame}}
+\caption{Tipologie di fiamme}
+\label{fig:Flames}
+\end{figure}
 
 \subsection{Saldatura alla termite}
 Si tratta di una tecnica che può sostituire la saldatura a resistenza tramite scintillio.
-La termite è una miscela di un ossido metallico e un materiale puro.
-\moretodo{\\integra con le slide}
+
+\begin{equation}
+3Fe_3O_4 + 8Al \rightarrow 4Al_2O_3 (\text{Scoria}) + 9Fe
+\end{equation}
+
+Si usa per saldare grosse sezioni. Si costruisce uno stampo da fonderia attorno alla zona del giunto.
+Si dà fuoco alla polvere in un crogiolo sopra lo stampo e il ferro cola nello stampo attraverso un foro.
+Dopo la solidificazione si distrugge lo stampo e si rimuove il ferro in eccesso.
+
 Si tratta di una reazione di ossidoriduzione. per cui si ottiene un'ossidato che libera energia e ferro. Si possono aggiungere delle altre particelle di materiali per evitare di alzare troppo la temperatura del metallo.
 Il ferro così ottenuto colerà verso il basso e salderà i componenti.
 
-Si realizza uno stampo con una tramoggia in cui sarà presente la termite, durante la reazione colerà il ferro dentro lo stampo che poi dovrà essere distrutto e il pezzo andrà ripulito.
+\section{Saldature con fasci ad alto contenuto energetico}
+\subsection{\ac{EWB}}
+Il calore di fusione può essere fornito convertendo in calore l'energia cinetica di un fascio di elettroni o quella di un fascio di luce.
+
+Nel fascio elettronico \ac{EWB} il metallo fuso che procede il foro di vapore fluisce per riempire il vuoto, allora si può anche fare a meno del materiale d'apporto.
+La \ac{ZTA} è moto stretta.
+
+Con molti materiali si può anche operare a pressione atmosferica.
+Il processo è adattabile a varie situazioni e può essere automatizzato.
+
+\subsection{\ac{LBW}}
+Nella \ac{LBW}, laser può scaldare la superficie o tutto lo spessore del materiale.
+Il riscaldamento dipende dall'emissività della superficie perciò i laser  sono più adatti per materiali riflettenti, ma non sono usabili con vetro e polimeri.
+Normalmente il materiale deve essere protetto con un gas, tranne nella \eng{spot welding}.
+L'ossigeno riduce la riflettività aumentando la velocità di processo, i gas inerti aumentano il trasferimento di calore con in metalli non ferrosi.
+Si usa soprattutto con piccoli spessori in modo programmato.
 
 \chapter{Brasatura}
 Si tratta di una tecnica di saldatura in cui non si porta il materiale base a fusione. La resistenza del giunto è dovuta soprattutto all'adesione tra il materiale d'apporto e il materiale base.

@@ -4,18 +4,14 @@
  & \textbf {\vhauthorname }
  & \textbf {\vhchangename }\\\hline 
 1.0
- & 29.01.2021
- & \listset {XX YY}
- & document created\\\hline 
-1.1
  & 28.02.2023
  & \listset {LN}
- & Prima compilazione con modifiche\\\hline 
-1.2
+ & Prima compilazione con prime modifiche al modello\\\hline 
+1.1
  & 01.03.2023
  & \listset {LN}
  & Applicazione modello alla necessità\\\hline 
-1.3
+1.2
  & 18.04.2023
  & \listset {LN}
  & Continuazione con la produzione del testo, aggiunti capitoli 2, 3, 4\\\hline 
@@ -23,4 +19,8 @@
  & 27.05.2023
  & \listset {LN}
  & Prima versione completa possibile rilascio, sono aggiunti i TODO dove necessario integrare\\\hline 
+2.1
+ & 01.06.2023
+ & \listset {LN}
+ & Completato capitolo giunzioni, manca la tornitura\\\hline 
 \end {longtable}
